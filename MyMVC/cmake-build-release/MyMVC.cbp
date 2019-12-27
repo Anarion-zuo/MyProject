@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyMVC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyMVC">
+				<Option output="/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/MyMVC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 MyMVC"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyMVC/fast">
+				<Option output="/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/MyMVC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 MyMVC/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/MyMVC/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/Listener/Listener.cpp">
+			<Option target="MyMVC"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/Listener/Listener.h">
+			<Option target="MyMVC"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/Request/Request.cpp">
+			<Option target="MyMVC"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/Request/Request.h">
+			<Option target="MyMVC"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/Response/Response.cpp">
+			<Option target="MyMVC"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/Response/Response.h">
+			<Option target="MyMVC"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/main.cpp">
+			<Option target="MyMVC"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/MyMVC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

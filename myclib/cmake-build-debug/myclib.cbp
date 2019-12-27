@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myclib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anarion/Documents/MyProjects/myclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anarion/Documents/MyProjects/myclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myclib">
+				<Option output="/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/myclib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anarion/Documents/MyProjects/myclib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 myclib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myclib/fast">
+				<Option output="/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/myclib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anarion/Documents/MyProjects/myclib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 myclib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anarion/Documents/MyProjects/myclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/erronos.h">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/main.c">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/memory-management/allocator.c">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/memory-management/allocator.h">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/memory-management/list.c">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/memory-management/list.h">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/memory-management/vector.c">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/memory-management/vector.h">
+			<Option target="myclib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myclib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

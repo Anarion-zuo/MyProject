@@ -1,0 +1,51 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_672b0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_672b0.dir/build.make CMakeFiles/cmTC_672b0.dir/build
+make[1]: Entering directory '/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_672b0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_672b0.dir/CheckSymbolExists.c.o   -c /home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_672b0
+/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_672b0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_672b0.dir/CheckSymbolExists.c.o  -o cmTC_672b0 
+/usr/bin/ld: CMakeFiles/cmTC_672b0.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_672b0.dir/build.make:87: cmTC_672b0] Error 1
+make[1]: Leaving directory '/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_672b0/fast] Error 2
+
+File /home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_da78e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_da78e.dir/build.make CMakeFiles/cmTC_da78e.dir/build
+make[1]: Entering directory '/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da78e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu99 -o CMakeFiles/cmTC_da78e.dir/CheckFunctionExists.c.o   -c /home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_da78e
+/home/anarion/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da78e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_da78e.dir/CheckFunctionExists.c.o  -o cmTC_da78e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_da78e.dir/build.make:87: cmTC_da78e] Error 1
+make[1]: Leaving directory '/home/anarion/Documents/MyProjects/myclib/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_da78e/fast] Error 2
+
+

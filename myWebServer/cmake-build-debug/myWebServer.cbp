@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myWebServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myWebServer">
+				<Option output="/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/myWebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 myWebServer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myWebServer/fast">
+				<Option output="/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/myWebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 myWebServer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/myWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/App.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/App.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/AppNotImplemented.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/AppNotImplemented.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/ImgApp.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/ImgApp.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/JsonApp.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/JsonApp.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/PageApp.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/PageApp.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/RedirectApp.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/RedirectApp.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/TextApp.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/app/TextApp.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/cookie/Cookie.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/cookie/Cookie.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/listener/Listener.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/listener/Listener.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/main.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/request/Request.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/request/Request.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/response/Response.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/response/Response.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/session/Session.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/session/Session.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/status/Status.cpp">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/status/Status.h">
+			<Option target="myWebServer"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/myWebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

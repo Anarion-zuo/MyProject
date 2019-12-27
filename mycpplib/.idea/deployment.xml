@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="anarion-server">
+    <serverData>
+      <paths name="LinuxAgent (d94052bb-2a76-42f4-aee8-7a7eef0cf3e4)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.MLJP4J1TSE" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-remotedebug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="anarion-server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="mycpplib/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

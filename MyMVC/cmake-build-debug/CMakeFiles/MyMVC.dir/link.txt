@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MyMVC.dir/main.cpp.o CMakeFiles/MyMVC.dir/Request/Request.cpp.o CMakeFiles/MyMVC.dir/Response/Response.cpp.o CMakeFiles/MyMVC.dir/Listener/Listener.cpp.o  -o MyMVC 

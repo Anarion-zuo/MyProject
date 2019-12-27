@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="MyMVC" targetName="MyMVC" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44dbaf04-c4ed-484c-82e4-98d243ba25f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BasicJava/MavenDemo/src/main/java/com/hello/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BasicJava/MavenDemo/src/test/java/com/hello/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/MyMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Listener/Listener.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Listener/Listener.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Request/Request.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Request/Request.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Response/Response.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Response/Response.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyMVC.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyMVC.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyMVC.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyMVC.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyMVC.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyMVC.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MyMVC.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/MyMVC.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/MyMVC.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/MyMVC.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/MyMVC.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/MyMVC.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/MyMVC.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/MyMVC.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/MyMVC.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/MyMVC.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/.idea/artifacts/MyWebsite_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/.idea/libraries/aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/MyWebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/out/artifacts/MyWebsite_war_exploded/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/out/artifacts/MyWebsite_war_exploded/WEB-INF/classes/com/hello/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/out/artifacts/MyWebsite_war_exploded/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/out/artifacts/MyWebsite_war_exploded/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/out/artifacts/MyWebsite_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/out/artifacts/MyWebsite_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/out/production/MyWebsite/com/hello/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/src/com/hello/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/web/WEB-INF/views/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebsite/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringDemo/.idea/SpringDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemos/SpringDemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemos/SpringDemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemos/SpringDemo/out/artifacts/SpringDemo_war_exploded/WEB-INF/classes/com/spring/helloworld/SpringmvcHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemos/SpringDemo/out/artifacts/SpringDemo_war_exploded/WEB-INF/classes/com/spring/helloworld/SpringmvcHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemos/SpringDemo/out/artifacts/SpringDemo_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemos/SpringDemo/out/artifacts/SpringDemo_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemos/SpringDemo/out/production/SpringDemo/com/spring/helloworld/SpringmvcHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemos/SpringDemo/out/production/SpringDemo/com/spring/helloworld/SpringmvcHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemos/SpringDemo/src/com/spring/helloworld/SpringmvcHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemos/SpringDemo/src/com/spring/helloworld/SpringmvcHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemos/SpringDemo/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemos/SpringDemo/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/mycpplib" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/mycpplib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/mycpplib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/mycpplib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/mycpplib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/mycpplib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/mycpplib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/mycpplib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/containers/ContainerInterface.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/containers/ContainerInterface.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/containers/List/DoublyList.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/containers/List/DoublyList.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/containers/List/SinglyList.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/containers/List/SinglyList.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/containers/List/Vector.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/containers/List/Vector.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/containers/Map/Map.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/containers/Map/Map.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/containers/Set/HashSet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/containers/Set/HashSet.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/containers/Set/TreeSet.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/containers/Set/TreeSet.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Selector/SelectSelectorImpl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Selector/SelectSelectorImpl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/wrappers/Number.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/wrappers/Number.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/wrappers/Pointer/AutoReleasePointer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/wrappers/Pointer/Reference.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/wrappers/Pointer/Pointer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/wrappers/Pointer/Pointer.hpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VWI76wghYcJwMsq1uR7XvKMI9a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyMVC" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MyMVC" TARGET_NAME="MyMVC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MyMVC" RUN_TARGET_NAME="MyMVC">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44dbaf04-c4ed-484c-82e4-98d243ba25f4" name="Default Changelist" comment="" />
+      <created>1577362253056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577362253056</updated>
+      <workItem from="1577362255159" duration="1568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1949" y="595" width="1022" height="737" key="SettingsEditor" timestamp="1577362286813">
+      <screen x="1920" y="0" width="1080" height="1920" />
+    </state>
+    <state x="1949" y="595" width="1022" height="737" key="SettingsEditor/0.27.1920.1053/1920.0.1080.1920@1920.0.1080.1920" timestamp="1577362286813" />
+  </component>
+</project>

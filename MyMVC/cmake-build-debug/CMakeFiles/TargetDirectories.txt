@@ -1,0 +1,3 @@
+/home/anarion/Documents/MyProjects/MyMVC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anarion/Documents/MyProjects/MyMVC/cmake-build-debug/CMakeFiles/MyMVC.dir
+/home/anarion/Documents/MyProjects/MyMVC/cmake-build-debug/CMakeFiles/edit_cache.dir

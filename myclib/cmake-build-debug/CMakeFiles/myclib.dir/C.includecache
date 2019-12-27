@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anarion/Documents/MyProjects/myclib/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+memory-management/allocator.h
+/home/anarion/Documents/MyProjects/myclib/memory-management/allocator.h
+memory-management/vector.h
+/home/anarion/Documents/MyProjects/myclib/memory-management/vector.h
+
+/home/anarion/Documents/MyProjects/myclib/memory-management/allocator.h
+stdlib.h
+-
+
+/home/anarion/Documents/MyProjects/myclib/memory-management/vector.h
+allocator.h
+/home/anarion/Documents/MyProjects/myclib/memory-management/allocator.h
+

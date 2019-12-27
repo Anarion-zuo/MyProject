@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mycpplib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycpplib">
+				<Option output="/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/mycpplib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/."/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/allocator"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/base-classes"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/concurrent"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/containers"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/exceptions"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/exceptions/Allocator"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/exceptions/containers"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/featurers"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/functors"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/io"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 mycpplib"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycpplib/fast">
+				<Option output="/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/mycpplib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/."/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/allocator"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/base-classes"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/concurrent"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/containers"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/exceptions"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/exceptions/Allocator"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/exceptions/containers"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/featurers"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/functors"/>
+					<Add directory="/tmp/tmp.MLJP4J1TSE/io"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 mycpplib/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/allocator/Allocator.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/allocator/Allocator.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/allocator/allocator.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/base-classes/Object.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/base-classes/Object.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Callable/Binded.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Callable/Callable.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Callable/Callable.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Callable/Thread.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Callable/Thread.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/CondVar/CondVar.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/CondVar/CondVar.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Mutex/AutoMutex.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Mutex/AutoMutex.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Mutex/Mutex.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Mutex/Mutex.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Semaphore/Semaphore.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/Semaphore/Semaphore.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/pool/ThreadPool.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/concurrent/pool/ThreadPool.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Base/RbTree_old.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Base/RedBlackTree.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Base/Tree.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/ContainerInterface.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/List/Deque.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/List/DoublyList.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/List/List.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/List/SString.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/List/SString.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/List/SinglyList.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/List/Vector.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Map/HashMap.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Map/Map.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Map/TreeMap.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Queue/BlockQueue.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Queue/ListQueue.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Queue/PriorityQueue.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Queue/Queue.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Set/HashSet.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Set/Set.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Set/TreeSet.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Stack/ListStack.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Stack/Stack.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/containers/Tuple.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/erronos.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/Allocator/MemoryAllocationException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/MyException.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/containers/EmptyContainerException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/containers/IndexOutOfRangeException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/containers/InvalidOperationException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/File/CloseFileException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/File/FileRemoveException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/File/FileRenameException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/File/FileStatException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/File/OpenFileException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/File/ReadFailedException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/File/WriteFailedException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/AcceptException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/BindException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/ConnectException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/EpollConfigException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/EpollCreateException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/EpollWaitException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/ListenException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/ReceiveException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/SendException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/SocketCloseException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/Network/SocketCreateException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/exceptions/io/SystemException.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/featurers/Clonable.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/featurers/Hashable.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/featurers/UnConstructable.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/featurers/UnCopiable.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/featurers/UnMovable.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/featurers/UseAllocator.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/functors/ForEach.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/functors/binary_functor.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/functors/functor.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/functors/non_functor.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/functors/unary_functor.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Buffer/Buffer.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Buffer/Buffer.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Buffer/Pipe.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Buffer/Pipe.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/Channel.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/Channel.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/File/FileChannel.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/File/FileChannel.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/File/FileStatus.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/File/FileStatus.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/Network/ServerSocketChannel.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/Network/ServerSocketChannel.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/Network/SocketChannel.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/Network/SocketChannel.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/SelectableChannel.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Selector/EpollSelector.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Selector/EpollSelector.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Selector/Selector.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/main.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/numerical/CompGraph.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/numerical/CompGraph.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/numerical/variable/SingleParamVariable.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/numerical/variable/SingleParamVariable.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/rval.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/wrappers/Double.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/wrappers/Double.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/wrappers/Integer.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/wrappers/Integer.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/wrappers/Number.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/wrappers/Pointer/Pointer.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/wrappers/Pointer/Reference.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MLJP4J1TSE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

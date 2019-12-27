@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/myclib.dir/main.c.o CMakeFiles/myclib.dir/memory-management/allocator.c.o CMakeFiles/myclib.dir/memory-management/vector.c.o CMakeFiles/myclib.dir/memory-management/list.c.o  -o myclib 
