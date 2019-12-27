@@ -582,33 +582,6 @@ io/Channel/Network/SocketChannel.cpp.s:
 	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s
 .PHONY : io/Channel/Network/SocketChannel.cpp.s
 
-io/Selector/EpollSelector.o: io/Selector/EpollSelector.cpp.o
-
-.PHONY : io/Selector/EpollSelector.o
-
-# target to build an object file
-io/Selector/EpollSelector.cpp.o:
-	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o
-.PHONY : io/Selector/EpollSelector.cpp.o
-
-io/Selector/EpollSelector.i: io/Selector/EpollSelector.cpp.i
-
-.PHONY : io/Selector/EpollSelector.i
-
-# target to preprocess a source file
-io/Selector/EpollSelector.cpp.i:
-	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.i
-.PHONY : io/Selector/EpollSelector.cpp.i
-
-io/Selector/EpollSelector.s: io/Selector/EpollSelector.cpp.s
-
-.PHONY : io/Selector/EpollSelector.s
-
-# target to generate assembly for a file
-io/Selector/EpollSelector.cpp.s:
-	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.s
-.PHONY : io/Selector/EpollSelector.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -804,9 +777,6 @@ help:
 	@echo "... io/Channel/Network/SocketChannel.o"
 	@echo "... io/Channel/Network/SocketChannel.i"
 	@echo "... io/Channel/Network/SocketChannel.s"
-	@echo "... io/Selector/EpollSelector.o"
-	@echo "... io/Selector/EpollSelector.i"
-	@echo "... io/Selector/EpollSelector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

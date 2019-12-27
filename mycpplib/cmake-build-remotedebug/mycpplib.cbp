@@ -387,12 +387,6 @@
 		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Channel/SelectableChannel.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Selector/EpollSelector.cpp">
-			<Option target="mycpplib"/>
-		</Unit>
-		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Selector/EpollSelector.h">
-			<Option target="mycpplib"/>
-		</Unit>
 		<Unit filename="/tmp/tmp.MLJP4J1TSE/io/Selector/Selector.h">
 			<Option target="mycpplib"/>
 		</Unit>

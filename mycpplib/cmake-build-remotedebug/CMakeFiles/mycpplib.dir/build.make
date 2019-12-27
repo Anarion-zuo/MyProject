@@ -304,22 +304,9 @@ CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.MLJP4J1TSE/io/Channel/File/FileChannel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.s
 
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: CMakeFiles/mycpplib.dir/flags.make
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Selector/EpollSelector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o -c /tmp/tmp.MLJP4J1TSE/io/Selector/EpollSelector.cpp
-
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.MLJP4J1TSE/io/Selector/EpollSelector.cpp > CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.i
-
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.MLJP4J1TSE/io/Selector/EpollSelector.cpp -o CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.s
-
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o -c /tmp/tmp.MLJP4J1TSE/io/Channel/Network/SocketChannel.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.i: cmake_force
@@ -332,7 +319,7 @@ CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s: cmake_force
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /tmp/tmp.MLJP4J1TSE/io/Channel/Network/ServerSocketChannel.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.i: cmake_force
@@ -345,7 +332,7 @@ CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.s: cmake_forc
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o: ../io/Channel/File/FileStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o -c /tmp/tmp.MLJP4J1TSE/io/Channel/File/FileStatus.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.i: cmake_force
@@ -377,7 +364,6 @@ mycpplib_OBJECTS = \
 "CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o" \
 "CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o" \
 "CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o" \
-"CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o" \
 "CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o" \
 "CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" \
 "CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o"
@@ -404,13 +390,12 @@ mycpplib: CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o
-mycpplib: CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/build.make
 mycpplib: CMakeFiles/mycpplib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable mycpplib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable mycpplib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mycpplib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

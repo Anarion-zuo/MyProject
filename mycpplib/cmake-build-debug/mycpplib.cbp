@@ -391,12 +391,6 @@
 		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/SelectableChannel.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Selector/EpollSelector.cpp">
-			<Option target="mycpplib"/>
-		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Selector/EpollSelector.h">
-			<Option target="mycpplib"/>
-		</Unit>
 		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Selector/Selector.h">
 			<Option target="mycpplib"/>
 		</Unit>
