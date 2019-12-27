@@ -9,7 +9,7 @@
 #include "SocketChannel.h"
 #include <wrappers/Number.hpp>
 
-class ServerSocketChannel : public SocketChannel, public SelectableChannel {
+class ServerSocketChannel : public SocketChannel {
 protected:
     sockaddr_in myAddr;
     HashSet<Number<int>> connectedHosts;
@@ -23,7 +23,7 @@ public:
 
     void bind(in_port_t host_port);
     void listen(int backlog = 128);
-    SocketChannel accept() override ;
+    SocketChannel accept() ;
     void setNonBlock();
 };
 

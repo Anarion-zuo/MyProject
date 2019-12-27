@@ -72,6 +72,14 @@ public:
     virtual void remove(Key &&key) = 0;
     virtual Val &operator[](const Key &key) = 0;
     virtual Val &operator[](Key &&key) = 0;
+
+    Val &get(const Key &key) {
+        return operator[](key);
+    }
+
+    Val &get(Key &&key) {
+        return operator[](std::forward<Key>(key));
+    }
 };
 
 

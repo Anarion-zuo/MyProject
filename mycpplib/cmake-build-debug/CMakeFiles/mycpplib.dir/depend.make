@@ -229,36 +229,6 @@ CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o: ../wrappers/Poin
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.h
 
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../allocator/Allocator.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../allocator/Allocator.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../base-classes/Object.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../containers/ContainerInterface.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../containers/Set/HashSet.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../containers/Set/Set.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../erronos.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/Allocator/MemoryAllocationException.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/MyException.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/io/Network/AcceptException.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/io/Network/EpollConfigException.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/io/Network/EpollCreateException.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/io/Network/EpollWaitException.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/io/Network/SocketCreateException.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../exceptions/io/SystemException.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../featurers/Hashable.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../featurers/UnCopiable.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../featurers/UseAllocator.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../functors/functor.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../functors/unary_functor.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Buffer/Buffer.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Channel/Channel.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Channel/Network/SocketChannel.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Channel/SelectableChannel.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../wrappers/Pointer/Pointer.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../wrappers/Pointer/Reference.hpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Selector/EpollSelector.cpp
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Selector/EpollSelector.h
-CMakeFiles/mycpplib.dir/io/Selector/EpollSelector.cpp.o: ../io/Selector/Selector.h
-
 CMakeFiles/mycpplib.dir/main.cpp.o: ../allocator/Allocator.h
 CMakeFiles/mycpplib.dir/main.cpp.o: ../allocator/Allocator.hpp
 CMakeFiles/mycpplib.dir/main.cpp.o: ../base-classes/Object.h

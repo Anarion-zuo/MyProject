@@ -7,10 +7,16 @@
 
 
 #include <featurers/UnCopiable.h>
+#include <io/Channel/Network/ServerSocketChannel.h>
 
 class Selector : public UnCopiable {
+protected:
+    ServerSocketChannel *listenChannel;
+    int epfd;
+    epoll_event epollEvent;
 public:
-    virtual ~Selector() = default;
+    explicit Selector(ServerSocketChannel *channel = nullptr);
+    void run();
 };
 
 

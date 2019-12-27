@@ -9,7 +9,8 @@
 #include <cstring>
 #include <exceptions/io/Network/SocketCreateException.h>
 #include <containers/Set/HashSet.hpp>
-#include "io/Channel/SelectableChannel.h"
+#include "../Channel.h"
+#include "io/Buffer/Buffer.h"
 #include <netinet/in.h>
 
 class SocketChannel : public Channel {

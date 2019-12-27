@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anarion/Documents/MyProjects/mycpplib
+CMAKE_SOURCE_DIR = /Users/anarion/Documents/MyProjects/mycpplib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mycpplib.dir/depend.make
@@ -59,289 +59,328 @@ include CMakeFiles/mycpplib.dir/flags.make
 
 CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o: ../allocator/allocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp
 
 CMakeFiles/mycpplib.dir/allocator/allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/allocator/allocator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp > CMakeFiles/mycpplib.dir/allocator/allocator.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp > CMakeFiles/mycpplib.dir/allocator/allocator.cpp.i
 
 CMakeFiles/mycpplib.dir/allocator/allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/allocator/allocator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp -o CMakeFiles/mycpplib.dir/allocator/allocator.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp -o CMakeFiles/mycpplib.dir/allocator/allocator.cpp.s
 
 CMakeFiles/mycpplib.dir/wrappers/Double.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/wrappers/Double.cpp.o: ../wrappers/Double.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mycpplib.dir/wrappers/Double.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/wrappers/Double.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mycpplib.dir/wrappers/Double.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/wrappers/Double.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp
 
 CMakeFiles/mycpplib.dir/wrappers/Double.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/wrappers/Double.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp > CMakeFiles/mycpplib.dir/wrappers/Double.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp > CMakeFiles/mycpplib.dir/wrappers/Double.cpp.i
 
 CMakeFiles/mycpplib.dir/wrappers/Double.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/wrappers/Double.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp -o CMakeFiles/mycpplib.dir/wrappers/Double.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp -o CMakeFiles/mycpplib.dir/wrappers/Double.cpp.s
 
 CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.o: ../wrappers/Integer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp
 
 CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp > CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp > CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.i
 
 CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp -o CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp -o CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.s
 
 CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o: ../base-classes/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp
 
 CMakeFiles/mycpplib.dir/base-classes/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/base-classes/Object.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp > CMakeFiles/mycpplib.dir/base-classes/Object.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp > CMakeFiles/mycpplib.dir/base-classes/Object.cpp.i
 
 CMakeFiles/mycpplib.dir/base-classes/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/base-classes/Object.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp -o CMakeFiles/mycpplib.dir/base-classes/Object.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp -o CMakeFiles/mycpplib.dir/base-classes/Object.cpp.s
 
 CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o: ../containers/List/SString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp
 
 CMakeFiles/mycpplib.dir/containers/List/SString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/containers/List/SString.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp > CMakeFiles/mycpplib.dir/containers/List/SString.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp > CMakeFiles/mycpplib.dir/containers/List/SString.cpp.i
 
 CMakeFiles/mycpplib.dir/containers/List/SString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/containers/List/SString.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp -o CMakeFiles/mycpplib.dir/containers/List/SString.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp -o CMakeFiles/mycpplib.dir/containers/List/SString.cpp.s
 
 CMakeFiles/mycpplib.dir/main.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mycpplib.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/main.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mycpplib.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/main.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/main.cpp
 
 CMakeFiles/mycpplib.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/main.cpp > CMakeFiles/mycpplib.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/main.cpp > CMakeFiles/mycpplib.dir/main.cpp.i
 
 CMakeFiles/mycpplib.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/main.cpp -o CMakeFiles/mycpplib.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/main.cpp -o CMakeFiles/mycpplib.dir/main.cpp.s
 
 CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.o: ../numerical/CompGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp
 
 CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp > CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp > CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.i
 
 CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp -o CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp -o CMakeFiles/mycpplib.dir/numerical/CompGraph.cpp.s
 
 CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.o: ../numerical/variable/SingleParamVariable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp
 
 CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp > CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp > CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.i
 
 CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp -o CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp -o CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.s
 
 CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.o: ../concurrent/Callable/Thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp
 
 CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp > CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp > CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.i
 
 CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp -o CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp -o CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.s
 
 CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.o: ../concurrent/Mutex/Mutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp
 
 CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp > CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp > CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.i
 
 CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp -o CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp -o CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.s
 
 CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.o: ../concurrent/Mutex/AutoMutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp
 
 CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp > CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp > CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.i
 
 CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp -o CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp -o CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.s
 
 CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.o: ../concurrent/CondVar/CondVar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp
 
 CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp > CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp > CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.i
 
 CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp -o CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp -o CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.s
 
 CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.o: ../concurrent/Semaphore/Semaphore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp
 
 CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp > CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp > CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.i
 
 CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp -o CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp -o CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.s
 
 CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o: ../concurrent/pool/ThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp
 
 CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp > CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp > CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.i
 
 CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp -o CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp -o CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.s
 
 CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.o: ../concurrent/Callable/Callable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp
 
 CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp > CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp > CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.i
 
 CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp -o CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp -o CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.s
 
 CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o: ../io/Buffer/Pipe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp
 
 CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp > CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp > CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.i
 
 CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp -o CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp -o CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.s
 
 CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o: ../io/Buffer/Buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp
 
 CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp > CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp > CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.i
 
 CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp -o CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp -o CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.s
 
 CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o: ../io/Channel/Channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp > CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp > CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.i
 
 CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/Channel.cpp.s
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o: ../io/Channel/File/FileChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp > CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp > CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.i
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.s
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp > CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp > CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.i
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
 
 CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o: CMakeFiles/mycpplib.dir/flags.make
 CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o: ../io/Channel/File/FileStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o -c /home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp > CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp > CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.i
 
 CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp -o CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp -o CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.s
+
+CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o: CMakeFiles/mycpplib.dir/flags.make
+CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o: ../Server/Http/Request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Request.cpp
+
+CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Request.cpp > CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.i
+
+CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Request.cpp -o CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.s
+
+CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o: CMakeFiles/mycpplib.dir/flags.make
+CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o: ../Server/Http/Response.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Response.cpp
+
+CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Response.cpp > CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.i
+
+CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Response.cpp -o CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.s
+
+CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o: CMakeFiles/mycpplib.dir/flags.make
+CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o: ../io/Selector/Selector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o -c /Users/anarion/Documents/MyProjects/mycpplib/io/Selector/Selector.cpp
+
+CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/mycpplib/io/Selector/Selector.cpp > CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.i
+
+CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/mycpplib/io/Selector/Selector.cpp -o CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.s
 
 # Object files for target mycpplib
 mycpplib_OBJECTS = \
@@ -366,7 +405,10 @@ mycpplib_OBJECTS = \
 "CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o" \
 "CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o" \
 "CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" \
-"CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o"
+"CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o" \
+"CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o" \
+"CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o" \
+"CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o"
 
 # External object files for target mycpplib
 mycpplib_EXTERNAL_OBJECTS =
@@ -393,9 +435,12 @@ mycpplib: CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o
+mycpplib: CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o
+mycpplib: CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o
+mycpplib: CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o
 mycpplib: CMakeFiles/mycpplib.dir/build.make
 mycpplib: CMakeFiles/mycpplib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable mycpplib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable mycpplib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mycpplib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -408,6 +453,6 @@ CMakeFiles/mycpplib.dir/clean:
 .PHONY : CMakeFiles/mycpplib.dir/clean
 
 CMakeFiles/mycpplib.dir/depend:
-	cd /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/anarion/Documents/MyProjects/mycpplib /home/anarion/Documents/MyProjects/mycpplib /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/anarion/Documents/MyProjects/mycpplib /Users/anarion/Documents/MyProjects/mycpplib /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mycpplib.dir/depend
 

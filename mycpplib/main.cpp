@@ -7,11 +7,12 @@
 #include <io/Channel/File/FileChannel.h>
 #include <containers/Set/TreeSet.hpp>
 #include <containers/Map/TreeMap.hpp>
+#include <io/Selector/Selector.h>
 
 using namespace std;
 
 int main() {
-    auto map = new TreeMap<Int, Int>();
-    map->put(2, 4);
+    ServerSocketChannel channel(9898);
+    Selector aSelector(&channel);
     return 0;
 }

@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.1-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.MLJP4J1TSE
+CMAKE_SOURCE_DIR = /tmp/tmp.XCuwD10h91
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug
+CMAKE_BINARY_DIR = /tmp/tmp.XCuwD10h91/cmake-build-remotedebug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles /tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.XCuwD10h91/cmake-build-remotedebug/CMakeFiles /tmp/tmp.XCuwD10h91/cmake-build-remotedebug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.MLJP4J1TSE/cmake-build-remotedebug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.XCuwD10h91/cmake-build-remotedebug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ mycpplib: cmake_check_build_system
 mycpplib/fast:
 	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/build
 .PHONY : mycpplib/fast
+
+Server/Http/Request.o: Server/Http/Request.cpp.o
+
+.PHONY : Server/Http/Request.o
+
+# target to build an object file
+Server/Http/Request.cpp.o:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o
+.PHONY : Server/Http/Request.cpp.o
+
+Server/Http/Request.i: Server/Http/Request.cpp.i
+
+.PHONY : Server/Http/Request.i
+
+# target to preprocess a source file
+Server/Http/Request.cpp.i:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.i
+.PHONY : Server/Http/Request.cpp.i
+
+Server/Http/Request.s: Server/Http/Request.cpp.s
+
+.PHONY : Server/Http/Request.s
+
+# target to generate assembly for a file
+Server/Http/Request.cpp.s:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.s
+.PHONY : Server/Http/Request.cpp.s
+
+Server/Http/Response.o: Server/Http/Response.cpp.o
+
+.PHONY : Server/Http/Response.o
+
+# target to build an object file
+Server/Http/Response.cpp.o:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o
+.PHONY : Server/Http/Response.cpp.o
+
+Server/Http/Response.i: Server/Http/Response.cpp.i
+
+.PHONY : Server/Http/Response.i
+
+# target to preprocess a source file
+Server/Http/Response.cpp.i:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.i
+.PHONY : Server/Http/Response.cpp.i
+
+Server/Http/Response.s: Server/Http/Response.cpp.s
+
+.PHONY : Server/Http/Response.s
+
+# target to generate assembly for a file
+Server/Http/Response.cpp.s:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.s
+.PHONY : Server/Http/Response.cpp.s
 
 allocator/allocator.o: allocator/allocator.cpp.o
 
@@ -582,6 +636,33 @@ io/Channel/Network/SocketChannel.cpp.s:
 	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s
 .PHONY : io/Channel/Network/SocketChannel.cpp.s
 
+io/Selector/Selector.o: io/Selector/Selector.cpp.o
+
+.PHONY : io/Selector/Selector.o
+
+# target to build an object file
+io/Selector/Selector.cpp.o:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o
+.PHONY : io/Selector/Selector.cpp.o
+
+io/Selector/Selector.i: io/Selector/Selector.cpp.i
+
+.PHONY : io/Selector/Selector.i
+
+# target to preprocess a source file
+io/Selector/Selector.cpp.i:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.i
+.PHONY : io/Selector/Selector.cpp.i
+
+io/Selector/Selector.s: io/Selector/Selector.cpp.s
+
+.PHONY : io/Selector/Selector.s
+
+# target to generate assembly for a file
+io/Selector/Selector.cpp.s:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.s
+.PHONY : io/Selector/Selector.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -726,6 +807,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mycpplib"
+	@echo "... Server/Http/Request.o"
+	@echo "... Server/Http/Request.i"
+	@echo "... Server/Http/Request.s"
+	@echo "... Server/Http/Response.o"
+	@echo "... Server/Http/Response.i"
+	@echo "... Server/Http/Response.s"
 	@echo "... allocator/allocator.o"
 	@echo "... allocator/allocator.i"
 	@echo "... allocator/allocator.s"
@@ -777,6 +864,9 @@ help:
 	@echo "... io/Channel/Network/SocketChannel.o"
 	@echo "... io/Channel/Network/SocketChannel.i"
 	@echo "... io/Channel/Network/SocketChannel.s"
+	@echo "... io/Selector/Selector.o"
+	@echo "... io/Selector/Selector.i"
+	@echo "... io/Selector/Selector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

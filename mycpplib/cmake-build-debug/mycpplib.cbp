@@ -8,432 +8,446 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
+				<Option working_dir="/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
+				<Option working_dir="/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mycpplib">
-				<Option output="/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/mycpplib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/."/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/allocator"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/base-classes"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/concurrent"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/containers"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/exceptions"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/exceptions/Allocator"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/exceptions/containers"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/featurers"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/functors"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/io"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 mycpplib"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="mycpplib/fast">
-				<Option output="/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/mycpplib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/."/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/allocator"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/base-classes"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/concurrent"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/containers"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/exceptions"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/exceptions/Allocator"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/exceptions/containers"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/featurers"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/functors"/>
-					<Add directory="/home/anarion/Documents/MyProjects/mycpplib/io"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 mycpplib/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
+				<Option working_dir="/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycpplib">
+				<Option output="/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/mycpplib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/."/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/allocator"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/base-classes"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/concurrent"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/containers"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/exceptions"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/Allocator"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/containers"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/featurers"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/functors"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/io"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 mycpplib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycpplib/fast">
+				<Option output="/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/mycpplib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/."/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/allocator"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/base-classes"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/concurrent"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/containers"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/exceptions"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/Allocator"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/containers"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/featurers"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/functors"/>
+					<Add directory="/Users/anarion/Documents/MyProjects/mycpplib/io"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 mycpplib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/allocator/Allocator.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Request.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/allocator/Allocator.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Request.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Response.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/Server/Http/Response.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/base-classes/Object.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/allocator/Allocator.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Binded.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/allocator/Allocator.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/allocator/allocator.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/allocator/allocator.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/base-classes/Object.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/base-classes/Object.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Binded.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Callable.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Callable/Thread.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/CondVar/CondVar.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/AutoMutex.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Base/RbTree_old.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Mutex/Mutex.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Base/RedBlackTree.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Base/Tree.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/Semaphore/Semaphore.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/ContainerInterface.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/List/Deque.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/concurrent/pool/ThreadPool.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/List/DoublyList.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Base/RbTree_old.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/List/List.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Base/RedBlackTree.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Base/Tree.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/List/SString.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/ContainerInterface.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/List/SinglyList.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/List/Deque.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/List/Vector.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/List/DoublyList.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Map/HashMap.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/List/List.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Map/Map.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/List/SString.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Map/TreeMap.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/List/SString.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Queue/BlockQueue.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/List/SinglyList.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Queue/ListQueue.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/List/Vector.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Queue/PriorityQueue.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Map/HashMap.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Queue/Queue.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Map/Map.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Set/HashSet.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Map/TreeMap.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Set/Set.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Queue/BlockQueue.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Set/TreeSet.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Queue/ListQueue.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Stack/ListStack.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Queue/PriorityQueue.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Stack/Stack.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Queue/Queue.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/containers/Tuple.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Set/HashSet.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/erronos.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Set/Set.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/Allocator/MemoryAllocationException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Set/TreeSet.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/MyException.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Stack/ListStack.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/containers/EmptyContainerException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Stack/Stack.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/containers/IndexOutOfRangeException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/containers/Tuple.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/containers/InvalidOperationException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/erronos.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/CloseFileException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/Allocator/MemoryAllocationException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/FileRemoveException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/MyException.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/FileRenameException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/containers/EmptyContainerException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/FileStatException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/containers/IndexOutOfRangeException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/OpenFileException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/containers/InvalidOperationException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/ReadFailedException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/CloseFileException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/WriteFailedException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/FileRemoveException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/AcceptException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/FileRenameException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/BindException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/FileStatException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/ConnectException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/OpenFileException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/EpollConfigException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/ReadFailedException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/EpollCreateException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/File/WriteFailedException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/EpollWaitException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/AcceptException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/ListenException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/BindException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/ReceiveException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/ConnectException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/SendException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/EpollConfigException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/SocketCloseException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/EpollCreateException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/SocketCreateException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/EpollException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/exceptions/io/SystemException.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/EpollWaitException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/featurers/Clonable.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/ListenException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/featurers/Hashable.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/ReceiveException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/featurers/UnConstructable.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/SendException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/featurers/UnCopiable.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/SocketCloseException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/featurers/UnMovable.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/Network/SocketCreateException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/featurers/UseAllocator.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/exceptions/io/SystemException.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/functors/ForEach.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/featurers/Clonable.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/functors/binary_functor.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/featurers/Hashable.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/functors/functor.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/featurers/UnConstructable.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/functors/non_functor.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/featurers/UnCopiable.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/functors/unary_functor.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/featurers/UnMovable.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/featurers/UseAllocator.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/functors/ForEach.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/functors/binary_functor.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/functors/functor.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/functors/non_functor.hpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/functors/unary_functor.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Buffer.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Buffer/Pipe.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Channel.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileChannel.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Channel/SelectableChannel.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/io/Selector/Selector.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/File/FileStatus.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/main.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/ServerSocketChannel.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Channel/Network/SocketChannel.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Selector/Selector.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/rval.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/io/Selector/Selector.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/main.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/wrappers/Double.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/mylib.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.h">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/numerical/CompGraph.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/wrappers/Number.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/wrappers/Pointer/Pointer.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/numerical/variable/SingleParamVariable.h">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/wrappers/Pointer/Reference.hpp">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/wrappers/Double.cpp">
 			<Option target="mycpplib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/mycpplib/CMakeLists.txt">
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/wrappers/Double.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.cpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/wrappers/Integer.h">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/wrappers/Number.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/wrappers/Pointer/Pointer.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/wrappers/Pointer/Reference.hpp">
+			<Option target="mycpplib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/mycpplib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

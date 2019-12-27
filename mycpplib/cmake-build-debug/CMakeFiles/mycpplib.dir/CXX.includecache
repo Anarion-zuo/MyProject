@@ -318,7 +318,7 @@ featurers/Hashable.h
 Pointer.hpp
 ../wrappers/Pointer/Pointer.hpp
 
-/home/anarion/Documents/MyProjects/mycpplib/main.cpp
+/Users/anarion/Documents/MyProjects/mycpplib/main.cpp
 iostream
 -
 concurrent/pool/ThreadPool.h

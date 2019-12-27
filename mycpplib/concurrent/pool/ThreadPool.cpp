@@ -59,7 +59,7 @@ ThreadPool::~ThreadPool() {
     joinAll();
     while(idleQueue.size()) {
         auto p = idleQueue.poll();
-        p->_this->pid = -1;
+        p->_this->pid = (pthread_t)nullptr;
         pthread_cancel(p->pid);
         Allocator::deallocate(p);
     }

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anarion/Documents/MyProjects/mycpplib
+CMAKE_SOURCE_DIR = /Users/anarion/Documents/MyProjects/mycpplib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,60 @@ mycpplib: cmake_check_build_system
 mycpplib/fast:
 	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/build
 .PHONY : mycpplib/fast
+
+Server/Http/Request.o: Server/Http/Request.cpp.o
+
+.PHONY : Server/Http/Request.o
+
+# target to build an object file
+Server/Http/Request.cpp.o:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o
+.PHONY : Server/Http/Request.cpp.o
+
+Server/Http/Request.i: Server/Http/Request.cpp.i
+
+.PHONY : Server/Http/Request.i
+
+# target to preprocess a source file
+Server/Http/Request.cpp.i:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.i
+.PHONY : Server/Http/Request.cpp.i
+
+Server/Http/Request.s: Server/Http/Request.cpp.s
+
+.PHONY : Server/Http/Request.s
+
+# target to generate assembly for a file
+Server/Http/Request.cpp.s:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.s
+.PHONY : Server/Http/Request.cpp.s
+
+Server/Http/Response.o: Server/Http/Response.cpp.o
+
+.PHONY : Server/Http/Response.o
+
+# target to build an object file
+Server/Http/Response.cpp.o:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o
+.PHONY : Server/Http/Response.cpp.o
+
+Server/Http/Response.i: Server/Http/Response.cpp.i
+
+.PHONY : Server/Http/Response.i
+
+# target to preprocess a source file
+Server/Http/Response.cpp.i:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.i
+.PHONY : Server/Http/Response.cpp.i
+
+Server/Http/Response.s: Server/Http/Response.cpp.s
+
+.PHONY : Server/Http/Response.s
+
+# target to generate assembly for a file
+Server/Http/Response.cpp.s:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.s
+.PHONY : Server/Http/Response.cpp.s
 
 allocator/allocator.o: allocator/allocator.cpp.o
 
@@ -582,6 +636,33 @@ io/Channel/Network/SocketChannel.cpp.s:
 	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.s
 .PHONY : io/Channel/Network/SocketChannel.cpp.s
 
+io/Selector/Selector.o: io/Selector/Selector.cpp.o
+
+.PHONY : io/Selector/Selector.o
+
+# target to build an object file
+io/Selector/Selector.cpp.o:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o
+.PHONY : io/Selector/Selector.cpp.o
+
+io/Selector/Selector.i: io/Selector/Selector.cpp.i
+
+.PHONY : io/Selector/Selector.i
+
+# target to preprocess a source file
+io/Selector/Selector.cpp.i:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.i
+.PHONY : io/Selector/Selector.cpp.i
+
+io/Selector/Selector.s: io/Selector/Selector.cpp.s
+
+.PHONY : io/Selector/Selector.s
+
+# target to generate assembly for a file
+io/Selector/Selector.cpp.s:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.s
+.PHONY : io/Selector/Selector.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -724,8 +805,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... mycpplib"
 	@echo "... edit_cache"
+	@echo "... mycpplib"
+	@echo "... Server/Http/Request.o"
+	@echo "... Server/Http/Request.i"
+	@echo "... Server/Http/Request.s"
+	@echo "... Server/Http/Response.o"
+	@echo "... Server/Http/Response.i"
+	@echo "... Server/Http/Response.s"
 	@echo "... allocator/allocator.o"
 	@echo "... allocator/allocator.i"
 	@echo "... allocator/allocator.s"
@@ -777,6 +864,9 @@ help:
 	@echo "... io/Channel/Network/SocketChannel.o"
 	@echo "... io/Channel/Network/SocketChannel.i"
 	@echo "... io/Channel/Network/SocketChannel.s"
+	@echo "... io/Selector/Selector.o"
+	@echo "... io/Selector/Selector.i"
+	@echo "... io/Selector/Selector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
