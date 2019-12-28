@@ -27,6 +27,8 @@ public:
     explicit SocketChannel(int fd)
     : sockfd(fd) {}
 
+    SocketChannel(const SocketChannel &rhs) : sockfd(rhs.sockfd) {}
+
     SocketChannel(SocketChannel &&rhs) noexcept
     : sockfd(rhs.sockfd) {
         rhs.sockfd = -1;

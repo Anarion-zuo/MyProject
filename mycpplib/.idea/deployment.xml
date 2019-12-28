@@ -2,10 +2,10 @@
 <project version="4">
   <component name="PublishConfigData" serverName="anarion-server">
     <serverData>
-      <paths name="LinuxAgent (b6abc226-1c56-4b8a-b20e-ef3537c32af1)">
+      <paths name="LinuxAgent (d94052bb-2a76-42f4-aee8-7a7eef0cf3e4)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.XCuwD10h91" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/tmp.3ltT2ayG7N" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-remotedebug" />

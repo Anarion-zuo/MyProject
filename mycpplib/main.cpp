@@ -11,8 +11,25 @@
 
 using namespace std;
 
+class printRe : public Thread {
+    Selector &selector;
+public:
+    printRe(Selector &selector) : selector(selector) {}
+
+    void run() override {
+        while (true) {
+            Selector::packet p = selector.pollPacket();
+            p.buffer.print();
+        }
+    }
+};
+
 int main() {
-    ServerSocketChannel channel(9898);
-    Selector aSelector(&channel);
+    ServerSocketChannel channel(23333);
+    Selector selector(&channel);
+    channel.listen();
+    printRe f(selector);
+    f.start();
+    selector.run();
     return 0;
 }

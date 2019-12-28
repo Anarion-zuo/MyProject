@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o"
+  "CMakeFiles/mycpplib.dir/Server/Http/RequestType/RequestType.cpp.o"
   "CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o"
   "CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o"
   "CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o"

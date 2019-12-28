@@ -37,6 +37,9 @@ char *Buffer::duplicateRange(char *l, char *r) {
     if (r > end) {
         throw IndexOutOfRangeException();
     }
+    if (l == r) {
+        return nullptr;
+    }
     char *p = Allocator::allocate<char>(r - l);
     memcpy(p, l, r - l);
     return p;
@@ -176,4 +179,16 @@ size_type Buffer::unTouchedSize() const {
 
 size_type Buffer::unWrittenSize() const {
     return end - cur;
+}
+
+char * Buffer::getUntil(char c, size_type *len) {
+    for (size_type i = 0; i < writtenSize(); ++i) {
+        if (c == begin[i]) {
+            if (len) {
+                *len = i;
+            }
+            return get(i);
+        }
+    }
+    return nullptr;
 }

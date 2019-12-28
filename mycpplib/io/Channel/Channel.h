@@ -10,7 +10,7 @@
 #include <io/Buffer/Buffer.h>
 #include <utility>
 
-class Channel : public UnCopiable, public Hashable {
+class Channel : public Hashable {
 protected:
     static const size_type blockSize = 4096;
 

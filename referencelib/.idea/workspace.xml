@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="referencelib" targetName="referencelib" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6707ab07-6b8d-41f4-8824-d70b1b4a9a74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mycpplib/Server/Http/RequestType/RequestType.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/Server/Http/RequestType/RequestType.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/Server/Http/Response.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/allocator/allocator.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/base-classes/Object.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/Callable/Callable.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/Callable/Thread.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/CondVar/CondVar.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/Mutex/AutoMutex.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/Mutex/Mutex.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/Semaphore/Semaphore.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/concurrent/pool/ThreadPool.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/containers/List/SString.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Buffer/Buffer.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Buffer/Pipe.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/File/FileChannel.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/File/FileStatus.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Channel/Network/SocketChannel.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/io/Selector/Selector.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/numerical/variable/SingleParamVariable.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/wrappers/Double.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/wrappers/Integer.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/mycpplib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/exceptions/Server/Http/HttpFormatException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycpplib/exceptions/io/fd/FcntlException.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/referencelib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/Object.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/Object.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/Reference.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/referencelib.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/referencelib.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/referencelib.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/referencelib.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/referencelib.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/referencelib.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/referencelib.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/referencelib.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/Server/Http/Request.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/Server/Http/Request.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/Server/Http/Request.h" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/Server/Http/Request.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Progress/22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/mycpplib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-debug/mycpplib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/mycpplib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-release/mycpplib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-release/mycpplib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/3.16.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/3.16.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/3.16.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/3.16.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/mycpplib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/mycpplib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/cmake-build-remotedebug/mycpplib.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Buffer/Buffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/io/Buffer/Buffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Buffer/Buffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/io/Buffer/Buffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Channel/Channel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/io/Channel/Channel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Channel/Network/ServerSocketChannel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/io/Channel/Network/ServerSocketChannel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Channel/Network/SocketChannel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/io/Channel/Network/SocketChannel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Selector/Selector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/io/Selector/Selector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/io/Selector/Selector.h" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/io/Selector/Selector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycpplib/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mycpplib/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Vc7pGIGwL030UIzyC1tUcngt8C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="referencelib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="referencelib" TARGET_NAME="referencelib" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="referencelib" RUN_TARGET_NAME="referencelib">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6707ab07-6b8d-41f4-8824-d70b1b4a9a74" name="Default Changelist" comment="" />
+      <created>1577540710903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577540710903</updated>
+      <workItem from="1577540712745" duration="3667000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

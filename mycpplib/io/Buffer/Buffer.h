@@ -27,6 +27,8 @@ protected:
     void reallocate(size_type nsize);
 
 public:
+    Buffer() : begin(nullptr), cur(nullptr), end(nullptr), pos(nullptr) {}
+
     explicit Buffer(size_type num) : begin(Allocator::allocate<char>(num)), cur(begin), end(begin + num), pos(begin) {
         clearContent();
     }
@@ -68,6 +70,8 @@ public:
     char get();
     char *get(size_type num);
     void get(Vector<char> &vec, size_type num);
+
+    char *getUntil(char c, size_type *len);
 
     void mark();
     void reset();

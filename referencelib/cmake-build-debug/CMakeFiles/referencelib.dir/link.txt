@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/referencelib.dir/main.cpp.o CMakeFiles/referencelib.dir/base/Object.cpp.o CMakeFiles/referencelib.dir/base/Reference.cpp.o  -o referencelib 

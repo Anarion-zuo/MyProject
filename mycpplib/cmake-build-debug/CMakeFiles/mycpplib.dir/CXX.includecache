@@ -291,14 +291,22 @@ exceptions/io/Network/SocketCreateException.h
 -
 containers/Set/HashSet.hpp
 -
-io/Channel/SelectableChannel.h
-../io/Channel/Network/io/Channel/SelectableChannel.h
+../Channel.h
+../io/Channel/Channel.h
+io/Buffer/Buffer.h
+../io/Channel/Network/io/Buffer/Buffer.h
 netinet/in.h
 -
 
-../io/Channel/SelectableChannel.h
-Channel.h
-../io/Channel/Channel.h
+../io/Selector/Selector.h
+featurers/UnCopiable.h
+-
+io/Channel/Network/ServerSocketChannel.h
+-
+sys/epoll.h
+-
+containers/Queue/BlockQueue.hpp
+-
 
 ../wrappers/Number.hpp
 featurers/UseAllocator.h
@@ -318,7 +326,7 @@ featurers/Hashable.h
 Pointer.hpp
 ../wrappers/Pointer/Pointer.hpp
 
-/Users/anarion/Documents/MyProjects/mycpplib/main.cpp
+/home/anarion/Documents/MyProjects/mycpplib/main.cpp
 iostream
 -
 concurrent/pool/ThreadPool.h
@@ -334,5 +342,7 @@ io/Channel/File/FileChannel.h
 containers/Set/TreeSet.hpp
 -
 containers/Map/TreeMap.hpp
+-
+io/Selector/Selector.h
 -
 

@@ -7,6 +7,7 @@
 #include <fcntl.h>
 #include <exceptions/io/Network/ListenException.h>
 #include <exceptions/io/Network/BindException.h>
+#include <exceptions/io/fd/FcntlException.h>
 
 void ServerSocketChannel::bind(in_port_t host_port) {
     myAddr.sin_port = htons(host_port);
@@ -36,8 +37,13 @@ SocketChannel ServerSocketChannel::accept() {
 }
 
 void ServerSocketChannel::setNonBlock() {
-    int flag = fcntl(sockfd, F_GETFL);
+    int flag = fcntl(sockfd, F_GETFL, 0);
+    if (flag == -1) {
+        throw FcntlException();
+    }
     flag |= O_NONBLOCK;
-    fcntl(sockfd, F_SETFL, flag);
+    if (fcntl(sockfd, F_SETFL, flag) == -1) {
+        throw FcntlException();
+    }
 }
 

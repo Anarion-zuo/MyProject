@@ -48,10 +48,10 @@ RM = /opt/cmake-3.16.1-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.XCuwD10h91
+CMAKE_SOURCE_DIR = /tmp/tmp.3ltT2ayG7N
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.XCuwD10h91/cmake-build-remotedebug
+CMAKE_BINARY_DIR = /tmp/tmp.3ltT2ayG7N/cmake-build-remotedebug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.XCuwD10h91/cmake-build-remotedebug/CMakeFiles /tmp/tmp.XCuwD10h91/cmake-build-remotedebug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.3ltT2ayG7N/cmake-build-remotedebug/CMakeFiles /tmp/tmp.3ltT2ayG7N/cmake-build-remotedebug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.XCuwD10h91/cmake-build-remotedebug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.3ltT2ayG7N/cmake-build-remotedebug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ Server/Http/Request.s: Server/Http/Request.cpp.s
 Server/Http/Request.cpp.s:
 	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/Request.cpp.s
 .PHONY : Server/Http/Request.cpp.s
+
+Server/Http/RequestType/RequestType.o: Server/Http/RequestType/RequestType.cpp.o
+
+.PHONY : Server/Http/RequestType/RequestType.o
+
+# target to build an object file
+Server/Http/RequestType/RequestType.cpp.o:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/RequestType/RequestType.cpp.o
+.PHONY : Server/Http/RequestType/RequestType.cpp.o
+
+Server/Http/RequestType/RequestType.i: Server/Http/RequestType/RequestType.cpp.i
+
+.PHONY : Server/Http/RequestType/RequestType.i
+
+# target to preprocess a source file
+Server/Http/RequestType/RequestType.cpp.i:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/RequestType/RequestType.cpp.i
+.PHONY : Server/Http/RequestType/RequestType.cpp.i
+
+Server/Http/RequestType/RequestType.s: Server/Http/RequestType/RequestType.cpp.s
+
+.PHONY : Server/Http/RequestType/RequestType.s
+
+# target to generate assembly for a file
+Server/Http/RequestType/RequestType.cpp.s:
+	$(MAKE) -f CMakeFiles/mycpplib.dir/build.make CMakeFiles/mycpplib.dir/Server/Http/RequestType/RequestType.cpp.s
+.PHONY : Server/Http/RequestType/RequestType.cpp.s
 
 Server/Http/Response.o: Server/Http/Response.cpp.o
 
@@ -810,6 +837,9 @@ help:
 	@echo "... Server/Http/Request.o"
 	@echo "... Server/Http/Request.i"
 	@echo "... Server/Http/Request.s"
+	@echo "... Server/Http/RequestType/RequestType.o"
+	@echo "... Server/Http/RequestType/RequestType.i"
+	@echo "... Server/Http/RequestType/RequestType.s"
 	@echo "... Server/Http/Response.o"
 	@echo "... Server/Http/Response.i"
 	@echo "... Server/Http/Response.s"
