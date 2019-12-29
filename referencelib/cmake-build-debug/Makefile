@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anarion/Documents/MyProjects/referencelib
+CMAKE_SOURCE_DIR = /Users/anarion/Documents/MyProjects/referencelib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/referencelib/cmake-build-d
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ referencelib/fast:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/build
 .PHONY : referencelib/fast
 
-allocator/allocator.o: allocator/allocator.cpp.o
+base/HashFunctions.o: base/HashFunctions.cpp.o
 
-.PHONY : allocator/allocator.o
+.PHONY : base/HashFunctions.o
 
 # target to build an object file
-allocator/allocator.cpp.o:
-	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/allocator.cpp.o
-.PHONY : allocator/allocator.cpp.o
+base/HashFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o
+.PHONY : base/HashFunctions.cpp.o
 
-allocator/allocator.i: allocator/allocator.cpp.i
+base/HashFunctions.i: base/HashFunctions.cpp.i
 
-.PHONY : allocator/allocator.i
+.PHONY : base/HashFunctions.i
 
 # target to preprocess a source file
-allocator/allocator.cpp.i:
-	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/allocator.cpp.i
-.PHONY : allocator/allocator.cpp.i
+base/HashFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/HashFunctions.cpp.i
+.PHONY : base/HashFunctions.cpp.i
 
-allocator/allocator.s: allocator/allocator.cpp.s
+base/HashFunctions.s: base/HashFunctions.cpp.s
 
-.PHONY : allocator/allocator.s
+.PHONY : base/HashFunctions.s
 
 # target to generate assembly for a file
-allocator/allocator.cpp.s:
-	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/allocator.cpp.s
-.PHONY : allocator/allocator.cpp.s
+base/HashFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/HashFunctions.cpp.s
+.PHONY : base/HashFunctions.cpp.s
 
 base/Object.o: base/Object.cpp.o
 
@@ -176,6 +176,141 @@ base/Object.s: base/Object.cpp.s
 base/Object.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Object.cpp.s
 .PHONY : base/Object.cpp.s
+
+concurrent/base/CondVar.o: concurrent/base/CondVar.cpp.o
+
+.PHONY : concurrent/base/CondVar.o
+
+# target to build an object file
+concurrent/base/CondVar.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o
+.PHONY : concurrent/base/CondVar.cpp.o
+
+concurrent/base/CondVar.i: concurrent/base/CondVar.cpp.i
+
+.PHONY : concurrent/base/CondVar.i
+
+# target to preprocess a source file
+concurrent/base/CondVar.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.i
+.PHONY : concurrent/base/CondVar.cpp.i
+
+concurrent/base/CondVar.s: concurrent/base/CondVar.cpp.s
+
+.PHONY : concurrent/base/CondVar.s
+
+# target to generate assembly for a file
+concurrent/base/CondVar.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.s
+.PHONY : concurrent/base/CondVar.cpp.s
+
+concurrent/base/Mutex.o: concurrent/base/Mutex.cpp.o
+
+.PHONY : concurrent/base/Mutex.o
+
+# target to build an object file
+concurrent/base/Mutex.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o
+.PHONY : concurrent/base/Mutex.cpp.o
+
+concurrent/base/Mutex.i: concurrent/base/Mutex.cpp.i
+
+.PHONY : concurrent/base/Mutex.i
+
+# target to preprocess a source file
+concurrent/base/Mutex.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.i
+.PHONY : concurrent/base/Mutex.cpp.i
+
+concurrent/base/Mutex.s: concurrent/base/Mutex.cpp.s
+
+.PHONY : concurrent/base/Mutex.s
+
+# target to generate assembly for a file
+concurrent/base/Mutex.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.s
+.PHONY : concurrent/base/Mutex.cpp.s
+
+concurrent/base/Thread.o: concurrent/base/Thread.cpp.o
+
+.PHONY : concurrent/base/Thread.o
+
+# target to build an object file
+concurrent/base/Thread.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o
+.PHONY : concurrent/base/Thread.cpp.o
+
+concurrent/base/Thread.i: concurrent/base/Thread.cpp.i
+
+.PHONY : concurrent/base/Thread.i
+
+# target to preprocess a source file
+concurrent/base/Thread.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.i
+.PHONY : concurrent/base/Thread.cpp.i
+
+concurrent/base/Thread.s: concurrent/base/Thread.cpp.s
+
+.PHONY : concurrent/base/Thread.s
+
+# target to generate assembly for a file
+concurrent/base/Thread.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.s
+.PHONY : concurrent/base/Thread.cpp.s
+
+container/SString.o: container/SString.cpp.o
+
+.PHONY : container/SString.o
+
+# target to build an object file
+container/SString.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/container/SString.cpp.o
+.PHONY : container/SString.cpp.o
+
+container/SString.i: container/SString.cpp.i
+
+.PHONY : container/SString.i
+
+# target to preprocess a source file
+container/SString.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/container/SString.cpp.i
+.PHONY : container/SString.cpp.i
+
+container/SString.s: container/SString.cpp.s
+
+.PHONY : container/SString.s
+
+# target to generate assembly for a file
+container/SString.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/container/SString.cpp.s
+.PHONY : container/SString.cpp.s
+
+gc/GarbageCollector.o: gc/GarbageCollector.cpp.o
+
+.PHONY : gc/GarbageCollector.o
+
+# target to build an object file
+gc/GarbageCollector.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o
+.PHONY : gc/GarbageCollector.cpp.o
+
+gc/GarbageCollector.i: gc/GarbageCollector.cpp.i
+
+.PHONY : gc/GarbageCollector.i
+
+# target to preprocess a source file
+gc/GarbageCollector.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.i
+.PHONY : gc/GarbageCollector.cpp.i
+
+gc/GarbageCollector.s: gc/GarbageCollector.cpp.s
+
+.PHONY : gc/GarbageCollector.s
+
+# target to generate assembly for a file
+gc/GarbageCollector.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.s
+.PHONY : gc/GarbageCollector.cpp.s
 
 main.o: main.cpp.o
 
@@ -211,14 +346,29 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... referencelib"
 	@echo "... edit_cache"
-	@echo "... allocator/allocator.o"
-	@echo "... allocator/allocator.i"
-	@echo "... allocator/allocator.s"
+	@echo "... referencelib"
+	@echo "... base/HashFunctions.o"
+	@echo "... base/HashFunctions.i"
+	@echo "... base/HashFunctions.s"
 	@echo "... base/Object.o"
 	@echo "... base/Object.i"
 	@echo "... base/Object.s"
+	@echo "... concurrent/base/CondVar.o"
+	@echo "... concurrent/base/CondVar.i"
+	@echo "... concurrent/base/CondVar.s"
+	@echo "... concurrent/base/Mutex.o"
+	@echo "... concurrent/base/Mutex.i"
+	@echo "... concurrent/base/Mutex.s"
+	@echo "... concurrent/base/Thread.o"
+	@echo "... concurrent/base/Thread.i"
+	@echo "... concurrent/base/Thread.s"
+	@echo "... container/SString.o"
+	@echo "... container/SString.i"
+	@echo "... container/SString.s"
+	@echo "... gc/GarbageCollector.o"
+	@echo "... gc/GarbageCollector.i"
+	@echo "... gc/GarbageCollector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

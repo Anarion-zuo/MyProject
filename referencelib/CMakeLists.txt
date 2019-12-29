@@ -3,4 +3,4 @@ project(referencelib)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(referencelib main.cpp base/Object.cpp base/Object.h base/Reference.hpp allocator/allocator.cpp allocator/Allocator.hpp allocator/Allocator.h container/List.h container/Container.h container/List/Vector.hpp base/Pointer.hpp)
+add_executable(referencelib main.cpp base/Object.cpp base/Object.h base/Reference.hpp container/List.h container/Container.h container/List/Vector.hpp base/Pointer.hpp base/Number.hpp gc/GarbageCollector.cpp gc/GarbageCollector.h container/List/LinkedList.hpp concurrent/base/Thread.cpp concurrent/base/Thread.h concurrent/base/Mutex.cpp concurrent/base/Mutex.h concurrent/base/CondVar.cpp concurrent/base/CondVar.h callable/Callable.h container/Queue/BlockQueue.hpp container/Queue.hpp container/Queue/ListQueue.h container/Map/HashMap.hpp container/Map.hpp container/Set/HashSet.hpp container/Set.hpp base/HashFunctions.cpp base/HashFunctions.h container/SString.cpp container/SString.h)

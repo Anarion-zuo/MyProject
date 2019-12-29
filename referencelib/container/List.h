@@ -11,15 +11,14 @@
 template <typename T>
 class List : public Container<T> {
 public:
-    virtual void add(T *p, size_type index) = 0;
-    virtual T *get(size_type index) = 0;
+    virtual void add(Pointer<T> p) = 0;
+    virtual void addAll(Pointer<Container<T>> rhs) = 0;
+    virtual void add(Pointer<T> p, size_type index) = 0;
+    virtual void addFirst(Pointer<T> p) = 0;
+    virtual Pointer<T> get(size_type index) = 0;
+    virtual Pointer<T> poll() = 0;
 
-    virtual size_type size() const = 0;
-
-    virtual size_type indexOf(T *p) = 0;
-    size_type lastIndexOf(T *p) {
-        return size() - indexOf(p) - 1;
-    }
+    virtual size_type indexOf(Pointer<Object> p) = 0;
 
 };
 
