@@ -144,7 +144,7 @@ struct GlobalHash<unsigned char> : public unary_functor<hash_type, const int &> 
 
 
 struct Hashable {
-    virtual hash_type hash() const {
+    virtual hash_type hash() {
         return reinterpret_cast<hash_type>(this);
     }
 };

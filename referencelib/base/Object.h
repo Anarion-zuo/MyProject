@@ -19,6 +19,7 @@ public:
     Object(Object &&) noexcept = default;
 
     virtual bool operator==(const Object &rhs) const;
+    virtual Object *clone();
 };
 
 

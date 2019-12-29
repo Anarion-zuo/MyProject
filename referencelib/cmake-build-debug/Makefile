@@ -123,6 +123,33 @@ referencelib/fast:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/build
 .PHONY : referencelib/fast
 
+allocator/allocator.o: allocator/allocator.cpp.o
+
+.PHONY : allocator/allocator.o
+
+# target to build an object file
+allocator/allocator.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/allocator.cpp.o
+.PHONY : allocator/allocator.cpp.o
+
+allocator/allocator.i: allocator/allocator.cpp.i
+
+.PHONY : allocator/allocator.i
+
+# target to preprocess a source file
+allocator/allocator.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/allocator.cpp.i
+.PHONY : allocator/allocator.cpp.i
+
+allocator/allocator.s: allocator/allocator.cpp.s
+
+.PHONY : allocator/allocator.s
+
+# target to generate assembly for a file
+allocator/allocator.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/allocator.cpp.s
+.PHONY : allocator/allocator.cpp.s
+
 base/Object.o: base/Object.cpp.o
 
 .PHONY : base/Object.o
@@ -149,33 +176,6 @@ base/Object.s: base/Object.cpp.s
 base/Object.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Object.cpp.s
 .PHONY : base/Object.cpp.s
-
-base/Reference.o: base/Reference.cpp.o
-
-.PHONY : base/Reference.o
-
-# target to build an object file
-base/Reference.cpp.o:
-	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Reference.cpp.o
-.PHONY : base/Reference.cpp.o
-
-base/Reference.i: base/Reference.cpp.i
-
-.PHONY : base/Reference.i
-
-# target to preprocess a source file
-base/Reference.cpp.i:
-	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Reference.cpp.i
-.PHONY : base/Reference.cpp.i
-
-base/Reference.s: base/Reference.cpp.s
-
-.PHONY : base/Reference.s
-
-# target to generate assembly for a file
-base/Reference.cpp.s:
-	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Reference.cpp.s
-.PHONY : base/Reference.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,12 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... referencelib"
 	@echo "... edit_cache"
+	@echo "... allocator/allocator.o"
+	@echo "... allocator/allocator.i"
+	@echo "... allocator/allocator.s"
 	@echo "... base/Object.o"
 	@echo "... base/Object.i"
 	@echo "... base/Object.s"
-	@echo "... base/Reference.o"
-	@echo "... base/Reference.i"
-	@echo "... base/Reference.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

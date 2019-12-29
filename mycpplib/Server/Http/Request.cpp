@@ -6,6 +6,24 @@
 #include <exceptions/Server/Http/HttpFormatException.h>
 #include "Request.h"
 
+static void parseParams(HashMap<SString, SString> &paramsMap, char *str) {
+    SString key, val;
+    while (true) {
+        char *p = strchr(str, '=');
+        if (p == nullptr) {
+            return;
+        }
+        *p = 0;
+        key = str;
+        str = p + 1;
+        p = strchr(str, '&');
+        *p = 0;
+        val = str;
+        paramsMap.put(std::move(key), std::move(val));
+        str = p + 1;
+    }
+}
+
 Request Request::readFromBuffer(Buffer &buffer) {
     Request request;
     size_type len;
@@ -19,6 +37,7 @@ Request Request::readFromBuffer(Buffer &buffer) {
     // request directory
     char *p = dst + 1;
     dst = strchr(p, ' ');
+    *dst = 0;
     char dir[dst - p + 2];
     strcpy(dir, p);
     Allocator::deallocate(str, len);
@@ -30,6 +49,7 @@ Request Request::readFromBuffer(Buffer &buffer) {
     ++p;
 
     // parse request parameters
+    parseParams(request.params, p);
 
     // parse headers
     str = buffer.getUntil('\n', nullptr);

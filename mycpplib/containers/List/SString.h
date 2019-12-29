@@ -11,7 +11,7 @@
 #include <cstdio>
 #include <base-classes/Object.h>
 
-class SString : public Object {
+class SString : public Object, public Hashable {
 protected:
     typedef unsigned long size_type;
 
@@ -179,6 +179,8 @@ public:
     char operator[](size_type index);
 
     void print();
+
+    hash_type hash() override ;
 };
 
 

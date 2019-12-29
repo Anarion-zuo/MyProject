@@ -58,6 +58,12 @@ public:
         ++pack->count;
         return *this;
     }
+
+    Reference<T> &operator=(Reference<T> &&rhs) {
+        pack = rhs.pack;
+        rhs.pack = nullptr;
+        return *this;
+    }
 };
 
 //extern Reference<Object> Null =

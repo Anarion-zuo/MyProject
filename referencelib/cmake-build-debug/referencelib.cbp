@@ -84,16 +84,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/allocator/Allocator.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/allocator/Allocator.hpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/allocator/allocator.cpp">
+			<Option target="referencelib"/>
+		</Unit>
 		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/base/Object.cpp">
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/base/Object.h">
 			<Option target="referencelib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/base/Reference.cpp">
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/base/Pointer.hpp">
 			<Option target="referencelib"/>
 		</Unit>
-		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/base/Reference.h">
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/base/Reference.hpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/container/Container.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/container/List.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/container/List/Vector.hpp">
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/home/anarion/Documents/MyProjects/referencelib/main.cpp">

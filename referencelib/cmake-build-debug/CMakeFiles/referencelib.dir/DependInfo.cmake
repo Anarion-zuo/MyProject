@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/anarion/Documents/MyProjects/referencelib/allocator/allocator.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/referencelib.dir/allocator/allocator.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/base/Object.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/referencelib.dir/base/Object.cpp.o"
-  "/home/anarion/Documents/MyProjects/referencelib/base/Reference.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/referencelib.dir/base/Reference.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/main.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/referencelib.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

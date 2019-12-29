@@ -121,3 +121,8 @@ size_type SString::KMP(char *str1, size_type len1, char *str2, size_type len2) {
     // next arr
 
 }
+
+hash_type SString::hash() {
+    bundle();
+    return HashFuncs::global_hashf(head->data, head->length);
+}

@@ -8,3 +8,8 @@
 bool Object::operator==(const Object &rhs) const {
     return this == &rhs;
 }
+
+Object *Object::clone() {
+    Object *p = new Object();
+    return p;
+}

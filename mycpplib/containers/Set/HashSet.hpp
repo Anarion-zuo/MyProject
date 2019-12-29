@@ -327,7 +327,7 @@ public:
     }
 
     void remove(const Obj &obj) override {
-        hash_type code = obj.hash();
+        hash_type code = (const_cast<Obj&>(obj)).hash();
         size_type index = (code % headerSize);
         HashNode *head = heads[index], *pre = nullptr;
         while (head) {

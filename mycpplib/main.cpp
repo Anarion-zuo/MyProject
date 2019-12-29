@@ -11,25 +11,26 @@
 
 using namespace std;
 
-class printRe : public Thread {
-    Selector &selector;
-public:
-    printRe(Selector &selector) : selector(selector) {}
-
-    void run() override {
-        while (true) {
-            Selector::packet p = selector.pollPacket();
-            p.buffer.print();
+void parseParams(HashMap<SString, SString> &paramsMap, char *str) {
+    SString key, val;
+    while (true) {
+        char *p = strchr(str, '=');
+        if (p == nullptr) {
+            return;
         }
+        *p = 0;
+        key = str;
+        str = p + 1;
+        p = strchr(str, '&');
+        *p = 0;
+        val = str;
+        paramsMap.put(std::move(key), std::move(val));
+        str = p + 1;
     }
-};
+}
 
 int main() {
-    ServerSocketChannel channel(23333);
-    Selector selector(&channel);
-    channel.listen();
-    printRe f(selector);
-    f.start();
-    selector.run();
+    HashMap<SString, SString> map;
+    parseParams(map, "haha=gir&ckaj=iif&vla=f");
     return 0;
 }

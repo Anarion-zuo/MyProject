@@ -83,31 +83,31 @@ CMakeFiles/referencelib.dir/base/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/base/Object.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/base/Object.cpp -o CMakeFiles/referencelib.dir/base/Object.cpp.s
 
-CMakeFiles/referencelib.dir/base/Reference.cpp.o: CMakeFiles/referencelib.dir/flags.make
-CMakeFiles/referencelib.dir/base/Reference.cpp.o: ../base/Reference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/referencelib.dir/base/Reference.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/base/Reference.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/base/Reference.cpp
+CMakeFiles/referencelib.dir/allocator/allocator.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/allocator/allocator.cpp.o: ../allocator/allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/referencelib.dir/allocator/allocator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/allocator/allocator.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/allocator/allocator.cpp
 
-CMakeFiles/referencelib.dir/base/Reference.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/base/Reference.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/base/Reference.cpp > CMakeFiles/referencelib.dir/base/Reference.cpp.i
+CMakeFiles/referencelib.dir/allocator/allocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/allocator/allocator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/allocator/allocator.cpp > CMakeFiles/referencelib.dir/allocator/allocator.cpp.i
 
-CMakeFiles/referencelib.dir/base/Reference.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/base/Reference.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/base/Reference.cpp -o CMakeFiles/referencelib.dir/base/Reference.cpp.s
+CMakeFiles/referencelib.dir/allocator/allocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/allocator/allocator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/allocator/allocator.cpp -o CMakeFiles/referencelib.dir/allocator/allocator.cpp.s
 
 # Object files for target referencelib
 referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/main.cpp.o" \
 "CMakeFiles/referencelib.dir/base/Object.cpp.o" \
-"CMakeFiles/referencelib.dir/base/Reference.cpp.o"
+"CMakeFiles/referencelib.dir/allocator/allocator.cpp.o"
 
 # External object files for target referencelib
 referencelib_EXTERNAL_OBJECTS =
 
 referencelib: CMakeFiles/referencelib.dir/main.cpp.o
 referencelib: CMakeFiles/referencelib.dir/base/Object.cpp.o
-referencelib: CMakeFiles/referencelib.dir/base/Reference.cpp.o
+referencelib: CMakeFiles/referencelib.dir/allocator/allocator.cpp.o
 referencelib: CMakeFiles/referencelib.dir/build.make
 referencelib: CMakeFiles/referencelib.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable referencelib"
