@@ -6,29 +6,39 @@
 #ifndef REFERENCELIB_POINTER_HPP
 #define REFERENCELIB_POINTER_HPP
 
+#include "Object.h"
+
 template <typename T>
 class Pointer {
 protected:
     T *ptr;
 
 public:
-    explicit Pointer(T *ptr) : ptr(ptr) {}
+    Pointer() : ptr(nullptr) {}
+    template <typename V> Pointer(V *ptr) : ptr(reinterpret_cast<T*>(ptr)) {}
 
-    bool operator==(const Pointer<T> &rhs) const {
-        return ptr == rhs.ptr;
+    template <typename V>
+    bool operator==(const Pointer<V> &rhs) const {
+        return ptr == reinterpret_cast<T*>(rhs.ptr);
     }
 
-    Pointer<T> &operator=(T *rhs) {
-        ptr = rhs;
+    template <typename V>
+    Pointer<T> &operator=(V *rhs) {
+        ptr = reinterpret_cast<T*>(rhs);
         return *this;
     }
 
-    Pointer<T> &operator=(const Pointer<T> &rhs) {
+    template <typename V>
+    Pointer<T> &operator=(const Pointer<V> &rhs) {
         if (&rhs == this) {
             return *this;
         }
-        ptr = rhs.ptr;
+        ptr = reinterpret_cast<T*>(rhs);
         return *this;
+    }
+
+    bool isNull() const {
+        return ptr;
     }
 
     T *operator->() {
@@ -39,38 +49,10 @@ public:
         return *ptr;
     }
 
-    Pointer<T> &operator++() {
-        ++ptr;
-        return *this;
-    }
-
-    Pointer<T> operator++(int) {
-        ++ptr;
-        return *this;
-    }
-
-    Pointer<T> &operator--() {
-        --ptr;
-        return *this;
-    }
-
-    Pointer<T> &operator--(int) {
-        --ptr;
-        return *this;
-    }
-
-    Pointer<T> operator+(unsigned long step) const {
-        return ptr + step;
-    }
-
-    Pointer<T> operator-(unsigned long step) const {
-        return ptr - step;
-    }
-
-    long operator-(const Pointer<T> &rhs) const {
-        return ptr - rhs.ptr;
+    void release() {
+        delete ptr;
+        ptr = nullptr;
     }
 };
-
 
 #endif //REFERENCELIB_POINTER_HPP

@@ -6,20 +6,32 @@
 #ifndef REFERENCELIB_OBJECT_H
 #define REFERENCELIB_OBJECT_H
 
+
 /*
  * The base class for all classes
  */
 
 typedef unsigned long size_type;
+typedef unsigned long hash_type;
+
+class SString;
+
+template <typename T>
+class Pointer;
 
 class Object {
 public:
     Object() = default;
-    Object(const Object &) = default;
-    Object(Object &&) noexcept = default;
+    Object(const Object &) = delete;
+    Object(Object &&) noexcept = delete;
+    virtual ~Object() = default;
 
-    virtual bool operator==(const Object &rhs) const;
-    virtual Object *clone();
+    virtual Pointer<Object> clone();
+    virtual bool equals(Pointer<Object> rhs);
+
+    virtual hash_type hash();
+
+    virtual Pointer<SString> toString() ;
 };
 
 

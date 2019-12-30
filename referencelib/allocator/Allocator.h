@@ -1,11 +1,14 @@
 //
-// Created by anarion on 2019/11/6.
+// Created by 左钰 on 2019/12/30.
 //
 
-#ifndef MYSTL_ALLOCATOR2_H
-#define MYSTL_ALLOCATOR2_H
+#ifndef REFERENCELIB_ALLOCATOR_H
+#define REFERENCELIB_ALLOCATOR_H
 
-int allocate(char **item, size_t size);
-void deallocate(void *item, size_t size);
 
-#endif //MYSTL_ALLOCATOR_H
+class Allocator {
+
+};
+
+
+#endif //REFERENCELIB_ALLOCATOR_H
