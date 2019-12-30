@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/allocator/Allocator.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/allocator/Allocator.h">
+			<Option target="referencelib"/>
+		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/base/HashFunctions.cpp">
 			<Option target="referencelib"/>
 		</Unit>
@@ -161,10 +167,22 @@
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/container/Set/HashSet.hpp">
 			<Option target="referencelib"/>
 		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/MyException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/container/IndexOutOfRangeException.h">
+			<Option target="referencelib"/>
+		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/gc/GarbageCollector.cpp">
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/gc/GarbageCollector.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Buffer/Buffer.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Buffer/Buffer.h">
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/main.cpp">

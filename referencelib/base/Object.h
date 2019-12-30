@@ -24,7 +24,7 @@ public:
     Object() = default;
     Object(const Object &) = delete;
     Object(Object &&) noexcept = delete;
-    ~Object() = default;
+    virtual ~Object() = default;
 
     virtual Pointer<Object> clone();
     virtual bool equals(Pointer<Object> rhs);

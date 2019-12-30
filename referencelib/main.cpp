@@ -8,21 +8,13 @@
 #include "container/Queue/BlockQueue.hpp"
 #include <iostream>
 #include "container/SString.h"
+#include "io/Buffer/Buffer.h"
 
 using namespace std;
 
 
 int main() {
-    Pointer<Object> o = new Object;
-    Vector<Object> v;
-    v.add(new Int(3));
-    v.add(new Int(3));
-    v.add(new Int(3));
-    v.add(new Int(3));
-    v.add(new Int(3));
-    v.add(new Int(3));
-    v.add(new Int(3));
+    Pointer<Buffer> buf = new Buffer;
 
-    cout << v.toString()->cstr() << endl;
     return 0;
 }

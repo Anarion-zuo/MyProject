@@ -15,7 +15,7 @@ protected:
 
 public:
     Pointer() : ptr(nullptr) {}
-    Pointer(T *ptr) : ptr(ptr) {}
+    template <typename V> Pointer(V *ptr) : ptr(reinterpret_cast<T*>(ptr)) {}
 
     template <typename V>
     bool operator==(const Pointer<V> &rhs) const {

@@ -161,6 +161,32 @@ CMakeFiles/referencelib.dir/container/SString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/container/SString.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/container/SString.cpp -o CMakeFiles/referencelib.dir/container/SString.cpp.s
 
+CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../io/Buffer/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/io/Buffer/Buffer.cpp
+
+CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/io/Buffer/Buffer.cpp > CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i
+
+CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/io/Buffer/Buffer.cpp -o CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s
+
+CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o: ../allocator/Allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/allocator/Allocator.cpp
+
+CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/allocator/Allocator.cpp > CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i
+
+CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/allocator/Allocator.cpp -o CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s
+
 # Object files for target referencelib
 referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/main.cpp.o" \
@@ -170,7 +196,9 @@ referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o" \
 "CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o" \
 "CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o" \
-"CMakeFiles/referencelib.dir/container/SString.cpp.o"
+"CMakeFiles/referencelib.dir/container/SString.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o" \
+"CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o"
 
 # External object files for target referencelib
 referencelib_EXTERNAL_OBJECTS =
@@ -183,9 +211,11 @@ referencelib: CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o
 referencelib: CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o
 referencelib: CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o
 referencelib: CMakeFiles/referencelib.dir/container/SString.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o
+referencelib: CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o
 referencelib: CMakeFiles/referencelib.dir/build.make
 referencelib: CMakeFiles/referencelib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable referencelib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable referencelib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/referencelib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

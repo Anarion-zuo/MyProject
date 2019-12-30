@@ -123,6 +123,33 @@ referencelib/fast:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/build
 .PHONY : referencelib/fast
 
+allocator/Allocator.o: allocator/Allocator.cpp.o
+
+.PHONY : allocator/Allocator.o
+
+# target to build an object file
+allocator/Allocator.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o
+.PHONY : allocator/Allocator.cpp.o
+
+allocator/Allocator.i: allocator/Allocator.cpp.i
+
+.PHONY : allocator/Allocator.i
+
+# target to preprocess a source file
+allocator/Allocator.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i
+.PHONY : allocator/Allocator.cpp.i
+
+allocator/Allocator.s: allocator/Allocator.cpp.s
+
+.PHONY : allocator/Allocator.s
+
+# target to generate assembly for a file
+allocator/Allocator.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s
+.PHONY : allocator/Allocator.cpp.s
+
 base/HashFunctions.o: base/HashFunctions.cpp.o
 
 .PHONY : base/HashFunctions.o
@@ -312,6 +339,33 @@ gc/GarbageCollector.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.s
 .PHONY : gc/GarbageCollector.cpp.s
 
+io/Buffer/Buffer.o: io/Buffer/Buffer.cpp.o
+
+.PHONY : io/Buffer/Buffer.o
+
+# target to build an object file
+io/Buffer/Buffer.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o
+.PHONY : io/Buffer/Buffer.cpp.o
+
+io/Buffer/Buffer.i: io/Buffer/Buffer.cpp.i
+
+.PHONY : io/Buffer/Buffer.i
+
+# target to preprocess a source file
+io/Buffer/Buffer.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i
+.PHONY : io/Buffer/Buffer.cpp.i
+
+io/Buffer/Buffer.s: io/Buffer/Buffer.cpp.s
+
+.PHONY : io/Buffer/Buffer.s
+
+# target to generate assembly for a file
+io/Buffer/Buffer.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s
+.PHONY : io/Buffer/Buffer.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -348,6 +402,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... referencelib"
+	@echo "... allocator/Allocator.o"
+	@echo "... allocator/Allocator.i"
+	@echo "... allocator/Allocator.s"
 	@echo "... base/HashFunctions.o"
 	@echo "... base/HashFunctions.i"
 	@echo "... base/HashFunctions.s"
@@ -369,6 +426,9 @@ help:
 	@echo "... gc/GarbageCollector.o"
 	@echo "... gc/GarbageCollector.i"
 	@echo "... gc/GarbageCollector.s"
+	@echo "... io/Buffer/Buffer.o"
+	@echo "... io/Buffer/Buffer.i"
+	@echo "... io/Buffer/Buffer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
