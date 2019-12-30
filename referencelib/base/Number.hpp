@@ -5,9 +5,10 @@
 #ifndef REFERENCELIB_NUMBER_HPP
 #define REFERENCELIB_NUMBER_HPP
 
-#include "Object.h"
+#include "Pointer.hpp"
 #include <cstring>
 #include <cstdlib>
+#include "../container/SString.h"
 
 template <typename T>
 class Number : public Object {

@@ -3,7 +3,9 @@
 //
 
 #include "Buffer.h"
+#include "../../base/Pointer.hpp"
 #include "../../exceptions/container/IndexOutOfRangeException.h"
+#include "../../exceptions/system/ReadFdException.h"
 #include <cstring>
 #include <unistd.h>
 
@@ -23,8 +25,8 @@ size_type Buffer::capacity() const {
     return end - begin;
 }
 
-Buffer Buffer::allocate(size_type num) {
-    return Buffer(num);
+Pointer<Buffer> Buffer::allocate(size_type num) {
+    return new Buffer(num);
 }
 
 void Buffer::clearContent() {
@@ -39,8 +41,9 @@ char *Buffer::duplicateRange(char *l, char *r) {
     if (l == r) {
         return nullptr;
     }
-    char *p = new char[r - l];
-    memcpy(p, l, r - l);
+    char *p = new char[r - l + 1];
+    memcpy(p, l, r - l + 1);
+    p[r - l] = 0;
     return p;
 }
 
@@ -142,6 +145,9 @@ void Buffer::put(int fd) {
     while(true) {
         size_type cap = capacity();
         len = ::read(fd, pos, cap);
+        if (len < 0) {
+            throw ReadFdException();
+        }
         pos += len;
         if (pos > cur) {
             cur = pos;
@@ -164,12 +170,35 @@ size_type Buffer::unWrittenSize() const {
 
 char * Buffer::getUntil(char c, size_type *len) {
     for (size_type i = 0; i < writtenSize(); ++i) {
-        if (c == begin[i]) {
+        if (c == pos[i]) {
             if (len) {
                 *len = i;
             }
             return get(i);
         }
     }
-    return nullptr;
+    return getRest();
+}
+
+size_type Buffer::unReadSize() const {
+    return cur - pos;
+}
+
+Pointer<Buffer> Buffer::getUntil(char c) {
+    Pointer<Buffer> p = new Buffer();
+    size_type len;
+    p->begin = getUntil(c, &len);
+    p->cur = len + p->begin;
+    p->end = p->cur;
+    p->pos = begin;
+    return p;
+}
+
+char *Buffer::getRest() {
+    size_type restsize = unReadSize();
+    char *p = new char[restsize + 1];
+    memcpy(p, pos, restsize);
+    p[restsize] = 0;
+    pos = cur;
+    return p;
 }

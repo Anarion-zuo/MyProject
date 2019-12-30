@@ -2,14 +2,14 @@
 // Created by 左钰 on 2019/12/27.
 //
 
-#include "Selector.h"
+#include "EpollSelector.h"
 #include <exceptions/io/Network/EpollCreateException.h>
 #include <exceptions/io/Network/EpollConfigException.h>
 #include <exceptions/io/Network/AcceptException.h>
 #include <unistd.h>
 #include <exceptions/io/File/CloseFileException.h>
 
-Selector::Selector(ServerSocketChannel *channel)  : listenChannel(channel), epfd(epoll_create(4096)) {
+EpollSelector::EpollSelector(ServerSocketChannel *channel)  : listenChannel(channel), epfd(epoll_create(4096)) {
     // initialize epoll reactor
     if (epfd == -1) {
         throw EpollCreateException();
@@ -25,7 +25,7 @@ Selector::Selector(ServerSocketChannel *channel)  : listenChannel(channel), epfd
     }
 }
 
-void Selector::run() {
+void EpollSelector::run() {
     int fd, i, waitret;
     int lfd = listenChannel->getSocketFd();
     epoll_event events[4096];
@@ -61,7 +61,7 @@ void Selector::run() {
     }
 }
 
-void Selector::removeEvent(SocketChannel &channel) {
+void EpollSelector::removeEvent(SocketChannel &channel) {
     epoll_event event;
     event.events = EPOLLIN;
     int fd = channel.getSocketFd();
@@ -77,7 +77,7 @@ void Selector::removeEvent(SocketChannel &channel) {
     }
 }
 
-void Selector::addEvent(int cfd) {
+void EpollSelector::addEvent(int cfd) {
     epoll_event event;
     event.events = EPOLLIN;
     event.data.fd = cfd;
@@ -87,20 +87,20 @@ void Selector::addEvent(int cfd) {
     }
 }
 
-Selector::packet Selector::pollPacket() {
+EpollSelector::packet EpollSelector::pollPacket() {
     return coming.poll();
 }
 
-Selector::packet::packet(SocketChannel &&channel, Buffer &&buffer) : channel(std::forward<SocketChannel>(channel)), buffer(std::forward<Buffer>(buffer)) {
+EpollSelector::packet::packet(SocketChannel &&channel, Buffer &&buffer) : channel(std::forward<SocketChannel>(channel)), buffer(std::forward<Buffer>(buffer)) {
 
 }
 
-Selector::packet::packet(Selector::packet &&rhs) noexcept : channel(std::move(rhs.channel)), buffer(std::move(rhs.buffer)) {}
+EpollSelector::packet::packet(EpollSelector::packet &&rhs) noexcept : channel(std::move(rhs.channel)), buffer(std::move(rhs.buffer)) {}
 
-bool Selector::packet::operator==(const Selector::packet &rhs) const {
+bool EpollSelector::packet::operator==(const EpollSelector::packet &rhs) const {
     return &rhs == this;
 }
 
-Selector::packet::packet(const Selector::packet &rhs) : channel(rhs.channel), buffer(0) {
+EpollSelector::packet::packet(const EpollSelector::packet &rhs) : channel(rhs.channel), buffer(0) {
 
 }

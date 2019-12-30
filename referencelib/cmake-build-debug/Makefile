@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anarion/Documents/MyProjects/referencelib
+CMAKE_SOURCE_DIR = /home/anarion/Documents/MyProjects/referencelib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug
+CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/referencelib/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,276 @@ referencelib: cmake_check_build_system
 referencelib/fast:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/build
 .PHONY : referencelib/fast
+
+Server/HTTP/Controller/Controller.o: Server/HTTP/Controller/Controller.cpp.o
+
+.PHONY : Server/HTTP/Controller/Controller.o
+
+# target to build an object file
+Server/HTTP/Controller/Controller.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o
+.PHONY : Server/HTTP/Controller/Controller.cpp.o
+
+Server/HTTP/Controller/Controller.i: Server/HTTP/Controller/Controller.cpp.i
+
+.PHONY : Server/HTTP/Controller/Controller.i
+
+# target to preprocess a source file
+Server/HTTP/Controller/Controller.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i
+.PHONY : Server/HTTP/Controller/Controller.cpp.i
+
+Server/HTTP/Controller/Controller.s: Server/HTTP/Controller/Controller.cpp.s
+
+.PHONY : Server/HTTP/Controller/Controller.s
+
+# target to generate assembly for a file
+Server/HTTP/Controller/Controller.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s
+.PHONY : Server/HTTP/Controller/Controller.cpp.s
+
+Server/HTTP/Cookie/Cookie.o: Server/HTTP/Cookie/Cookie.cpp.o
+
+.PHONY : Server/HTTP/Cookie/Cookie.o
+
+# target to build an object file
+Server/HTTP/Cookie/Cookie.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o
+.PHONY : Server/HTTP/Cookie/Cookie.cpp.o
+
+Server/HTTP/Cookie/Cookie.i: Server/HTTP/Cookie/Cookie.cpp.i
+
+.PHONY : Server/HTTP/Cookie/Cookie.i
+
+# target to preprocess a source file
+Server/HTTP/Cookie/Cookie.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i
+.PHONY : Server/HTTP/Cookie/Cookie.cpp.i
+
+Server/HTTP/Cookie/Cookie.s: Server/HTTP/Cookie/Cookie.cpp.s
+
+.PHONY : Server/HTTP/Cookie/Cookie.s
+
+# target to generate assembly for a file
+Server/HTTP/Cookie/Cookie.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s
+.PHONY : Server/HTTP/Cookie/Cookie.cpp.s
+
+Server/HTTP/HttpListener/HttpListener.o: Server/HTTP/HttpListener/HttpListener.cpp.o
+
+.PHONY : Server/HTTP/HttpListener/HttpListener.o
+
+# target to build an object file
+Server/HTTP/HttpListener/HttpListener.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o
+.PHONY : Server/HTTP/HttpListener/HttpListener.cpp.o
+
+Server/HTTP/HttpListener/HttpListener.i: Server/HTTP/HttpListener/HttpListener.cpp.i
+
+.PHONY : Server/HTTP/HttpListener/HttpListener.i
+
+# target to preprocess a source file
+Server/HTTP/HttpListener/HttpListener.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i
+.PHONY : Server/HTTP/HttpListener/HttpListener.cpp.i
+
+Server/HTTP/HttpListener/HttpListener.s: Server/HTTP/HttpListener/HttpListener.cpp.s
+
+.PHONY : Server/HTTP/HttpListener/HttpListener.s
+
+# target to generate assembly for a file
+Server/HTTP/HttpListener/HttpListener.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s
+.PHONY : Server/HTTP/HttpListener/HttpListener.cpp.s
+
+Server/HTTP/Request/Request.o: Server/HTTP/Request/Request.cpp.o
+
+.PHONY : Server/HTTP/Request/Request.o
+
+# target to build an object file
+Server/HTTP/Request/Request.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o
+.PHONY : Server/HTTP/Request/Request.cpp.o
+
+Server/HTTP/Request/Request.i: Server/HTTP/Request/Request.cpp.i
+
+.PHONY : Server/HTTP/Request/Request.i
+
+# target to preprocess a source file
+Server/HTTP/Request/Request.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i
+.PHONY : Server/HTTP/Request/Request.cpp.i
+
+Server/HTTP/Request/Request.s: Server/HTTP/Request/Request.cpp.s
+
+.PHONY : Server/HTTP/Request/Request.s
+
+# target to generate assembly for a file
+Server/HTTP/Request/Request.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s
+.PHONY : Server/HTTP/Request/Request.cpp.s
+
+Server/HTTP/Request/RequestType.o: Server/HTTP/Request/RequestType.cpp.o
+
+.PHONY : Server/HTTP/Request/RequestType.o
+
+# target to build an object file
+Server/HTTP/Request/RequestType.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o
+.PHONY : Server/HTTP/Request/RequestType.cpp.o
+
+Server/HTTP/Request/RequestType.i: Server/HTTP/Request/RequestType.cpp.i
+
+.PHONY : Server/HTTP/Request/RequestType.i
+
+# target to preprocess a source file
+Server/HTTP/Request/RequestType.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i
+.PHONY : Server/HTTP/Request/RequestType.cpp.i
+
+Server/HTTP/Request/RequestType.s: Server/HTTP/Request/RequestType.cpp.s
+
+.PHONY : Server/HTTP/Request/RequestType.s
+
+# target to generate assembly for a file
+Server/HTTP/Request/RequestType.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s
+.PHONY : Server/HTTP/Request/RequestType.cpp.s
+
+Server/HTTP/Response/Response.o: Server/HTTP/Response/Response.cpp.o
+
+.PHONY : Server/HTTP/Response/Response.o
+
+# target to build an object file
+Server/HTTP/Response/Response.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o
+.PHONY : Server/HTTP/Response/Response.cpp.o
+
+Server/HTTP/Response/Response.i: Server/HTTP/Response/Response.cpp.i
+
+.PHONY : Server/HTTP/Response/Response.i
+
+# target to preprocess a source file
+Server/HTTP/Response/Response.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i
+.PHONY : Server/HTTP/Response/Response.cpp.i
+
+Server/HTTP/Response/Response.s: Server/HTTP/Response/Response.cpp.s
+
+.PHONY : Server/HTTP/Response/Response.s
+
+# target to generate assembly for a file
+Server/HTTP/Response/Response.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s
+.PHONY : Server/HTTP/Response/Response.cpp.s
+
+Server/HTTP/Response/ResponseStatus.o: Server/HTTP/Response/ResponseStatus.cpp.o
+
+.PHONY : Server/HTTP/Response/ResponseStatus.o
+
+# target to build an object file
+Server/HTTP/Response/ResponseStatus.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o
+.PHONY : Server/HTTP/Response/ResponseStatus.cpp.o
+
+Server/HTTP/Response/ResponseStatus.i: Server/HTTP/Response/ResponseStatus.cpp.i
+
+.PHONY : Server/HTTP/Response/ResponseStatus.i
+
+# target to preprocess a source file
+Server/HTTP/Response/ResponseStatus.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i
+.PHONY : Server/HTTP/Response/ResponseStatus.cpp.i
+
+Server/HTTP/Response/ResponseStatus.s: Server/HTTP/Response/ResponseStatus.cpp.s
+
+.PHONY : Server/HTTP/Response/ResponseStatus.s
+
+# target to generate assembly for a file
+Server/HTTP/Response/ResponseStatus.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s
+.PHONY : Server/HTTP/Response/ResponseStatus.cpp.s
+
+Server/HTTP/View/HtmlView.o: Server/HTTP/View/HtmlView.cpp.o
+
+.PHONY : Server/HTTP/View/HtmlView.o
+
+# target to build an object file
+Server/HTTP/View/HtmlView.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o
+.PHONY : Server/HTTP/View/HtmlView.cpp.o
+
+Server/HTTP/View/HtmlView.i: Server/HTTP/View/HtmlView.cpp.i
+
+.PHONY : Server/HTTP/View/HtmlView.i
+
+# target to preprocess a source file
+Server/HTTP/View/HtmlView.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i
+.PHONY : Server/HTTP/View/HtmlView.cpp.i
+
+Server/HTTP/View/HtmlView.s: Server/HTTP/View/HtmlView.cpp.s
+
+.PHONY : Server/HTTP/View/HtmlView.s
+
+# target to generate assembly for a file
+Server/HTTP/View/HtmlView.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s
+.PHONY : Server/HTTP/View/HtmlView.cpp.s
+
+Server/HTTP/View/View.o: Server/HTTP/View/View.cpp.o
+
+.PHONY : Server/HTTP/View/View.o
+
+# target to build an object file
+Server/HTTP/View/View.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o
+.PHONY : Server/HTTP/View/View.cpp.o
+
+Server/HTTP/View/View.i: Server/HTTP/View/View.cpp.i
+
+.PHONY : Server/HTTP/View/View.i
+
+# target to preprocess a source file
+Server/HTTP/View/View.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i
+.PHONY : Server/HTTP/View/View.cpp.i
+
+Server/HTTP/View/View.s: Server/HTTP/View/View.cpp.s
+
+.PHONY : Server/HTTP/View/View.s
+
+# target to generate assembly for a file
+Server/HTTP/View/View.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s
+.PHONY : Server/HTTP/View/View.cpp.s
+
+Server/Selector/EpollSelector.o: Server/Selector/EpollSelector.cpp.o
+
+.PHONY : Server/Selector/EpollSelector.o
+
+# target to build an object file
+Server/Selector/EpollSelector.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o
+.PHONY : Server/Selector/EpollSelector.cpp.o
+
+Server/Selector/EpollSelector.i: Server/Selector/EpollSelector.cpp.i
+
+.PHONY : Server/Selector/EpollSelector.i
+
+# target to preprocess a source file
+Server/Selector/EpollSelector.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i
+.PHONY : Server/Selector/EpollSelector.cpp.i
+
+Server/Selector/EpollSelector.s: Server/Selector/EpollSelector.cpp.s
+
+.PHONY : Server/Selector/EpollSelector.s
+
+# target to generate assembly for a file
+Server/Selector/EpollSelector.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s
+.PHONY : Server/Selector/EpollSelector.cpp.s
 
 allocator/Allocator.o: allocator/Allocator.cpp.o
 
@@ -366,6 +636,141 @@ io/Buffer/Buffer.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s
 .PHONY : io/Buffer/Buffer.cpp.s
 
+io/Channel/Channel.o: io/Channel/Channel.cpp.o
+
+.PHONY : io/Channel/Channel.o
+
+# target to build an object file
+io/Channel/Channel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o
+.PHONY : io/Channel/Channel.cpp.o
+
+io/Channel/Channel.i: io/Channel/Channel.cpp.i
+
+.PHONY : io/Channel/Channel.i
+
+# target to preprocess a source file
+io/Channel/Channel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i
+.PHONY : io/Channel/Channel.cpp.i
+
+io/Channel/Channel.s: io/Channel/Channel.cpp.s
+
+.PHONY : io/Channel/Channel.s
+
+# target to generate assembly for a file
+io/Channel/Channel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s
+.PHONY : io/Channel/Channel.cpp.s
+
+io/Channel/File/FileChannel.o: io/Channel/File/FileChannel.cpp.o
+
+.PHONY : io/Channel/File/FileChannel.o
+
+# target to build an object file
+io/Channel/File/FileChannel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o
+.PHONY : io/Channel/File/FileChannel.cpp.o
+
+io/Channel/File/FileChannel.i: io/Channel/File/FileChannel.cpp.i
+
+.PHONY : io/Channel/File/FileChannel.i
+
+# target to preprocess a source file
+io/Channel/File/FileChannel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i
+.PHONY : io/Channel/File/FileChannel.cpp.i
+
+io/Channel/File/FileChannel.s: io/Channel/File/FileChannel.cpp.s
+
+.PHONY : io/Channel/File/FileChannel.s
+
+# target to generate assembly for a file
+io/Channel/File/FileChannel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s
+.PHONY : io/Channel/File/FileChannel.cpp.s
+
+io/Channel/File/FileStatus.o: io/Channel/File/FileStatus.cpp.o
+
+.PHONY : io/Channel/File/FileStatus.o
+
+# target to build an object file
+io/Channel/File/FileStatus.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o
+.PHONY : io/Channel/File/FileStatus.cpp.o
+
+io/Channel/File/FileStatus.i: io/Channel/File/FileStatus.cpp.i
+
+.PHONY : io/Channel/File/FileStatus.i
+
+# target to preprocess a source file
+io/Channel/File/FileStatus.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i
+.PHONY : io/Channel/File/FileStatus.cpp.i
+
+io/Channel/File/FileStatus.s: io/Channel/File/FileStatus.cpp.s
+
+.PHONY : io/Channel/File/FileStatus.s
+
+# target to generate assembly for a file
+io/Channel/File/FileStatus.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s
+.PHONY : io/Channel/File/FileStatus.cpp.s
+
+io/Channel/Network/ServerSocketChannel.o: io/Channel/Network/ServerSocketChannel.cpp.o
+
+.PHONY : io/Channel/Network/ServerSocketChannel.o
+
+# target to build an object file
+io/Channel/Network/ServerSocketChannel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
+.PHONY : io/Channel/Network/ServerSocketChannel.cpp.o
+
+io/Channel/Network/ServerSocketChannel.i: io/Channel/Network/ServerSocketChannel.cpp.i
+
+.PHONY : io/Channel/Network/ServerSocketChannel.i
+
+# target to preprocess a source file
+io/Channel/Network/ServerSocketChannel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+.PHONY : io/Channel/Network/ServerSocketChannel.cpp.i
+
+io/Channel/Network/ServerSocketChannel.s: io/Channel/Network/ServerSocketChannel.cpp.s
+
+.PHONY : io/Channel/Network/ServerSocketChannel.s
+
+# target to generate assembly for a file
+io/Channel/Network/ServerSocketChannel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+.PHONY : io/Channel/Network/ServerSocketChannel.cpp.s
+
+io/Channel/Network/SocketChannel.o: io/Channel/Network/SocketChannel.cpp.o
+
+.PHONY : io/Channel/Network/SocketChannel.o
+
+# target to build an object file
+io/Channel/Network/SocketChannel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o
+.PHONY : io/Channel/Network/SocketChannel.cpp.o
+
+io/Channel/Network/SocketChannel.i: io/Channel/Network/SocketChannel.cpp.i
+
+.PHONY : io/Channel/Network/SocketChannel.i
+
+# target to preprocess a source file
+io/Channel/Network/SocketChannel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
+.PHONY : io/Channel/Network/SocketChannel.cpp.i
+
+io/Channel/Network/SocketChannel.s: io/Channel/Network/SocketChannel.cpp.s
+
+.PHONY : io/Channel/Network/SocketChannel.s
+
+# target to generate assembly for a file
+io/Channel/Network/SocketChannel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
+.PHONY : io/Channel/Network/SocketChannel.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -400,8 +805,38 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... referencelib"
+	@echo "... edit_cache"
+	@echo "... Server/HTTP/Controller/Controller.o"
+	@echo "... Server/HTTP/Controller/Controller.i"
+	@echo "... Server/HTTP/Controller/Controller.s"
+	@echo "... Server/HTTP/Cookie/Cookie.o"
+	@echo "... Server/HTTP/Cookie/Cookie.i"
+	@echo "... Server/HTTP/Cookie/Cookie.s"
+	@echo "... Server/HTTP/HttpListener/HttpListener.o"
+	@echo "... Server/HTTP/HttpListener/HttpListener.i"
+	@echo "... Server/HTTP/HttpListener/HttpListener.s"
+	@echo "... Server/HTTP/Request/Request.o"
+	@echo "... Server/HTTP/Request/Request.i"
+	@echo "... Server/HTTP/Request/Request.s"
+	@echo "... Server/HTTP/Request/RequestType.o"
+	@echo "... Server/HTTP/Request/RequestType.i"
+	@echo "... Server/HTTP/Request/RequestType.s"
+	@echo "... Server/HTTP/Response/Response.o"
+	@echo "... Server/HTTP/Response/Response.i"
+	@echo "... Server/HTTP/Response/Response.s"
+	@echo "... Server/HTTP/Response/ResponseStatus.o"
+	@echo "... Server/HTTP/Response/ResponseStatus.i"
+	@echo "... Server/HTTP/Response/ResponseStatus.s"
+	@echo "... Server/HTTP/View/HtmlView.o"
+	@echo "... Server/HTTP/View/HtmlView.i"
+	@echo "... Server/HTTP/View/HtmlView.s"
+	@echo "... Server/HTTP/View/View.o"
+	@echo "... Server/HTTP/View/View.i"
+	@echo "... Server/HTTP/View/View.s"
+	@echo "... Server/Selector/EpollSelector.o"
+	@echo "... Server/Selector/EpollSelector.i"
+	@echo "... Server/Selector/EpollSelector.s"
 	@echo "... allocator/Allocator.o"
 	@echo "... allocator/Allocator.i"
 	@echo "... allocator/Allocator.s"
@@ -429,6 +864,21 @@ help:
 	@echo "... io/Buffer/Buffer.o"
 	@echo "... io/Buffer/Buffer.i"
 	@echo "... io/Buffer/Buffer.s"
+	@echo "... io/Channel/Channel.o"
+	@echo "... io/Channel/Channel.i"
+	@echo "... io/Channel/Channel.s"
+	@echo "... io/Channel/File/FileChannel.o"
+	@echo "... io/Channel/File/FileChannel.i"
+	@echo "... io/Channel/File/FileChannel.s"
+	@echo "... io/Channel/File/FileStatus.o"
+	@echo "... io/Channel/File/FileStatus.i"
+	@echo "... io/Channel/File/FileStatus.s"
+	@echo "... io/Channel/Network/ServerSocketChannel.o"
+	@echo "... io/Channel/Network/ServerSocketChannel.i"
+	@echo "... io/Channel/Network/ServerSocketChannel.s"
+	@echo "... io/Channel/Network/SocketChannel.o"
+	@echo "... io/Channel/Network/SocketChannel.i"
+	@echo "... io/Channel/Network/SocketChannel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

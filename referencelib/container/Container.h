@@ -34,7 +34,7 @@ public:
 
     typedef typename Container<T>::iterator parent_iterator;
 
-    Pointer<SString> toString() override {
+    virtual Pointer<SString> toString() override {
         Pointer<SString> str = new SString;
         char leftbracket = '[', righbracket = ']';
         str->append(&leftbracket, 1);

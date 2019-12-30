@@ -31,7 +31,7 @@ public:
 
     virtual hash_type hash();
 
-    virtual Pointer<SString> toString() ;
+    virtual Pointer<SString> toString();
 };
 
 

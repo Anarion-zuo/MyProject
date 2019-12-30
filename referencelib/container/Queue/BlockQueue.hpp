@@ -40,6 +40,11 @@ public:
         mutex->lock();
         ListQueue<T>::put(ptr);
         mutex->unlock();
+        cond->signalAll();
+    }
+
+    void put(Pointer<T> p) {
+        put(p.operator->());
     }
 
     Pointer<T> poll() {

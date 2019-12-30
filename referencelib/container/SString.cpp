@@ -61,3 +61,18 @@ void SString::append(Pointer<SString> rhs) {
 const char *SString::cstr() const {
     return begin;
 }
+
+Pointer<SString> SString::copyFromStack(char *str) {
+    size_type len = strlen(str);
+    char *p = new char[len + 1];
+    strcpy(p, str);
+    return new SString(p);
+}
+
+Pointer<SString> SString::toString() {
+    return (clone().operator->());
+}
+
+Pointer<Object> SString::clone() {
+    return copyFromStack(begin).operator->();
+}

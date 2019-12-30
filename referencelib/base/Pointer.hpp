@@ -6,6 +6,7 @@
 #ifndef REFERENCELIB_POINTER_HPP
 #define REFERENCELIB_POINTER_HPP
 
+#include <cstddef>
 #include "Object.h"
 
 template <typename T>
@@ -15,6 +16,7 @@ protected:
 
 public:
     Pointer() : ptr(nullptr) {}
+    Pointer(std::nullptr_t p) : ptr(p) {}
     template <typename V> Pointer(V *ptr) : ptr(reinterpret_cast<T*>(ptr)) {}
 
     template <typename V>

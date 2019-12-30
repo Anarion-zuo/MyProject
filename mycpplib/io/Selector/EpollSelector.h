@@ -2,8 +2,8 @@
 // Created by 左钰 on 2019/12/15.
 //
 
-#ifndef MYCPPLIB_SELECTOR_H
-#define MYCPPLIB_SELECTOR_H
+#ifndef MYCPPLIB_EPOLLSELECTOR_H
+#define MYCPPLIB_EPOLLSELECTOR_H
 
 
 #include <featurers/UnCopiable.h>
@@ -11,7 +11,7 @@
 #include <sys/epoll.h>
 #include <containers/Queue/BlockQueue.hpp>
 
-class Selector : public UnCopiable {
+class EpollSelector : public UnCopiable {
 protected:
     ServerSocketChannel *listenChannel;
     int epfd;
@@ -37,11 +37,11 @@ protected:
     void addEvent(int cfd);
 
 public:
-    explicit Selector(ServerSocketChannel *channel = nullptr);
+    explicit EpollSelector(ServerSocketChannel *channel = nullptr);
     void run();
 
     packet pollPacket();
 };
 
 
-#endif //MYCPPLIB_SELECTOR_H
+#endif //MYCPPLIB_EPOLLSELECTOR_H
