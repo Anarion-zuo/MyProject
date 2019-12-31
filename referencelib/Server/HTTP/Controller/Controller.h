@@ -11,20 +11,23 @@
 #include "../../../base/Pointer.hpp"
 #include "../Request/Request.h"
 #include "../Response/Response.h"
+#include "../../../container/Queue/ListQueue.h"
 
 class HtmlResolver;
 class Controller {
 protected:
-    Pointer<SString> pattern = new SString;
-    Pointer<Request> request;
-    Pointer<Response> response;
 
-    Pointer<HtmlResolver> run();
+
+    static Pointer<Map<Request, Controller>> controls;
+    static void init();
+    static void dispatchOne(Pointer<Request> request);
+
+    Pointer<HtmlResolver> run(Pointer<Request> request, Pointer<Response> response);
 public:
-    virtual Pointer<SString> onGet() = 0;
-    virtual Pointer<SString> onPost() = 0;
-    virtual Pointer<SString> onDelete() = 0;
-    virtual Pointer<SString> onPut() = 0;
+    virtual Pointer<SString> onGet(Pointer<Request> request, Pointer<Response> response) = 0;
+    virtual Pointer<SString> onPost(Pointer<Request> request, Pointer<Response> response) = 0;
+    virtual Pointer<SString> onDelete(Pointer<Request> request, Pointer<Response> response) = 0;
+    virtual Pointer<SString> onPut(Pointer<Request> request, Pointer<Response> response) = 0;
 };
 
 
