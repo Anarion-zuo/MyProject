@@ -19,6 +19,7 @@ protected:
 public:
     SString() = default;
     explicit SString(char *str);  // should be only used when str is upon heap
+    ~SString();
     static Pointer<SString> copyFromStack(char *str);
 
     size_type length() const ;

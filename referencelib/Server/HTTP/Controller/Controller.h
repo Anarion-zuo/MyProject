@@ -12,13 +12,14 @@
 #include "../Request/Request.h"
 #include "../Response/Response.h"
 
+class HtmlResolver;
 class Controller {
 protected:
     Pointer<SString> pattern = new SString;
     Pointer<Request> request;
     Pointer<Response> response;
 
-    void run();
+    Pointer<HtmlResolver> run();
 public:
     virtual Pointer<SString> onGet() = 0;
     virtual Pointer<SString> onPost() = 0;

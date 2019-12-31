@@ -43,10 +43,10 @@ RM = /opt/cmake-3.16.1-Linux-x86_64/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.GnWlVhoxOY
+CMAKE_SOURCE_DIR = /tmp/tmp.57FtlZVoVl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug
+CMAKE_BINARY_DIR = /tmp/tmp.57FtlZVoVl/cmake-build-remotedebug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/referencelib.dir/depend.make
@@ -59,328 +59,328 @@ include CMakeFiles/referencelib.dir/flags.make
 
 CMakeFiles/referencelib.dir/main.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/referencelib.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/main.cpp.o -c /tmp/tmp.GnWlVhoxOY/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/referencelib.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/main.cpp.o -c /tmp/tmp.57FtlZVoVl/main.cpp
 
 CMakeFiles/referencelib.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/main.cpp > CMakeFiles/referencelib.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/main.cpp > CMakeFiles/referencelib.dir/main.cpp.i
 
 CMakeFiles/referencelib.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/main.cpp -o CMakeFiles/referencelib.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/main.cpp -o CMakeFiles/referencelib.dir/main.cpp.s
 
 CMakeFiles/referencelib.dir/base/Object.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/base/Object.cpp.o: ../base/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/referencelib.dir/base/Object.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/base/Object.cpp.o -c /tmp/tmp.GnWlVhoxOY/base/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/referencelib.dir/base/Object.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/base/Object.cpp.o -c /tmp/tmp.57FtlZVoVl/base/Object.cpp
 
 CMakeFiles/referencelib.dir/base/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/base/Object.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/base/Object.cpp > CMakeFiles/referencelib.dir/base/Object.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/base/Object.cpp > CMakeFiles/referencelib.dir/base/Object.cpp.i
 
 CMakeFiles/referencelib.dir/base/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/base/Object.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/base/Object.cpp -o CMakeFiles/referencelib.dir/base/Object.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/base/Object.cpp -o CMakeFiles/referencelib.dir/base/Object.cpp.s
 
 CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o: ../gc/GarbageCollector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o -c /tmp/tmp.GnWlVhoxOY/gc/GarbageCollector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o -c /tmp/tmp.57FtlZVoVl/gc/GarbageCollector.cpp
 
 CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/gc/GarbageCollector.cpp > CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/gc/GarbageCollector.cpp > CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.i
 
 CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/gc/GarbageCollector.cpp -o CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/gc/GarbageCollector.cpp -o CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.s
 
 CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o: ../concurrent/base/Thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o -c /tmp/tmp.GnWlVhoxOY/concurrent/base/Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o -c /tmp/tmp.57FtlZVoVl/concurrent/base/Thread.cpp
 
 CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/concurrent/base/Thread.cpp > CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/concurrent/base/Thread.cpp > CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.i
 
 CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/concurrent/base/Thread.cpp -o CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/concurrent/base/Thread.cpp -o CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.s
 
 CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o: ../concurrent/base/Mutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o -c /tmp/tmp.GnWlVhoxOY/concurrent/base/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o -c /tmp/tmp.57FtlZVoVl/concurrent/base/Mutex.cpp
 
 CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/concurrent/base/Mutex.cpp > CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/concurrent/base/Mutex.cpp > CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.i
 
 CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/concurrent/base/Mutex.cpp -o CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/concurrent/base/Mutex.cpp -o CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.s
 
 CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o: ../concurrent/base/CondVar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o -c /tmp/tmp.GnWlVhoxOY/concurrent/base/CondVar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o -c /tmp/tmp.57FtlZVoVl/concurrent/base/CondVar.cpp
 
 CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/concurrent/base/CondVar.cpp > CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/concurrent/base/CondVar.cpp > CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.i
 
 CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/concurrent/base/CondVar.cpp -o CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/concurrent/base/CondVar.cpp -o CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.s
 
 CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o: ../base/HashFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o -c /tmp/tmp.GnWlVhoxOY/base/HashFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o -c /tmp/tmp.57FtlZVoVl/base/HashFunctions.cpp
 
 CMakeFiles/referencelib.dir/base/HashFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/base/HashFunctions.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/base/HashFunctions.cpp > CMakeFiles/referencelib.dir/base/HashFunctions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/base/HashFunctions.cpp > CMakeFiles/referencelib.dir/base/HashFunctions.cpp.i
 
 CMakeFiles/referencelib.dir/base/HashFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/base/HashFunctions.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/base/HashFunctions.cpp -o CMakeFiles/referencelib.dir/base/HashFunctions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/base/HashFunctions.cpp -o CMakeFiles/referencelib.dir/base/HashFunctions.cpp.s
 
 CMakeFiles/referencelib.dir/container/SString.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/container/SString.cpp.o: ../container/SString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/referencelib.dir/container/SString.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/container/SString.cpp.o -c /tmp/tmp.GnWlVhoxOY/container/SString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/referencelib.dir/container/SString.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/container/SString.cpp.o -c /tmp/tmp.57FtlZVoVl/container/SString.cpp
 
 CMakeFiles/referencelib.dir/container/SString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/container/SString.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/container/SString.cpp > CMakeFiles/referencelib.dir/container/SString.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/container/SString.cpp > CMakeFiles/referencelib.dir/container/SString.cpp.i
 
 CMakeFiles/referencelib.dir/container/SString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/container/SString.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/container/SString.cpp -o CMakeFiles/referencelib.dir/container/SString.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/container/SString.cpp -o CMakeFiles/referencelib.dir/container/SString.cpp.s
 
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../io/Buffer/Buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o -c /tmp/tmp.GnWlVhoxOY/io/Buffer/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Buffer/Buffer.cpp
 
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/io/Buffer/Buffer.cpp > CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Buffer/Buffer.cpp > CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i
 
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/io/Buffer/Buffer.cpp -o CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Buffer/Buffer.cpp -o CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s
 
 CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o: ../allocator/Allocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o -c /tmp/tmp.GnWlVhoxOY/allocator/Allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o -c /tmp/tmp.57FtlZVoVl/allocator/Allocator.cpp
 
 CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/allocator/Allocator.cpp > CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/allocator/Allocator.cpp > CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i
 
 CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/allocator/Allocator.cpp -o CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/allocator/Allocator.cpp -o CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s
 
 CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o: ../io/Channel/File/FileChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o -c /tmp/tmp.GnWlVhoxOY/io/Channel/File/FileChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/File/FileChannel.cpp
 
 CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/io/Channel/File/FileChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/File/FileChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i
 
 CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/io/Channel/File/FileChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/File/FileChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s
 
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: ../io/Channel/Channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o -c /tmp/tmp.GnWlVhoxOY/io/Channel/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/Channel.cpp
 
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/io/Channel/Channel.cpp > CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/Channel.cpp > CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i
 
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/io/Channel/Channel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/Channel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s
 
 CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o: ../io/Channel/File/FileStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o -c /tmp/tmp.GnWlVhoxOY/io/Channel/File/FileStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/File/FileStatus.cpp
 
 CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/io/Channel/File/FileStatus.cpp > CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/File/FileStatus.cpp > CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i
 
 CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/io/Channel/File/FileStatus.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/File/FileStatus.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s
 
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /tmp/tmp.GnWlVhoxOY/io/Channel/Network/ServerSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp
 
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
 
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
 
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o -c /tmp/tmp.GnWlVhoxOY/io/Channel/Network/SocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp
 
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/io/Channel/Network/SocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
 
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
 
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../Server/Selector/EpollSelector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/Selector/EpollSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/Selector/EpollSelector.cpp
 
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/Selector/EpollSelector.cpp > CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/Selector/EpollSelector.cpp > CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i
 
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/Selector/EpollSelector.cpp -o CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/Selector/EpollSelector.cpp -o CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../Server/HTTP/Request/Request.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/Request/Request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/Request/Request.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/Request/Request.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/Request/Request.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/Request/Request.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/Request/Request.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o: ../Server/HTTP/Request/RequestType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/Request/RequestType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/Request/RequestType.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/Request/RequestType.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/Request/RequestType.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/Request/RequestType.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/Request/RequestType.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../Server/HTTP/HttpListener/HttpListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/HttpListener/HttpListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/HttpListener/HttpListener.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/HttpListener/HttpListener.cpp > CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/HttpListener/HttpListener.cpp > CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/HttpListener/HttpListener.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/HttpListener/HttpListener.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Controller/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/Controller/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/Controller/Controller.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/Controller/Controller.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/Controller/Controller.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/Controller/Controller.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/Controller/Controller.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../Server/HTTP/Response/Response.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/Response/Response.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/Response/Response.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/Response/Response.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/Response/Response.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/Response/Response.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/Response/Response.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o: ../Server/HTTP/Response/ResponseStatus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/Response/ResponseStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/Response/ResponseStatus.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/Response/ResponseStatus.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/Response/ResponseStatus.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/Response/ResponseStatus.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/Response/ResponseStatus.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../Server/HTTP/Cookie/Cookie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/Cookie/Cookie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/Cookie/Cookie.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/Cookie/Cookie.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/Cookie/Cookie.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/Cookie/Cookie.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/Cookie/Cookie.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: ../Server/HTTP/View/View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/View/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/View/View.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/View/View.cpp > CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/View/View.cpp > CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/View/View.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/View/View.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s
 
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../Server/HTTP/View/HtmlView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o -c /tmp/tmp.GnWlVhoxOY/Server/HTTP/View/HtmlView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o -c /tmp/tmp.57FtlZVoVl/Server/HTTP/View/HtmlView.cpp
 
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.GnWlVhoxOY/Server/HTTP/View/HtmlView.cpp > CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/Server/HTTP/View/HtmlView.cpp > CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i
 
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.GnWlVhoxOY/Server/HTTP/View/HtmlView.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/Server/HTTP/View/HtmlView.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s
 
 # Object files for target referencelib
 referencelib_OBJECTS = \
@@ -440,7 +440,7 @@ referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o
 referencelib: CMakeFiles/referencelib.dir/build.make
 referencelib: CMakeFiles/referencelib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable referencelib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable referencelib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/referencelib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -453,6 +453,6 @@ CMakeFiles/referencelib.dir/clean:
 .PHONY : CMakeFiles/referencelib.dir/clean
 
 CMakeFiles/referencelib.dir/depend:
-	cd /tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.GnWlVhoxOY /tmp/tmp.GnWlVhoxOY /tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug /tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug /tmp/tmp.GnWlVhoxOY/cmake-build-remotedebug/CMakeFiles/referencelib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/tmp.57FtlZVoVl/cmake-build-remotedebug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.57FtlZVoVl /tmp/tmp.57FtlZVoVl /tmp/tmp.57FtlZVoVl/cmake-build-remotedebug /tmp/tmp.57FtlZVoVl/cmake-build-remotedebug /tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles/referencelib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/referencelib.dir/depend
 

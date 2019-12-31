@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anarion/Documents/MyProjects/referencelib
+CMAKE_SOURCE_DIR = /home/anarion/Documents/MyProjects/referencelib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release
+CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/referencelib/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/referencelib/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles /home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -365,6 +365,87 @@ Server/HTTP/View/View.s: Server/HTTP/View/View.cpp.s
 Server/HTTP/View/View.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s
 .PHONY : Server/HTTP/View/View.cpp.s
+
+Server/HTTP/View/model/ViewModel.o: Server/HTTP/View/model/ViewModel.cpp.o
+
+.PHONY : Server/HTTP/View/model/ViewModel.o
+
+# target to build an object file
+Server/HTTP/View/model/ViewModel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o
+.PHONY : Server/HTTP/View/model/ViewModel.cpp.o
+
+Server/HTTP/View/model/ViewModel.i: Server/HTTP/View/model/ViewModel.cpp.i
+
+.PHONY : Server/HTTP/View/model/ViewModel.i
+
+# target to preprocess a source file
+Server/HTTP/View/model/ViewModel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.i
+.PHONY : Server/HTTP/View/model/ViewModel.cpp.i
+
+Server/HTTP/View/model/ViewModel.s: Server/HTTP/View/model/ViewModel.cpp.s
+
+.PHONY : Server/HTTP/View/model/ViewModel.s
+
+# target to generate assembly for a file
+Server/HTTP/View/model/ViewModel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.s
+.PHONY : Server/HTTP/View/model/ViewModel.cpp.s
+
+Server/HTTP/View/resolver/HtmlResolver.o: Server/HTTP/View/resolver/HtmlResolver.cpp.o
+
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.o
+
+# target to build an object file
+Server/HTTP/View/resolver/HtmlResolver.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.cpp.o
+
+Server/HTTP/View/resolver/HtmlResolver.i: Server/HTTP/View/resolver/HtmlResolver.cpp.i
+
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.i
+
+# target to preprocess a source file
+Server/HTTP/View/resolver/HtmlResolver.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.i
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.cpp.i
+
+Server/HTTP/View/resolver/HtmlResolver.s: Server/HTTP/View/resolver/HtmlResolver.cpp.s
+
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.s
+
+# target to generate assembly for a file
+Server/HTTP/View/resolver/HtmlResolver.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.s
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.cpp.s
+
+Server/HTTP/View/resolver/ViewResolver.o: Server/HTTP/View/resolver/ViewResolver.cpp.o
+
+.PHONY : Server/HTTP/View/resolver/ViewResolver.o
+
+# target to build an object file
+Server/HTTP/View/resolver/ViewResolver.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o
+.PHONY : Server/HTTP/View/resolver/ViewResolver.cpp.o
+
+Server/HTTP/View/resolver/ViewResolver.i: Server/HTTP/View/resolver/ViewResolver.cpp.i
+
+.PHONY : Server/HTTP/View/resolver/ViewResolver.i
+
+# target to preprocess a source file
+Server/HTTP/View/resolver/ViewResolver.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.i
+.PHONY : Server/HTTP/View/resolver/ViewResolver.cpp.i
+
+Server/HTTP/View/resolver/ViewResolver.s: Server/HTTP/View/resolver/ViewResolver.cpp.s
+
+.PHONY : Server/HTTP/View/resolver/ViewResolver.s
+
+# target to generate assembly for a file
+Server/HTTP/View/resolver/ViewResolver.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.s
+.PHONY : Server/HTTP/View/resolver/ViewResolver.cpp.s
 
 Server/Selector/EpollSelector.o: Server/Selector/EpollSelector.cpp.o
 
@@ -805,8 +886,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... referencelib"
+	@echo "... edit_cache"
 	@echo "... Server/HTTP/Controller/Controller.o"
 	@echo "... Server/HTTP/Controller/Controller.i"
 	@echo "... Server/HTTP/Controller/Controller.s"
@@ -834,6 +915,15 @@ help:
 	@echo "... Server/HTTP/View/View.o"
 	@echo "... Server/HTTP/View/View.i"
 	@echo "... Server/HTTP/View/View.s"
+	@echo "... Server/HTTP/View/model/ViewModel.o"
+	@echo "... Server/HTTP/View/model/ViewModel.i"
+	@echo "... Server/HTTP/View/model/ViewModel.s"
+	@echo "... Server/HTTP/View/resolver/HtmlResolver.o"
+	@echo "... Server/HTTP/View/resolver/HtmlResolver.i"
+	@echo "... Server/HTTP/View/resolver/HtmlResolver.s"
+	@echo "... Server/HTTP/View/resolver/ViewResolver.o"
+	@echo "... Server/HTTP/View/resolver/ViewResolver.i"
+	@echo "... Server/HTTP/View/resolver/ViewResolver.s"
 	@echo "... Server/Selector/EpollSelector.o"
 	@echo "... Server/Selector/EpollSelector.i"
 	@echo "... Server/Selector/EpollSelector.s"

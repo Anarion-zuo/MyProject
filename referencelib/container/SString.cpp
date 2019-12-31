@@ -76,3 +76,7 @@ Pointer<SString> SString::toString() {
 Pointer<Object> SString::clone() {
     return copyFromStack(begin).operator->();
 }
+
+SString::~SString() {
+    delete []begin;
+}

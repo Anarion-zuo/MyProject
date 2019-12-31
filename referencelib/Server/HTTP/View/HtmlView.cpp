@@ -29,3 +29,11 @@ HtmlView::HtmlView(Pointer<SString> name) {
     channel = FileChannel::open(dir);
 
 }
+
+void HtmlView::readFile() {
+    channel->write(buffer);
+}
+
+void HtmlView::send(Pointer<SocketChannel> socket) {
+    socket->read(buffer);
+}

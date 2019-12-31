@@ -5,8 +5,10 @@
 
 #include "Controller.h"
 #include "../../../exceptions/Server/Http/RequestTypeUnsupportedException.h"
+#include "../View/HtmlView.h"
+#include "../View/resolver/HtmlResolver.h"
 
-void Controller::run() {
+Pointer<HtmlResolver> Controller::run() {
     int type = request->getType().getNum();
     Pointer<SString> retStr;
     switch (type) {
@@ -25,5 +27,8 @@ void Controller::run() {
         default:
             throw RequestTypeUnsupportedException();
     }
-
+    Pointer<HtmlView> view = new HtmlView(retStr);
+    Pointer<ViewModel> model = new ViewModel(new HashMap<SString, SString>);
+    Pointer<HtmlResolver> resolver = new HtmlResolver(view, model);
+    return resolver;
 }
