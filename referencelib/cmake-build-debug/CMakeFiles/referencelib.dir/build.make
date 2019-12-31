@@ -187,6 +187,201 @@ CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/allocator/Allocator.cpp -o CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s
 
+CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o: ../io/Channel/File/FileChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileChannel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s
+
+CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: ../io/Channel/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Channel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Channel.cpp > CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Channel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s
+
+CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o: ../io/Channel/File/FileStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileStatus.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileStatus.cpp > CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileStatus.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s
+
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
+
+CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../Server/Selector/EpollSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/Selector/EpollSelector.cpp
+
+CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/Selector/EpollSelector.cpp > CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i
+
+CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/Selector/EpollSelector.cpp -o CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../Server/HTTP/Request/Request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/Request.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/Request.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/Request.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o: ../Server/HTTP/Request/RequestType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/RequestType.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/RequestType.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/RequestType.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../Server/HTTP/HttpListener/HttpListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/HttpListener/HttpListener.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/HttpListener/HttpListener.cpp > CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/HttpListener/HttpListener.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Controller/Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/Controller.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/Controller.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/Controller.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../Server/HTTP/Response/Response.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/Response.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/Response.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/Response.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o: ../Server/HTTP/Response/ResponseStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/ResponseStatus.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/ResponseStatus.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/ResponseStatus.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../Server/HTTP/Cookie/Cookie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Cookie/Cookie.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Cookie/Cookie.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Cookie/Cookie.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: ../Server/HTTP/View/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/View.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/View.cpp > CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/View.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../Server/HTTP/View/HtmlView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o -c /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/HtmlView.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/HtmlView.cpp > CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/HtmlView.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s
+
 # Object files for target referencelib
 referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/main.cpp.o" \
@@ -198,7 +393,22 @@ referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o" \
 "CMakeFiles/referencelib.dir/container/SString.cpp.o" \
 "CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o" \
-"CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o"
+"CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o"
 
 # External object files for target referencelib
 referencelib_EXTERNAL_OBJECTS =
@@ -213,9 +423,24 @@ referencelib: CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o
 referencelib: CMakeFiles/referencelib.dir/container/SString.cpp.o
 referencelib: CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o
 referencelib: CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o
 referencelib: CMakeFiles/referencelib.dir/build.make
 referencelib: CMakeFiles/referencelib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable referencelib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable referencelib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/referencelib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -80,6 +80,66 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/Controller.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/Controller.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Cookie/Cookie.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Cookie/Cookie.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/HttpListener/HttpListener.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/HttpListener/HttpListener.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/Request.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/Request.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/RequestType.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/RequestType.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/Response.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/Response.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/ResponseStatus.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/Response/ResponseStatus.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/HtmlView.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/HtmlView.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/View.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/View.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/Selector/EpollSelector.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/Server/Selector/EpollSelector.h">
+			<Option target="referencelib"/>
+		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/allocator/Allocator.cpp">
 			<Option target="referencelib"/>
 		</Unit>
@@ -170,7 +230,58 @@
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/MyException.h">
 			<Option target="referencelib"/>
 		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/Server/Http/HttpFormatException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/Server/Http/RequestTypeUnsupportedException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/Server/HttpException.h">
+			<Option target="referencelib"/>
+		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/container/IndexOutOfRangeException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/AcceptException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/BindException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/CloseFdException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/ConnectException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/EpollExceptions.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/FcntlException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/FstatException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/ListenException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/OpenFdException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/ReadFdException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/ReceiveException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/RemoveFileException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/SendException.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/exceptions/system/SystemException.h">
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/gc/GarbageCollector.cpp">
@@ -183,6 +294,36 @@
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Buffer/Buffer.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/Channel.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/Channel.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileChannel.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileChannel.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileStatus.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileStatus.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.h">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp">
+			<Option target="referencelib"/>
+		</Unit>
+		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.h">
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/Users/anarion/Documents/MyProjects/referencelib/main.cpp">

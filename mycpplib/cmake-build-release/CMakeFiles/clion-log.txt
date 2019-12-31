@@ -1,4 +1,16 @@
 /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/anarion/Documents/MyProjects/mycpplib
 -- Configuring done
--- Generating done
--- Build files have been written to: /home/anarion/Documents/MyProjects/mycpplib/cmake-build-release
+CMake Error at CMakeLists.txt:18 (add_executable):
+  Cannot find source file:
+
+    allocator/allocator.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:18 (add_executable):
+  No SOURCES given to target: mycpplib
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

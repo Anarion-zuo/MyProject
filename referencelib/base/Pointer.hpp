@@ -6,6 +6,7 @@
 #ifndef REFERENCELIB_POINTER_HPP
 #define REFERENCELIB_POINTER_HPP
 
+#include <cstddef>
 #include "Object.h"
 
 template <typename T>
@@ -15,6 +16,7 @@ protected:
 
 public:
     Pointer() : ptr(nullptr) {}
+    Pointer(std::nullptr_t p) : ptr(p) {}
     template <typename V> Pointer(V *ptr) : ptr(reinterpret_cast<T*>(ptr)) {}
 
     template <typename V>
@@ -30,10 +32,10 @@ public:
 
     template <typename V>
     Pointer<T> &operator=(const Pointer<V> &rhs) {
-        if (&rhs == this) {
+        if ((Pointer<T>*)(&rhs) == this) {
             return *this;
         }
-        ptr = reinterpret_cast<T*>(rhs);
+        ptr = (T*)((const_cast<Pointer<V>&>(rhs)).operator->());
         return *this;
     }
 

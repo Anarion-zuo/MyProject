@@ -52,8 +52,9 @@ public:
     size_type writtenSize() const ;
     size_type unWrittenSize() const ;
     size_type unTouchedSize() const ;
+    size_type unReadSize() const ;
 
-    static Buffer allocate(size_type num);
+    static Pointer<Buffer> allocate(size_type num);
     void clear();
     void clearContent();
     void updateSize(size_type writtenSize);
@@ -67,8 +68,10 @@ public:
     void flip();
     char get();
     char *get(size_type num);
+    char *getRest();
 
     char *getUntil(char c, size_type *len);
+    Pointer<Buffer> getUntil(char c);
 
     void mark();
     void reset();

@@ -15,9 +15,12 @@ protected:
         hash_type hash;
         Node *next;
 
-        explicit Node(hash_type hash = 0, Pointer<T> ptr = nullptr, Node *next = nullptr) : hash(hash), ptr(ptr), next(next) {}
+        explicit Node(hash_type hash, Pointer<T> ptr, Node *next = nullptr) : hash(hash), ptr(ptr), next(next) {}
         ~Node() = default;
+        Node() : hash(0), ptr(), next(nullptr) {}
+        explicit Node(Pointer<T> ptr) : ptr(ptr), hash(0), next(next) {}
     };
+
 
     Node *heads;
     size_type headsCount = 20, count = 0;
@@ -39,13 +42,6 @@ protected:
             }
         }
         delete[] oldheads;
-    }
-
-    void put(T *p) {
-        hash_type hash = p->hash();
-        size_type index = hash % headsCount;
-        Node *next = heads[index].next;
-        heads[index].next = new Node(hash, p, next);
     }
 
     Node *findNode(T *p) {
@@ -155,7 +151,14 @@ public:
             expand();
         }
         put(p.operator->());
+    }
+
+    void put(T *p) {
         ++count;
+        hash_type hash = p->hash();
+        size_type index = hash % headsCount;
+        Node *next = heads[index].next;
+        heads[index].next = new Node(hash, p, next);
     }
 
     void putAll(Pointer<Container<T>> rhs) override {

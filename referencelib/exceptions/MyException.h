@@ -7,6 +7,9 @@
 
 
 #include <exception>
+#include <cstdio>
+#include <cerrno>
+#include <cstring>
 
 struct MyException : public std::exception {
     const char *what() const noexcept override {

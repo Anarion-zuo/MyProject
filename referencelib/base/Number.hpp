@@ -5,51 +5,52 @@
 #ifndef REFERENCELIB_NUMBER_HPP
 #define REFERENCELIB_NUMBER_HPP
 
-#include "Object.h"
+#include "Pointer.hpp"
 #include <cstring>
 #include <cstdlib>
+#include <cstdio>
+#include "../container/SString.h"
+
+static char *numberToString(int num) {
+    char *p = new char [12];
+    sprintf(p, "%d", num);
+    return p;
+}
+
+static char *numberToString(unsigned int num) {
+    char *p = new char [12];
+    sprintf(p, "%u", num);
+    return p;
+}
+
+static char *numberToString(long num) {
+    char *p = new char [22];
+    sprintf(p, "%l", num);
+    return p;
+}
+
+static char *numberToString(unsigned long num) {
+    char *p = new char [22];
+    sprintf(p, "%ul", num);
+    return p;
+}
+
+static char *numberToString(float num) {
+    char *p = new char [22];
+    sprintf(p, "%f", num);
+    return p;
+}
+
+static char *numberToString(double num) {
+    char *p = new char [22];
+    sprintf(p, "%lf", num);
+    return p;
+}
 
 template <typename T>
 class Number : public Object {
 protected:
     T val;
-
-
-    static char *numToStr(int num) {
-        char *p = new char [12];
-        sprintf(p, "%d", num);
-        return p;
-    }
-
-    static char *numToStr(unsigned int num) {
-        char *p = new char [12];
-        sprintf(p, "%u", num);
-        return p;
-    }
-
-    static char *numToStr(long num) {
-        char *p = new char [22];
-        sprintf(p, "%l", num);
-        return p;
-    }
-
-    static char *numToStr(unsigned long num) {
-        char *p = new char [22];
-        sprintf(p, "%ul", num);
-        return p;
-    }
-
-    static char *numToStr(float num) {
-        char *p = new char [22];
-        sprintf(p, "%f", num);
-        return p;
-    }
-
-    static char *numToStr(double num) {
-        char *p = new char [22];
-        sprintf(p, "%lf", num);
-        return p;
-    }
 
 public:
     Number(T val = 0) : val(val) {}
@@ -87,7 +88,7 @@ public:
     }
 
     template <typename R> auto operator-(const Number<R> &rhs) const -> Number<decltype(rhs.val - val)> {
-        return Number(rhs.val - val);
+        return Number(val - rhs.val);
     }
 
     template <typename R> auto operator*(const Number<R> &rhs) const -> Number<decltype(rhs.val * val)> {
@@ -95,11 +96,11 @@ public:
     }
 
     template <typename R> auto operator/(const Number<R> &rhs) const -> Number<decltype(rhs.val / val)> {
-        return Number(rhs.val / val);
+        return Number(val / rhs.val);
     }
 
     template <typename R> auto operator%(const Number<R> &rhs) const -> Number<decltype(rhs.val % val)> {
-        return Number(rhs.val % val);
+        return Number(val % rhs.val);
     }
 
     Number<T> &operator++() {
@@ -121,7 +122,7 @@ public:
     }
 
     Pointer<SString> toString() override {
-        return new SString(numToStr(val));
+        return new SString(numberToString(val));
     }
 };
 
