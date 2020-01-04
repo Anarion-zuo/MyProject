@@ -9,7 +9,7 @@
 #include "../../exceptions/system/AcceptException.h"
 #include "../../exceptions/system/CloseFdException.h"
 
-EpollSelector::EpollSelector(Pointer<ServerSocketChannel> channel)  : listenChannel(channel), epfd(epoll_create(4096)) {
+EpollSelector::EpollSelector(Pointer<TcpServerSocketChannel> channel)  : listenChannel(channel), epfd(epoll_create(4096)) {
     // initialize epoll reactor
     if (epfd == -1) {
         throw EpollCreateException();
@@ -40,7 +40,7 @@ void EpollSelector::run() {
             if (fd == lfd) {
                 int cfd;
                 sockaddr_in cli_addr{};
-                socklen_t addrlen;
+                socklen_t addrlen = sizeof(sockaddr_in);
                 cfd = accept(lfd, reinterpret_cast<sockaddr*>(&cli_addr), &addrlen);
                 if (cfd == -1) {
                     throw AcceptException();
@@ -48,7 +48,7 @@ void EpollSelector::run() {
                 addEvent(cfd);
             } else {   // read
                 Pointer<Buffer> buffer = Buffer::allocate(4096);
-                Pointer<SocketChannel> client = new SocketChannel {fd};
+                Pointer<TcpSocketChannel> client = new TcpSocketChannel {fd};
                 buffer->put(fd);
                 if (buffer->writtenSize() == 0) {
                     // close connection
@@ -61,7 +61,7 @@ void EpollSelector::run() {
     }
 }
 
-void EpollSelector::removeEvent(Pointer<SocketChannel> channel) {
+void EpollSelector::removeEvent(Pointer<TcpSocketChannel> channel) {
     epoll_event event;
     event.events = EPOLLIN;
     int fd = channel->getSocketFd();
@@ -91,7 +91,7 @@ Pointer<EpollSelector::packet> EpollSelector::pollPacket() {
     return coming.poll();
 }
 
-EpollSelector::packet::packet(Pointer<SocketChannel> channel, Pointer<Buffer> buffer) : channel(channel), buffer(buffer) {
+EpollSelector::packet::packet(Pointer<TcpSocketChannel> channel, Pointer<Buffer> buffer) : channel(channel), buffer(buffer) {
 
 }
 

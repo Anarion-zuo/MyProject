@@ -9,14 +9,14 @@
 
 #include "../../../base/Object.h"
 #include "../../../container/Map/HashMap.hpp"
-#include "../../../io/Channel/Network/SocketChannel.h"
+#include "../../../io/Channel/Network/tcp/TcpSocketChannel.h"
 
 class Cookie : public Object {
 protected:
     HashMap<SString, SString> map;
 public:
     void add(Pointer<SString> key, Pointer<SString> val);
-    void send(Pointer<SocketChannel> channel);
+    void send(Pointer<TcpSocketChannel> channel);
 };
 
 

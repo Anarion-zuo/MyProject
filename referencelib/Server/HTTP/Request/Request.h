@@ -12,7 +12,7 @@
 #include "RequestType.h"
 #include "../../../container/SString.h"
 #include "../../../container/Map/HashMap.hpp"
-#include "../../../io/Channel/Network/SocketChannel.h"
+#include "../../../io/Channel/Network/tcp/TcpSocketChannel.h"
 
 class Request : public Object {
 protected:
@@ -20,13 +20,18 @@ protected:
     Pointer<SString> directory;
     HashMap<SString, SString> headers, params;
     Buffer data {1024};
-    Pointer<SocketChannel> channel;
+    Pointer<TcpSocketChannel> channel;
 
 public:
     static Pointer<Request> readFromBuffer(Pointer<Buffer> buffer);
     void print();
-    void setChannel(Pointer<SocketChannel> ch);
+    void setChannel(Pointer<TcpSocketChannel> ch);
     RequestType getType() const ;
+    Pointer<TcpSocketChannel> getChannel();
+    Pointer<SString> getDirectory();
+
+    Pointer<SString> getHeader(Pointer<SString> key);
+    Pointer<SString> getParam(Pointer<SString> key);
 };
 
 

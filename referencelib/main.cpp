@@ -9,9 +9,10 @@
 #include <iostream>
 #include "container/SString.h"
 #include "io/Buffer/Buffer.h"
-#include "io/Channel/Network/ServerSocketChannel.h"
+#include "io/Channel/Network/tcp/TcpServerSocketChannel.h"
 #include "Server/Selector/EpollSelector.h"
 #include "Server/HTTP/Request/Request.h"
+#include "Server/HTTP/Controller/Controller.h"
 
 using namespace std;
 
@@ -21,18 +22,13 @@ protected:
 public:
     printBuffer(Pointer<EpollSelector> selector) : selector(selector) {}
     void run() override {
-        while (true) {
-            auto packet = selector->pollPacket();
-            Pointer<Request> request = Request::readFromBuffer(packet->buffer);
-            request->print();
-            request.release();
-        }
+        Controller::init(selector);
     }
 };
 
 int main() {
     Pointer<Buffer> buffer = Buffer::allocate(1024);
-    Pointer<ServerSocketChannel> channel = new ServerSocketChannel(9988);
+    Pointer<TcpServerSocketChannel> channel = new TcpServerSocketChannel(23335);
     Pointer<EpollSelector> selector = new EpollSelector(channel);
     channel->listen();
     printBuffer th(selector);

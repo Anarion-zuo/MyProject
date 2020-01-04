@@ -54,11 +54,13 @@ CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/referencelib/cmake-build-d
 
 # The main recursive "all" target.
 all: CMakeFiles/referencelib.dir/all
+all: CMakeFiles/main.cpp.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/referencelib.dir/clean
+clean: CMakeFiles/main.cpp.dir/clean
 
 .PHONY : clean
 
@@ -74,12 +76,12 @@ preinstall:
 CMakeFiles/referencelib.dir/all:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/depend
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target referencelib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69 "Built target referencelib"
 .PHONY : CMakeFiles/referencelib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/referencelib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/referencelib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/referencelib.dir/rule
@@ -93,6 +95,33 @@ referencelib: CMakeFiles/referencelib.dir/rule
 CMakeFiles/referencelib.dir/clean:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/clean
 .PHONY : CMakeFiles/referencelib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.cpp.dir
+
+# All Build rule for target.
+CMakeFiles/main.cpp.dir/all:
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/depend
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target main.cpp"
+.PHONY : CMakeFiles/main.cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 34
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main.cpp.dir/rule
+
+# Convenience name for target.
+main.cpp: CMakeFiles/main.cpp.dir/rule
+
+.PHONY : main.cpp
+
+# clean rule for target.
+CMakeFiles/main.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/clean
+.PHONY : CMakeFiles/main.cpp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

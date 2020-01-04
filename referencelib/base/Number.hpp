@@ -25,13 +25,13 @@ static char *numberToString(unsigned int num) {
 
 static char *numberToString(long num) {
     char *p = new char [22];
-    sprintf(p, "%l", num);
+    sprintf(p, "%ld", num);
     return p;
 }
 
 static char *numberToString(unsigned long num) {
     char *p = new char [22];
-    sprintf(p, "%ul", num);
+    sprintf(p, "%lu", num);
     return p;
 }
 

@@ -314,16 +314,16 @@
 		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/File/FileStatus.h">
 			<Option target="referencelib"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp">
+		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.cpp">
 			<Option target="referencelib"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.h">
+		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.h">
 			<Option target="referencelib"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp">
+		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.cpp">
 			<Option target="referencelib"/>
 		</Unit>
-		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.h">
+		<Unit filename="/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.h">
 			<Option target="referencelib"/>
 		</Unit>
 		<Unit filename="/tmp/tmp.57FtlZVoVl/main.cpp">

@@ -39,9 +39,7 @@ size_type FileChannel::fileSize() {
 }
 
 void FileChannel::write(Pointer<Buffer> buffer) {
-    size_type bufSize = buffer->capacity(), ret;
-    char *buf = buffer->getArr();
-    write(buf, bufSize);
+    buffer->put(fd);
 }
 
 void FileChannel::read(Pointer<Buffer> buffer) {

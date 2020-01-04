@@ -16,9 +16,15 @@ class HtmlResolver : public ViewResolver {
 protected:
     Pointer<HtmlView> input;
     Pointer<ViewModel> model;
+    Buffer buffer {1024};
 public:
     explicit HtmlResolver(Pointer<HtmlView> input, Pointer<ViewModel> model);
-    void run(Pointer<SocketChannel> channel) override ;
+    ~HtmlResolver();
+
+    void send(Pointer<TcpSocketChannel> channel) override ;
+
+    void loadView() override ;
+    size_type getContentSize() override ;
 };
 
 

@@ -6,7 +6,7 @@
 #include "HtmlView.h"
 #include "../../../container/SString.h"
 
-Pointer<SString> HtmlView::prefix = new SString("../WEB/views");
+Pointer<SString> HtmlView::prefix = new SString("../WEB/views/");
 Pointer<SString> HtmlView::suffix = new SString(".html");
 
 void HtmlView::send() {
@@ -22,6 +22,12 @@ Pointer<SString> HtmlView::getPrefix() {
 }
 
 HtmlView::HtmlView(Pointer<SString> name) {
+    if (name.isNull()) {
+        return;
+    }
+    if (name->length() == 0) {
+        return;
+    }
     dir = prefix->clone();
     dir->append(name);
     dir->append(suffix);
@@ -31,9 +37,16 @@ HtmlView::HtmlView(Pointer<SString> name) {
 }
 
 void HtmlView::readFile() {
+    if (dir.isNull()) {
+        return;
+    }
     channel->write(buffer);
 }
 
-void HtmlView::send(Pointer<SocketChannel> socket) {
+void HtmlView::send(Pointer<TcpSocketChannel> socket) {
     socket->read(buffer);
+}
+
+size_type HtmlView::fileSize() {
+    return channel->fileSize();
 }

@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/Controller.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o"
+  "/home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/HelloController.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o"
+  "/home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/IconController.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Cookie/Cookie.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/Server/HTTP/HttpListener/HttpListener.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Request/Request.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o"
@@ -31,6 +33,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileStatus.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o"
+  "/home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpChannel.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o"
+  "/home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpServerChannel.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o"
+  "/home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpServerSocketChannel.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o"
+  "/home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpSocketChannel.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o"
   "/home/anarion/Documents/MyProjects/referencelib/main.cpp" "/home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/referencelib.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

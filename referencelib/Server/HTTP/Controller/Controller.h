@@ -13,21 +13,26 @@
 #include "../Response/Response.h"
 #include "../../../container/Queue/ListQueue.h"
 
+class EpollSelector;
 class HtmlResolver;
-class Controller {
+class Controller : public Object {
 protected:
 
 
-    static Pointer<Map<Request, Controller>> controls;
-    static void init();
+    static Pointer<Map<SString, Controller>> controls;
     static void dispatchOne(Pointer<Request> request);
 
     Pointer<HtmlResolver> run(Pointer<Request> request, Pointer<Response> response);
 public:
-    virtual Pointer<SString> onGet(Pointer<Request> request, Pointer<Response> response) = 0;
-    virtual Pointer<SString> onPost(Pointer<Request> request, Pointer<Response> response) = 0;
-    virtual Pointer<SString> onDelete(Pointer<Request> request, Pointer<Response> response) = 0;
-    virtual Pointer<SString> onPut(Pointer<Request> request, Pointer<Response> response) = 0;
+    static void init(Pointer<EpollSelector> selector);
+    virtual Pointer<SString>
+    onGet(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
+    virtual Pointer<SString>
+    onPost(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
+    virtual Pointer<SString>
+    onDelete(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
+    virtual Pointer<SString>
+    onPut(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
 };
 
 

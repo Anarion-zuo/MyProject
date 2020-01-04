@@ -9,13 +9,15 @@
 
 #include "../../../../base/Pointer.hpp"
 #include "../../../../container/Map.hpp"
+#include "../../../../io/Channel/Network/tcp/TcpSocketChannel.h"
 
 class ViewResolver {
 protected:
 
 public:
-    virtual void run(Pointer<SocketChannel> channel) = 0;
-
+    virtual void send(Pointer<TcpSocketChannel> channel) = 0;
+    virtual void loadView() = 0;
+    virtual size_type getContentSize() = 0;
 };
 
 

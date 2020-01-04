@@ -7,34 +7,34 @@
 #define REFERENCELIB_EPOLLSELECTOR_H
 
 
-#include "../../io/Channel/Network/ServerSocketChannel.h"
+#include "../../io/Channel/Network/tcp/TcpServerSocketChannel.h"
 #include <sys/epoll.h>
 #include "../../container/Queue/BlockQueue.hpp"
 
 class EpollSelector {
 protected:
-    Pointer<ServerSocketChannel> listenChannel;
+    Pointer<TcpServerSocketChannel> listenChannel;
     int epfd;
     epoll_event epollEvent;
 
 public:
     struct packet : public Object {
-        Pointer<SocketChannel> channel;
+        Pointer<TcpSocketChannel> channel;
         Pointer<Buffer> buffer;
 
         packet() = default;
-        packet(Pointer<SocketChannel> channel, Pointer<Buffer> buffer);
+        packet(Pointer<TcpSocketChannel> channel, Pointer<Buffer> buffer);
 
     };
 
 protected:
     BlockQueue<packet> sending, coming;
 
-    void removeEvent(Pointer<SocketChannel> channel);
+    void removeEvent(Pointer<TcpSocketChannel> channel);
     void addEvent(int cfd);
 
 public:
-    explicit EpollSelector(Pointer<ServerSocketChannel> channel);
+    explicit EpollSelector(Pointer<TcpServerSocketChannel> channel);
     void run();
 
     Pointer<packet> pollPacket();

@@ -36,7 +36,8 @@ public:
 
     Pointer<Val> get(Pointer<Key> key) override {
         Pointer<Entry> en = new Entry(key, nullptr);
-        Pointer<Val> ret = HashSet<Entry>::findNode(en.operator->())->ptr->getVal();
+        auto node = HashSet<Entry>::findNode(en.operator->());
+        Pointer<Val> ret = node->ptr->getVal();
         en.release();
         return ret;
     }

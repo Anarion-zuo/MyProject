@@ -3,17 +3,33 @@
 
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Controller/Controller.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Controller/Controller.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Controller/HelloController.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Controller/IconController.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Cookie/Cookie.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Request/Request.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Request/RequestType.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Response/Response.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/Response/ResponseStatus.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/View/HtmlView.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/View/View.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/View/model/ViewModel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/View/resolver/HtmlResolver.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../Server/Selector/EpollSelector.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../base/Number.hpp
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../callable/Callable.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../concurrent/base/CondVar.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../concurrent/base/Mutex.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Container.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/List.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/List/LinkedList.hpp
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Map.hpp
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Map/HashMap.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Queue.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Queue/BlockQueue.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Queue/ListQueue.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/SString.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Set.hpp
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../container/Set/HashSet.hpp
@@ -24,7 +40,72 @@ CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../exceptio
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../exceptions/system/SystemException.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Channel/File/FileChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Channel/File/FileStatus.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Channel/Network/ServerSocketChannel.h
 CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Channel/Network/tcp/TcpServerSocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Controller/Controller.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Controller/HelloController.cpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Controller/HelloController.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Cookie/Cookie.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Request/Request.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Request/RequestType.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Response/Response.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Response/ResponseStatus.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../base/Number.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/Container.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/List.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/List/LinkedList.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/Map.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/Map/HashMap.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/Queue.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/Queue/ListQueue.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/SString.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/Set.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../container/Set/HashSet.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Controller/Controller.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Controller/IconController.cpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Controller/IconController.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Cookie/Cookie.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Request/Request.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Request/RequestType.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Response/Response.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Response/ResponseStatus.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../base/Number.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/Container.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/List.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/List/LinkedList.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/Map.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/Map/HashMap.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/Queue.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/Queue/ListQueue.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/SString.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/Set.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../container/Set/HashSet.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../Server/HTTP/Cookie/Cookie.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../Server/HTTP/Cookie/Cookie.h
@@ -42,6 +123,7 @@ CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../exceptions/syste
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../Server/HTTP/HttpListener/HttpListener.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../Server/HTTP/HttpListener/HttpListener.h
@@ -72,6 +154,8 @@ CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../io/B
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../io/Channel/Network/ServerSocketChannel.h
 CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../io/Channel/Network/tcp/TcpServerSocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../Server/HTTP/Request/Request.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../Server/HTTP/Request/Request.h
@@ -92,6 +176,7 @@ CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../exceptions/sys
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o: ../Server/HTTP/Request/RequestType.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o: ../Server/HTTP/Request/RequestType.h
@@ -100,6 +185,7 @@ CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../Server/HTTP/
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../Server/HTTP/Response/Response.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../Server/HTTP/Response/Response.h
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../Server/HTTP/Response/ResponseStatus.h
+CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.h
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../base/Number.hpp
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../base/Pointer.hpp
@@ -115,6 +201,7 @@ CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../exceptions/s
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o: ../Server/HTTP/Response/ResponseStatus.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o: ../Server/HTTP/Response/ResponseStatus.h
@@ -134,15 +221,61 @@ CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../Server/HTTP/View
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../base/Pointer.hpp
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../container/SString.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../exceptions/system/SystemException.h
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../io/Channel/File/FileChannel.h
 CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../io/Channel/File/FileStatus.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: ../Server/HTTP/View/View.cpp
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: ../Server/HTTP/View/View.h
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o: ../base/Pointer.hpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o: ../Server/HTTP/View/model/ViewModel.cpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o: ../Server/HTTP/View/model/ViewModel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o: ../container/Map.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o: ../container/SString.h
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../Server/HTTP/View/HtmlView.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../Server/HTTP/View/View.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../Server/HTTP/View/model/ViewModel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../Server/HTTP/View/resolver/HtmlResolver.cpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../Server/HTTP/View/resolver/HtmlResolver.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../container/Map.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../container/SString.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../io/Channel/File/FileChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../io/Channel/File/FileStatus.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
+
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.cpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../container/Map.hpp
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../container/SString.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../Server/Selector/EpollSelector.cpp
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../Server/Selector/EpollSelector.h
@@ -171,6 +304,8 @@ CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../io/Buffer/Bu
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../io/Channel/Network/ServerSocketChannel.h
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../io/Channel/Network/tcp/TcpServerSocketChannel.h
+CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 
 CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o: ../allocator/Allocator.cpp
 CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o: ../allocator/Allocator.h
@@ -199,6 +334,7 @@ CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o: ../callable/Callable.h
 CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o: ../concurrent/base/Thread.cpp
 CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o: ../concurrent/base/Thread.h
 
+CMakeFiles/referencelib.dir/container/SString.cpp.o: ../base/HashFunctions.h
 CMakeFiles/referencelib.dir/container/SString.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/container/SString.cpp.o: ../base/Pointer.hpp
 CMakeFiles/referencelib.dir/container/SString.cpp.o: ../container/SString.cpp
@@ -221,6 +357,7 @@ CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o: ../gc/GarbageCollector.h
 
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../container/SString.h
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../exceptions/MyException.h
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../exceptions/container/IndexOutOfRangeException.h
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../exceptions/system/ReadFdException.h
@@ -229,6 +366,7 @@ CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../io/Buffer/Buffer.cpp
 CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o: ../io/Buffer/Buffer.h
 
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: ../base/Pointer.hpp
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: ../io/Channel/Channel.cpp
 CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o: ../io/Channel/Channel.h
@@ -251,42 +389,92 @@ CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o: ../io/Channel/Fil
 CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o: ../io/Channel/File/FileStatus.cpp
 CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o: ../io/Channel/File/FileStatus.h
 
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../base/Number.hpp
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../base/Pointer.hpp
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../container/Container.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../container/SString.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../container/Set.hpp
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../container/Set/HashSet.hpp
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../exceptions/MyException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../exceptions/system/AcceptException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../exceptions/system/BindException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../exceptions/system/FcntlException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../exceptions/system/ListenException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../exceptions/system/OpenFdException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../exceptions/system/SystemException.h
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
 CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.h
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.h
 
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../base/Object.h
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../base/Pointer.hpp
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../container/SString.h
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../exceptions/MyException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../exceptions/system/ConnectException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../exceptions/system/OpenFdException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../exceptions/system/ReceiveException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../exceptions/system/SendException.h
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../exceptions/system/SystemException.h
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
 CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.h
 
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../exceptions/container/IndexOutOfRangeException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../io/Channel/Network/congestionless/MtcpChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../io/Channel/Network/congestionless/MtcpChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
+
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../exceptions/system/BindException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Network/congestionless/MtcpChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Network/congestionless/MtcpServerChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Network/congestionless/MtcpServerChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
+
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../base/Number.hpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../container/Container.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../container/SString.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../container/Set.hpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../container/Set/HashSet.hpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../exceptions/system/AcceptException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../exceptions/system/BindException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../exceptions/system/FcntlException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../exceptions/system/ListenException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Channel/Network/tcp/TcpServerSocketChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Channel/Network/tcp/TcpServerSocketChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
+
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../base/Object.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../base/Pointer.hpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../container/SString.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../exceptions/MyException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../exceptions/system/ConnectException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../exceptions/system/OpenFdException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../exceptions/system/ReceiveException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../exceptions/system/SendException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../exceptions/system/SystemException.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../io/Buffer/Buffer.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../io/Channel/Channel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
+
+CMakeFiles/referencelib.dir/main.cpp.o: ../Server/HTTP/Controller/Controller.h
+CMakeFiles/referencelib.dir/main.cpp.o: ../Server/HTTP/Cookie/Cookie.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../Server/HTTP/Request/Request.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../Server/HTTP/Request/RequestType.h
+CMakeFiles/referencelib.dir/main.cpp.o: ../Server/HTTP/Response/Response.h
+CMakeFiles/referencelib.dir/main.cpp.o: ../Server/HTTP/Response/ResponseStatus.h
+CMakeFiles/referencelib.dir/main.cpp.o: ../Server/HTTP/View/resolver/ViewResolver.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../Server/Selector/EpollSelector.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../base/Number.hpp
 CMakeFiles/referencelib.dir/main.cpp.o: ../base/Object.h
@@ -314,5 +502,7 @@ CMakeFiles/referencelib.dir/main.cpp.o: ../io/Buffer/Buffer.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../io/Channel/Channel.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../io/Channel/Network/ServerSocketChannel.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../io/Channel/Network/SocketChannel.h
+CMakeFiles/referencelib.dir/main.cpp.o: ../io/Channel/Network/tcp/TcpServerSocketChannel.h
+CMakeFiles/referencelib.dir/main.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.h
 CMakeFiles/referencelib.dir/main.cpp.o: ../main.cpp
 

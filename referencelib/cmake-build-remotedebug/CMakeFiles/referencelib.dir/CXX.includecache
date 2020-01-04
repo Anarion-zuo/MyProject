@@ -31,8 +31,8 @@ Cookie.h
 /tmp/tmp.57FtlZVoVl/base/Object.h
 ../../../container/Map/HashMap.hpp
 /tmp/tmp.57FtlZVoVl/container/Map/HashMap.hpp
-../../../io/Channel/Network/SocketChannel.h
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.h
+../../../io/Channel/Network/TcpSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.h
 
 /tmp/tmp.57FtlZVoVl/Server/HTTP/HttpListener/HttpListener.cpp
 HttpListener.h
@@ -65,8 +65,8 @@ RequestType.h
 /tmp/tmp.57FtlZVoVl/container/SString.h
 ../../../container/Map/HashMap.hpp
 /tmp/tmp.57FtlZVoVl/container/Map/HashMap.hpp
-../../../io/Channel/Network/SocketChannel.h
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.h
+../../../io/Channel/Network/TcpSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.h
 
 /tmp/tmp.57FtlZVoVl/Server/HTTP/Request/RequestType.cpp
 cstring
@@ -135,8 +135,8 @@ EpollSelector.h
 /tmp/tmp.57FtlZVoVl/exceptions/system/CloseFdException.h
 
 /tmp/tmp.57FtlZVoVl/Server/Selector/EpollSelector.h
-../../io/Channel/Network/ServerSocketChannel.h
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.h
+../../io/Channel/Network/TcpServerSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.h
 sys/epoll.h
 -
 ../../container/Queue/BlockQueue.hpp
@@ -452,9 +452,9 @@ FileStatus.h
 sys/stat.h
 -
 
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp
-ServerSocketChannel.h
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.cpp
+TcpServerSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.h
 ../../../exceptions/system/BindException.h
 /tmp/tmp.57FtlZVoVl/exceptions/system/BindException.h
 ../../../exceptions/system/ListenException.h
@@ -468,17 +468,17 @@ arpa/inet.h
 fcntl.h
 -
 
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.h
-SocketChannel.h
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.h
+TcpSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.h
 ../../../base/Number.hpp
 /tmp/tmp.57FtlZVoVl/base/Number.hpp
 ../../../container/Set/HashSet.hpp
 /tmp/tmp.57FtlZVoVl/container/Set/HashSet.hpp
 
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp
-SocketChannel.h
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.cpp
+TcpSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.h
 ../../../exceptions/system/ConnectException.h
 /tmp/tmp.57FtlZVoVl/exceptions/system/ConnectException.h
 ../../../exceptions/system/SendException.h
@@ -500,7 +500,7 @@ cstdio
 ../../../container/SString.h
 /tmp/tmp.57FtlZVoVl/container/SString.h
 
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.h
 ../Channel.h
 /tmp/tmp.57FtlZVoVl/io/Channel/Channel.h
 ../../../exceptions/system/OpenFdException.h
@@ -531,8 +531,8 @@ container/SString.h
 /tmp/tmp.57FtlZVoVl/container/SString.h
 io/Buffer/Buffer.h
 /tmp/tmp.57FtlZVoVl/io/Buffer/Buffer.h
-io/Channel/Network/ServerSocketChannel.h
-/tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.h
+io/Channel/Network/TcpServerSocketChannel.h
+/tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.h
 Server/Selector/EpollSelector.h
 /tmp/tmp.57FtlZVoVl/Server/Selector/EpollSelector.h
 Server/HTTP/Request/Request.h

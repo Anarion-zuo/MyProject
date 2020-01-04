@@ -5,12 +5,28 @@
 
 #include "HtmlResolver.h"
 
-void HtmlResolver::run(Pointer<SocketChannel> channel) {
-    Pointer<Buffer> buffer;
+void HtmlResolver::send(Pointer<TcpSocketChannel> channel) {
+    if (input.isNull()) {
+        return ;
+    }
+    channel->read(Pointer<Buffer>(&buffer));
+}
+
+HtmlResolver::HtmlResolver(Pointer<HtmlView> input, Pointer<ViewModel> model) : input(input), model(model) {
+
+}
+
+void HtmlResolver::loadView() {
+    if (input.isNull()) {
+        return ;
+    }
+    input->readFile();
+    input->buffer->flip();
+    Pointer<Buffer> temp;
     while (true) {
-        buffer = input->buffer->getUntil('$');
-        channel->read(buffer);
-        buffer.release();
+        temp = input->buffer->getUntil('$');
+        buffer.put(temp);
+        temp.release();
         if (input->buffer->unReadSize() == 0) {
             break;
         }
@@ -18,20 +34,22 @@ void HtmlResolver::run(Pointer<SocketChannel> channel) {
         char c = input->buffer->get();
         if (c != '{') {
             char __t = '$';
-            channel->read(&__t, 1);
-            channel->read(&c, 1);
+            buffer.put(__t);
+            buffer.put(c);
             continue;
         }
         char *str = input->buffer->getUntil('}', nullptr);
         Pointer<SString> key = new SString(str);
         Pointer<SString> val = model->getKey(key);
-        channel->read(val);
-        c = '}';
-        channel->read(&c, 1);
+        buffer.put(val);
+        input->buffer->get();
         key.release();
     }
 }
 
-HtmlResolver::HtmlResolver(Pointer<HtmlView> input, Pointer<ViewModel> model) : input(input), model(model) {
+size_type HtmlResolver::getContentSize() {
+    return buffer.writtenSize();
+}
 
+HtmlResolver::~HtmlResolver() {
 }

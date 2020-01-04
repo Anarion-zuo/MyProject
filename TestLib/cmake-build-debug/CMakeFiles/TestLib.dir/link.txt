@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TestLib.dir/main.cpp.o  -o TestLib -lreferencelib 

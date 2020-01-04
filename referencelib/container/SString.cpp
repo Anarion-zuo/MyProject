@@ -4,6 +4,7 @@
 
 #include "SString.h"
 #include "../base/Pointer.hpp"
+#include "../base/HashFunctions.h"
 
 size_type SString::length() const {
     return cur - begin;
@@ -58,7 +59,7 @@ void SString::append(Pointer<SString> rhs) {
     append(rhs->begin, rhs->length());
 }
 
-const char *SString::cstr() const {
+char *SString::cstr() {
     return begin;
 }
 
@@ -79,4 +80,24 @@ Pointer<Object> SString::clone() {
 
 SString::~SString() {
     delete []begin;
+}
+
+bool SString::equals(Pointer<Object> rhs) {
+    if (rhs.equals(this)) {
+        return true;
+    }
+    Pointer<SString> p = rhs;
+    if (length() != p->length()) {
+        return false;
+    }
+    for (size_type i = 0; i < length(); ++i) {
+        if (begin[i] != p->begin[i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+hash_type SString::hash() {
+    return HashFunctions::global_hashf(begin, length());
 }

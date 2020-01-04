@@ -45,7 +45,7 @@ EQUALS = =
 # The top-level source directory on which CMake was run.
 CMAKE_SOURCE_DIR = /tmp/tmp.57FtlZVoVl
 
-# The top-level build directory on which CMake was run.
+# The top-level build directory on which CMake was send.
 CMAKE_BINARY_DIR = /tmp/tmp.57FtlZVoVl/cmake-build-remotedebug
 
 # Include any dependencies generated for this target.
@@ -226,31 +226,31 @@ CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/File/FileStatus.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s
 
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.o: ../io/Channel/Network/TcpServerSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.cpp
 
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.i
 
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.s
 
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.o: ../io/Channel/Network/TcpSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.o -c /tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.cpp
 
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.i
 
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
+CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.57FtlZVoVl/io/Channel/Network/TcpSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.s
 
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../Server/Selector/EpollSelector.cpp
@@ -397,8 +397,8 @@ referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o" \
 "CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o" \
 "CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o" \
-"CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" \
-"CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o" \
@@ -426,8 +426,8 @@ referencelib: CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o
 referencelib: CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o
 referencelib: CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o
 referencelib: CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o
-referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
-referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/TcpServerSocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/TcpSocketChannel.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o

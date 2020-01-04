@@ -4,6 +4,7 @@
 
 #include "Buffer.h"
 #include "../../base/Pointer.hpp"
+#include "../../container/SString.h"
 #include "../../exceptions/container/IndexOutOfRangeException.h"
 #include "../../exceptions/system/ReadFdException.h"
 #include <cstring>
@@ -177,6 +178,9 @@ char * Buffer::getUntil(char c, size_type *len) {
             return get(i);
         }
     }
+    if (len) {
+        *len = unReadSize();
+    }
     return getRest();
 }
 
@@ -190,7 +194,7 @@ Pointer<Buffer> Buffer::getUntil(char c) {
     p->begin = getUntil(c, &len);
     p->cur = len + p->begin;
     p->end = p->cur;
-    p->pos = begin;
+    p->pos = p->begin;
     return p;
 }
 
@@ -201,4 +205,19 @@ char *Buffer::getRest() {
     p[restsize] = 0;
     pos = cur;
     return p;
+}
+
+void Buffer::put(Pointer<Buffer> buffer) {
+    put(buffer->begin, buffer->writtenSize());
+}
+
+void Buffer::put(Pointer<Buffer> buffer, size_type num) {
+    if (num > buffer->writtenSize()) {
+        throw IndexOutOfRangeException();
+    }
+    put(buffer->begin, num);
+}
+
+void Buffer::put(Pointer<SString> str) {
+    put(str->cstr(), str->length());
 }

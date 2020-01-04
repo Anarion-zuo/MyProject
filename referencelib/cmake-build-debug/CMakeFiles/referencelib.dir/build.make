@@ -226,31 +226,31 @@ CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/File/FileStatus.cpp -o CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s
 
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o: ../io/Channel/Network/tcp/TcpServerSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpServerSocketChannel.cpp
 
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i
 
-CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s
 
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o: ../io/Channel/Network/tcp/TcpSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpSocketChannel.cpp
 
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.i
 
-CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
+CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/tcp/TcpSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.s
 
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: CMakeFiles/referencelib.dir/flags.make
 CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o: ../Server/Selector/EpollSelector.cpp
@@ -421,6 +421,84 @@ CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/Server/HTTP/View/resolver/HtmlResolver.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.s
 
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o: ../io/Channel/Network/congestionless/MtcpChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpChannel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.s
+
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o: ../io/Channel/Network/SocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/SocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
+
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o: ../io/Channel/Network/ServerSocketChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/ServerSocketChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o: ../io/Channel/Network/congestionless/MtcpServerChannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpServerChannel.cpp
+
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpServerChannel.cpp > CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.i
+
+CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/io/Channel/Network/congestionless/MtcpServerChannel.cpp -o CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o: ../Server/HTTP/Controller/HelloController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/HelloController.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/HelloController.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/HelloController.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.s
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: CMakeFiles/referencelib.dir/flags.make
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o: ../Server/HTTP/Controller/IconController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o -c /home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/IconController.cpp
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/IconController.cpp > CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.i
+
+CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anarion/Documents/MyProjects/referencelib/Server/HTTP/Controller/IconController.cpp -o CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.s
+
 # Object files for target referencelib
 referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/main.cpp.o" \
@@ -436,8 +514,8 @@ referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o" \
 "CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o" \
 "CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o" \
-"CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" \
-"CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o" \
@@ -450,7 +528,13 @@ referencelib_OBJECTS = \
 "CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o" \
 "CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o" \
-"CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o"
+"CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o" \
+"CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o"
 
 # External object files for target referencelib
 referencelib_EXTERNAL_OBJECTS =
@@ -468,8 +552,8 @@ referencelib: CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o
 referencelib: CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o
 referencelib: CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o
 referencelib: CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o
-referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
-referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o
@@ -483,9 +567,15 @@ referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o
 referencelib: CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o
+referencelib: CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o
 referencelib: CMakeFiles/referencelib.dir/build.make
 referencelib: CMakeFiles/referencelib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable referencelib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anarion/Documents/MyProjects/referencelib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable referencelib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/referencelib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

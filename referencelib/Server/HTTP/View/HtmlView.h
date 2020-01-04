@@ -9,7 +9,7 @@
 
 #include "View.h"
 #include "../../../io/Channel/File/FileChannel.h"
-#include "../../../io/Channel/Network/SocketChannel.h"
+#include "../../../io/Channel/Network/tcp/TcpSocketChannel.h"
 
 class HtmlView : public View {
     friend class HtmlResolver;
@@ -18,7 +18,8 @@ public:
     void send() override;
 
     void readFile();
-    void send(Pointer<SocketChannel> socket);
+    void send(Pointer<TcpSocketChannel> socket);
+    size_type fileSize();
 protected:
     HtmlView() = default;
     static Pointer<SString> suffix, prefix;

@@ -1,5 +1,5 @@
 //
-// Created by anarion on 2019/12/30.
+// Created by anarion on 2020/1/3.
 // https://github.com/Anarion-zuo untrac10100@gmail.com  welcome to chat
 // 
 
@@ -7,25 +7,13 @@
 #define REFERENCELIB_SERVERSOCKETCHANNEL_H
 
 
-#include "SocketChannel.h"
-#include "../../../base/Number.hpp"
-#include "../../../container/Set/HashSet.hpp"
+#include <netinet/in.h>
+#include "../Channel.h"
 
-class ServerSocketChannel : public SocketChannel {
-protected:
-    sockaddr_in myAddr;
+class ServerSocketChannel : public Channel {
 public:
-    explicit ServerSocketChannel(in_port_t port = 80) {
-        memset(&myAddr, 0, sizeof(sockaddr_in));
-        myAddr.sin_family = AF_INET;
-        myAddr.sin_addr.s_addr = htonl(INADDR_ANY);
-        bind(port);
-    }
-
-    void bind(in_port_t host_port);
-    void listen(int backlog = 128);
-    Pointer<SocketChannel> accept() ;
-    void setNonBlock();
+    virtual void bind(in_port_t port) = 0;
+    virtual void listen(int backlog) = 0;
 };
 
 

@@ -22,13 +22,16 @@ public:
     ~SString();
     static Pointer<SString> copyFromStack(char *str);
 
+    bool equals(Pointer<Object> rhs) override ;
+    hash_type hash() override ;
+
     size_type length() const ;
     size_type capacity() const ;
     char get(size_type index);
     void append(const char *str);
     void append(const char *str, size_type len);
     void append(Pointer<SString> rhs);
-    const char *cstr() const ;
+    char *cstr() ;
     Pointer<Object> clone() override ;
     Pointer<SString> toString() override ;
 };
