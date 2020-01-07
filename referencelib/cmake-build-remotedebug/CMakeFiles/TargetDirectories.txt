@@ -1,3 +1,0 @@
-/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles/rebuild_cache.dir
-/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles/edit_cache.dir
-/tmp/tmp.57FtlZVoVl/cmake-build-remotedebug/CMakeFiles/referencelib.dir
