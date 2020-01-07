@@ -1,3 +1,0 @@
-/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles/mycpplib.dir
-/home/anarion/Documents/MyProjects/mycpplib/cmake-build-debug/CMakeFiles/edit_cache.dir

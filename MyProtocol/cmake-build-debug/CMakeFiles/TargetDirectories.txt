@@ -1,0 +1,3 @@
+/Users/anarion/Documents/MyProjects/MyProtocol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/anarion/Documents/MyProjects/MyProtocol/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/anarion/Documents/MyProjects/MyProtocol/cmake-build-debug/CMakeFiles/MyProtocol.dir
