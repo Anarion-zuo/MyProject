@@ -102,10 +102,26 @@ void Request::print() {
 
 }
 
-void Request::setChannel(Pointer<SocketChannel> ch) {
+void Request::setChannel(Pointer<TcpSocketChannel> ch) {
     channel = ch;
 }
 
 RequestType Request::getType() const {
     return type;
+}
+
+Pointer<TcpSocketChannel> Request::getChannel() {
+    return channel;
+}
+
+Pointer<SString> Request::getDirectory() {
+    return directory;
+}
+
+Pointer<SString> Request::getHeader(Pointer<SString> key) {
+    return headers.get(key);
+}
+
+Pointer<SString> Request::getParam(Pointer<SString> key) {
+    return params.get(key);
 }

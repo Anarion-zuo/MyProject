@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = /usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/anarion/Documents/MyProjects/referencelib
+CMAKE_SOURCE_DIR = /home/anarion/Documents/MyProjects/referencelib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release
+CMAKE_BINARY_DIR = /home/anarion/Documents/MyProjects/referencelib/cmake-build-release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/anarion/Documents/MyProjects/referencelib/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/anarion/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/local/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles /home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anarion/Documents/MyProjects/referencelib/cmake-build-release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ referencelib/fast:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/build
 .PHONY : referencelib/fast
 
+#=============================================================================
+# Target rules for targets named main.cpp
+
+# Build rule for target.
+main.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main.cpp
+.PHONY : main.cpp
+
+# fast build rule for target.
+main.cpp/fast:
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/build
+.PHONY : main.cpp/fast
+
 Server/HTTP/Controller/Controller.o: Server/HTTP/Controller/Controller.cpp.o
 
 .PHONY : Server/HTTP/Controller/Controller.o
@@ -130,6 +143,7 @@ Server/HTTP/Controller/Controller.o: Server/HTTP/Controller/Controller.cpp.o
 # target to build an object file
 Server/HTTP/Controller/Controller.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/Controller.cpp.o
 .PHONY : Server/HTTP/Controller/Controller.cpp.o
 
 Server/HTTP/Controller/Controller.i: Server/HTTP/Controller/Controller.cpp.i
@@ -139,6 +153,7 @@ Server/HTTP/Controller/Controller.i: Server/HTTP/Controller/Controller.cpp.i
 # target to preprocess a source file
 Server/HTTP/Controller/Controller.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/Controller.cpp.i
 .PHONY : Server/HTTP/Controller/Controller.cpp.i
 
 Server/HTTP/Controller/Controller.s: Server/HTTP/Controller/Controller.cpp.s
@@ -148,7 +163,68 @@ Server/HTTP/Controller/Controller.s: Server/HTTP/Controller/Controller.cpp.s
 # target to generate assembly for a file
 Server/HTTP/Controller/Controller.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/Controller.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/Controller.cpp.s
 .PHONY : Server/HTTP/Controller/Controller.cpp.s
+
+Server/HTTP/Controller/HelloController.o: Server/HTTP/Controller/HelloController.cpp.o
+
+.PHONY : Server/HTTP/Controller/HelloController.o
+
+# target to build an object file
+Server/HTTP/Controller/HelloController.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/HelloController.cpp.o
+.PHONY : Server/HTTP/Controller/HelloController.cpp.o
+
+Server/HTTP/Controller/HelloController.i: Server/HTTP/Controller/HelloController.cpp.i
+
+.PHONY : Server/HTTP/Controller/HelloController.i
+
+# target to preprocess a source file
+Server/HTTP/Controller/HelloController.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/HelloController.cpp.i
+.PHONY : Server/HTTP/Controller/HelloController.cpp.i
+
+Server/HTTP/Controller/HelloController.s: Server/HTTP/Controller/HelloController.cpp.s
+
+.PHONY : Server/HTTP/Controller/HelloController.s
+
+# target to generate assembly for a file
+Server/HTTP/Controller/HelloController.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/HelloController.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/HelloController.cpp.s
+.PHONY : Server/HTTP/Controller/HelloController.cpp.s
+
+Server/HTTP/Controller/IconController.o: Server/HTTP/Controller/IconController.cpp.o
+
+.PHONY : Server/HTTP/Controller/IconController.o
+
+# target to build an object file
+Server/HTTP/Controller/IconController.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/IconController.cpp.o
+.PHONY : Server/HTTP/Controller/IconController.cpp.o
+
+Server/HTTP/Controller/IconController.i: Server/HTTP/Controller/IconController.cpp.i
+
+.PHONY : Server/HTTP/Controller/IconController.i
+
+# target to preprocess a source file
+Server/HTTP/Controller/IconController.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/IconController.cpp.i
+.PHONY : Server/HTTP/Controller/IconController.cpp.i
+
+Server/HTTP/Controller/IconController.s: Server/HTTP/Controller/IconController.cpp.s
+
+.PHONY : Server/HTTP/Controller/IconController.s
+
+# target to generate assembly for a file
+Server/HTTP/Controller/IconController.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Controller/IconController.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Controller/IconController.cpp.s
+.PHONY : Server/HTTP/Controller/IconController.cpp.s
 
 Server/HTTP/Cookie/Cookie.o: Server/HTTP/Cookie/Cookie.cpp.o
 
@@ -157,6 +233,7 @@ Server/HTTP/Cookie/Cookie.o: Server/HTTP/Cookie/Cookie.cpp.o
 # target to build an object file
 Server/HTTP/Cookie/Cookie.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Cookie/Cookie.cpp.o
 .PHONY : Server/HTTP/Cookie/Cookie.cpp.o
 
 Server/HTTP/Cookie/Cookie.i: Server/HTTP/Cookie/Cookie.cpp.i
@@ -166,6 +243,7 @@ Server/HTTP/Cookie/Cookie.i: Server/HTTP/Cookie/Cookie.cpp.i
 # target to preprocess a source file
 Server/HTTP/Cookie/Cookie.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Cookie/Cookie.cpp.i
 .PHONY : Server/HTTP/Cookie/Cookie.cpp.i
 
 Server/HTTP/Cookie/Cookie.s: Server/HTTP/Cookie/Cookie.cpp.s
@@ -175,6 +253,7 @@ Server/HTTP/Cookie/Cookie.s: Server/HTTP/Cookie/Cookie.cpp.s
 # target to generate assembly for a file
 Server/HTTP/Cookie/Cookie.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Cookie/Cookie.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Cookie/Cookie.cpp.s
 .PHONY : Server/HTTP/Cookie/Cookie.cpp.s
 
 Server/HTTP/HttpListener/HttpListener.o: Server/HTTP/HttpListener/HttpListener.cpp.o
@@ -184,6 +263,7 @@ Server/HTTP/HttpListener/HttpListener.o: Server/HTTP/HttpListener/HttpListener.c
 # target to build an object file
 Server/HTTP/HttpListener/HttpListener.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/HttpListener/HttpListener.cpp.o
 .PHONY : Server/HTTP/HttpListener/HttpListener.cpp.o
 
 Server/HTTP/HttpListener/HttpListener.i: Server/HTTP/HttpListener/HttpListener.cpp.i
@@ -193,6 +273,7 @@ Server/HTTP/HttpListener/HttpListener.i: Server/HTTP/HttpListener/HttpListener.c
 # target to preprocess a source file
 Server/HTTP/HttpListener/HttpListener.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/HttpListener/HttpListener.cpp.i
 .PHONY : Server/HTTP/HttpListener/HttpListener.cpp.i
 
 Server/HTTP/HttpListener/HttpListener.s: Server/HTTP/HttpListener/HttpListener.cpp.s
@@ -202,6 +283,7 @@ Server/HTTP/HttpListener/HttpListener.s: Server/HTTP/HttpListener/HttpListener.c
 # target to generate assembly for a file
 Server/HTTP/HttpListener/HttpListener.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/HttpListener/HttpListener.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/HttpListener/HttpListener.cpp.s
 .PHONY : Server/HTTP/HttpListener/HttpListener.cpp.s
 
 Server/HTTP/Request/Request.o: Server/HTTP/Request/Request.cpp.o
@@ -211,6 +293,7 @@ Server/HTTP/Request/Request.o: Server/HTTP/Request/Request.cpp.o
 # target to build an object file
 Server/HTTP/Request/Request.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Request/Request.cpp.o
 .PHONY : Server/HTTP/Request/Request.cpp.o
 
 Server/HTTP/Request/Request.i: Server/HTTP/Request/Request.cpp.i
@@ -220,6 +303,7 @@ Server/HTTP/Request/Request.i: Server/HTTP/Request/Request.cpp.i
 # target to preprocess a source file
 Server/HTTP/Request/Request.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Request/Request.cpp.i
 .PHONY : Server/HTTP/Request/Request.cpp.i
 
 Server/HTTP/Request/Request.s: Server/HTTP/Request/Request.cpp.s
@@ -229,6 +313,7 @@ Server/HTTP/Request/Request.s: Server/HTTP/Request/Request.cpp.s
 # target to generate assembly for a file
 Server/HTTP/Request/Request.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/Request.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Request/Request.cpp.s
 .PHONY : Server/HTTP/Request/Request.cpp.s
 
 Server/HTTP/Request/RequestType.o: Server/HTTP/Request/RequestType.cpp.o
@@ -238,6 +323,7 @@ Server/HTTP/Request/RequestType.o: Server/HTTP/Request/RequestType.cpp.o
 # target to build an object file
 Server/HTTP/Request/RequestType.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Request/RequestType.cpp.o
 .PHONY : Server/HTTP/Request/RequestType.cpp.o
 
 Server/HTTP/Request/RequestType.i: Server/HTTP/Request/RequestType.cpp.i
@@ -247,6 +333,7 @@ Server/HTTP/Request/RequestType.i: Server/HTTP/Request/RequestType.cpp.i
 # target to preprocess a source file
 Server/HTTP/Request/RequestType.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Request/RequestType.cpp.i
 .PHONY : Server/HTTP/Request/RequestType.cpp.i
 
 Server/HTTP/Request/RequestType.s: Server/HTTP/Request/RequestType.cpp.s
@@ -256,6 +343,7 @@ Server/HTTP/Request/RequestType.s: Server/HTTP/Request/RequestType.cpp.s
 # target to generate assembly for a file
 Server/HTTP/Request/RequestType.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Request/RequestType.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Request/RequestType.cpp.s
 .PHONY : Server/HTTP/Request/RequestType.cpp.s
 
 Server/HTTP/Response/Response.o: Server/HTTP/Response/Response.cpp.o
@@ -265,6 +353,7 @@ Server/HTTP/Response/Response.o: Server/HTTP/Response/Response.cpp.o
 # target to build an object file
 Server/HTTP/Response/Response.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Response/Response.cpp.o
 .PHONY : Server/HTTP/Response/Response.cpp.o
 
 Server/HTTP/Response/Response.i: Server/HTTP/Response/Response.cpp.i
@@ -274,6 +363,7 @@ Server/HTTP/Response/Response.i: Server/HTTP/Response/Response.cpp.i
 # target to preprocess a source file
 Server/HTTP/Response/Response.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Response/Response.cpp.i
 .PHONY : Server/HTTP/Response/Response.cpp.i
 
 Server/HTTP/Response/Response.s: Server/HTTP/Response/Response.cpp.s
@@ -283,6 +373,7 @@ Server/HTTP/Response/Response.s: Server/HTTP/Response/Response.cpp.s
 # target to generate assembly for a file
 Server/HTTP/Response/Response.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/Response.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Response/Response.cpp.s
 .PHONY : Server/HTTP/Response/Response.cpp.s
 
 Server/HTTP/Response/ResponseStatus.o: Server/HTTP/Response/ResponseStatus.cpp.o
@@ -292,6 +383,7 @@ Server/HTTP/Response/ResponseStatus.o: Server/HTTP/Response/ResponseStatus.cpp.o
 # target to build an object file
 Server/HTTP/Response/ResponseStatus.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Response/ResponseStatus.cpp.o
 .PHONY : Server/HTTP/Response/ResponseStatus.cpp.o
 
 Server/HTTP/Response/ResponseStatus.i: Server/HTTP/Response/ResponseStatus.cpp.i
@@ -301,6 +393,7 @@ Server/HTTP/Response/ResponseStatus.i: Server/HTTP/Response/ResponseStatus.cpp.i
 # target to preprocess a source file
 Server/HTTP/Response/ResponseStatus.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Response/ResponseStatus.cpp.i
 .PHONY : Server/HTTP/Response/ResponseStatus.cpp.i
 
 Server/HTTP/Response/ResponseStatus.s: Server/HTTP/Response/ResponseStatus.cpp.s
@@ -310,6 +403,7 @@ Server/HTTP/Response/ResponseStatus.s: Server/HTTP/Response/ResponseStatus.cpp.s
 # target to generate assembly for a file
 Server/HTTP/Response/ResponseStatus.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/Response/ResponseStatus.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/Response/ResponseStatus.cpp.s
 .PHONY : Server/HTTP/Response/ResponseStatus.cpp.s
 
 Server/HTTP/View/HtmlView.o: Server/HTTP/View/HtmlView.cpp.o
@@ -319,6 +413,7 @@ Server/HTTP/View/HtmlView.o: Server/HTTP/View/HtmlView.cpp.o
 # target to build an object file
 Server/HTTP/View/HtmlView.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/HtmlView.cpp.o
 .PHONY : Server/HTTP/View/HtmlView.cpp.o
 
 Server/HTTP/View/HtmlView.i: Server/HTTP/View/HtmlView.cpp.i
@@ -328,6 +423,7 @@ Server/HTTP/View/HtmlView.i: Server/HTTP/View/HtmlView.cpp.i
 # target to preprocess a source file
 Server/HTTP/View/HtmlView.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/HtmlView.cpp.i
 .PHONY : Server/HTTP/View/HtmlView.cpp.i
 
 Server/HTTP/View/HtmlView.s: Server/HTTP/View/HtmlView.cpp.s
@@ -337,6 +433,7 @@ Server/HTTP/View/HtmlView.s: Server/HTTP/View/HtmlView.cpp.s
 # target to generate assembly for a file
 Server/HTTP/View/HtmlView.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/HtmlView.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/HtmlView.cpp.s
 .PHONY : Server/HTTP/View/HtmlView.cpp.s
 
 Server/HTTP/View/View.o: Server/HTTP/View/View.cpp.o
@@ -346,6 +443,7 @@ Server/HTTP/View/View.o: Server/HTTP/View/View.cpp.o
 # target to build an object file
 Server/HTTP/View/View.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/View.cpp.o
 .PHONY : Server/HTTP/View/View.cpp.o
 
 Server/HTTP/View/View.i: Server/HTTP/View/View.cpp.i
@@ -355,6 +453,7 @@ Server/HTTP/View/View.i: Server/HTTP/View/View.cpp.i
 # target to preprocess a source file
 Server/HTTP/View/View.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/View.cpp.i
 .PHONY : Server/HTTP/View/View.cpp.i
 
 Server/HTTP/View/View.s: Server/HTTP/View/View.cpp.s
@@ -364,7 +463,98 @@ Server/HTTP/View/View.s: Server/HTTP/View/View.cpp.s
 # target to generate assembly for a file
 Server/HTTP/View/View.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/View.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/View.cpp.s
 .PHONY : Server/HTTP/View/View.cpp.s
+
+Server/HTTP/View/model/ViewModel.o: Server/HTTP/View/model/ViewModel.cpp.o
+
+.PHONY : Server/HTTP/View/model/ViewModel.o
+
+# target to build an object file
+Server/HTTP/View/model/ViewModel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/model/ViewModel.cpp.o
+.PHONY : Server/HTTP/View/model/ViewModel.cpp.o
+
+Server/HTTP/View/model/ViewModel.i: Server/HTTP/View/model/ViewModel.cpp.i
+
+.PHONY : Server/HTTP/View/model/ViewModel.i
+
+# target to preprocess a source file
+Server/HTTP/View/model/ViewModel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/model/ViewModel.cpp.i
+.PHONY : Server/HTTP/View/model/ViewModel.cpp.i
+
+Server/HTTP/View/model/ViewModel.s: Server/HTTP/View/model/ViewModel.cpp.s
+
+.PHONY : Server/HTTP/View/model/ViewModel.s
+
+# target to generate assembly for a file
+Server/HTTP/View/model/ViewModel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/model/ViewModel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/model/ViewModel.cpp.s
+.PHONY : Server/HTTP/View/model/ViewModel.cpp.s
+
+Server/HTTP/View/resolver/HtmlResolver.o: Server/HTTP/View/resolver/HtmlResolver.cpp.o
+
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.o
+
+# target to build an object file
+Server/HTTP/View/resolver/HtmlResolver.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.o
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.cpp.o
+
+Server/HTTP/View/resolver/HtmlResolver.i: Server/HTTP/View/resolver/HtmlResolver.cpp.i
+
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.i
+
+# target to preprocess a source file
+Server/HTTP/View/resolver/HtmlResolver.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.i
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.cpp.i
+
+Server/HTTP/View/resolver/HtmlResolver.s: Server/HTTP/View/resolver/HtmlResolver.cpp.s
+
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.s
+
+# target to generate assembly for a file
+Server/HTTP/View/resolver/HtmlResolver.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/resolver/HtmlResolver.cpp.s
+.PHONY : Server/HTTP/View/resolver/HtmlResolver.cpp.s
+
+Server/HTTP/View/resolver/ViewResolver.o: Server/HTTP/View/resolver/ViewResolver.cpp.o
+
+.PHONY : Server/HTTP/View/resolver/ViewResolver.o
+
+# target to build an object file
+Server/HTTP/View/resolver/ViewResolver.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/resolver/ViewResolver.cpp.o
+.PHONY : Server/HTTP/View/resolver/ViewResolver.cpp.o
+
+Server/HTTP/View/resolver/ViewResolver.i: Server/HTTP/View/resolver/ViewResolver.cpp.i
+
+.PHONY : Server/HTTP/View/resolver/ViewResolver.i
+
+# target to preprocess a source file
+Server/HTTP/View/resolver/ViewResolver.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/resolver/ViewResolver.cpp.i
+.PHONY : Server/HTTP/View/resolver/ViewResolver.cpp.i
+
+Server/HTTP/View/resolver/ViewResolver.s: Server/HTTP/View/resolver/ViewResolver.cpp.s
+
+.PHONY : Server/HTTP/View/resolver/ViewResolver.s
+
+# target to generate assembly for a file
+Server/HTTP/View/resolver/ViewResolver.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/HTTP/View/resolver/ViewResolver.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/HTTP/View/resolver/ViewResolver.cpp.s
+.PHONY : Server/HTTP/View/resolver/ViewResolver.cpp.s
 
 Server/Selector/EpollSelector.o: Server/Selector/EpollSelector.cpp.o
 
@@ -373,6 +563,7 @@ Server/Selector/EpollSelector.o: Server/Selector/EpollSelector.cpp.o
 # target to build an object file
 Server/Selector/EpollSelector.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/Selector/EpollSelector.cpp.o
 .PHONY : Server/Selector/EpollSelector.cpp.o
 
 Server/Selector/EpollSelector.i: Server/Selector/EpollSelector.cpp.i
@@ -382,6 +573,7 @@ Server/Selector/EpollSelector.i: Server/Selector/EpollSelector.cpp.i
 # target to preprocess a source file
 Server/Selector/EpollSelector.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/Selector/EpollSelector.cpp.i
 .PHONY : Server/Selector/EpollSelector.cpp.i
 
 Server/Selector/EpollSelector.s: Server/Selector/EpollSelector.cpp.s
@@ -391,6 +583,7 @@ Server/Selector/EpollSelector.s: Server/Selector/EpollSelector.cpp.s
 # target to generate assembly for a file
 Server/Selector/EpollSelector.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/Server/Selector/EpollSelector.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/Server/Selector/EpollSelector.cpp.s
 .PHONY : Server/Selector/EpollSelector.cpp.s
 
 allocator/Allocator.o: allocator/Allocator.cpp.o
@@ -400,6 +593,7 @@ allocator/Allocator.o: allocator/Allocator.cpp.o
 # target to build an object file
 allocator/Allocator.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/Allocator.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/allocator/Allocator.cpp.o
 .PHONY : allocator/Allocator.cpp.o
 
 allocator/Allocator.i: allocator/Allocator.cpp.i
@@ -409,6 +603,7 @@ allocator/Allocator.i: allocator/Allocator.cpp.i
 # target to preprocess a source file
 allocator/Allocator.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/Allocator.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/allocator/Allocator.cpp.i
 .PHONY : allocator/Allocator.cpp.i
 
 allocator/Allocator.s: allocator/Allocator.cpp.s
@@ -418,6 +613,7 @@ allocator/Allocator.s: allocator/Allocator.cpp.s
 # target to generate assembly for a file
 allocator/Allocator.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/allocator/Allocator.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/allocator/Allocator.cpp.s
 .PHONY : allocator/Allocator.cpp.s
 
 base/HashFunctions.o: base/HashFunctions.cpp.o
@@ -427,6 +623,7 @@ base/HashFunctions.o: base/HashFunctions.cpp.o
 # target to build an object file
 base/HashFunctions.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/HashFunctions.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/base/HashFunctions.cpp.o
 .PHONY : base/HashFunctions.cpp.o
 
 base/HashFunctions.i: base/HashFunctions.cpp.i
@@ -436,6 +633,7 @@ base/HashFunctions.i: base/HashFunctions.cpp.i
 # target to preprocess a source file
 base/HashFunctions.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/HashFunctions.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/base/HashFunctions.cpp.i
 .PHONY : base/HashFunctions.cpp.i
 
 base/HashFunctions.s: base/HashFunctions.cpp.s
@@ -445,6 +643,7 @@ base/HashFunctions.s: base/HashFunctions.cpp.s
 # target to generate assembly for a file
 base/HashFunctions.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/HashFunctions.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/base/HashFunctions.cpp.s
 .PHONY : base/HashFunctions.cpp.s
 
 base/Object.o: base/Object.cpp.o
@@ -454,6 +653,7 @@ base/Object.o: base/Object.cpp.o
 # target to build an object file
 base/Object.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Object.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/base/Object.cpp.o
 .PHONY : base/Object.cpp.o
 
 base/Object.i: base/Object.cpp.i
@@ -463,6 +663,7 @@ base/Object.i: base/Object.cpp.i
 # target to preprocess a source file
 base/Object.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Object.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/base/Object.cpp.i
 .PHONY : base/Object.cpp.i
 
 base/Object.s: base/Object.cpp.s
@@ -472,6 +673,7 @@ base/Object.s: base/Object.cpp.s
 # target to generate assembly for a file
 base/Object.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/base/Object.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/base/Object.cpp.s
 .PHONY : base/Object.cpp.s
 
 concurrent/base/CondVar.o: concurrent/base/CondVar.cpp.o
@@ -481,6 +683,7 @@ concurrent/base/CondVar.o: concurrent/base/CondVar.cpp.o
 # target to build an object file
 concurrent/base/CondVar.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/CondVar.cpp.o
 .PHONY : concurrent/base/CondVar.cpp.o
 
 concurrent/base/CondVar.i: concurrent/base/CondVar.cpp.i
@@ -490,6 +693,7 @@ concurrent/base/CondVar.i: concurrent/base/CondVar.cpp.i
 # target to preprocess a source file
 concurrent/base/CondVar.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/CondVar.cpp.i
 .PHONY : concurrent/base/CondVar.cpp.i
 
 concurrent/base/CondVar.s: concurrent/base/CondVar.cpp.s
@@ -499,6 +703,7 @@ concurrent/base/CondVar.s: concurrent/base/CondVar.cpp.s
 # target to generate assembly for a file
 concurrent/base/CondVar.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/CondVar.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/CondVar.cpp.s
 .PHONY : concurrent/base/CondVar.cpp.s
 
 concurrent/base/Mutex.o: concurrent/base/Mutex.cpp.o
@@ -508,6 +713,7 @@ concurrent/base/Mutex.o: concurrent/base/Mutex.cpp.o
 # target to build an object file
 concurrent/base/Mutex.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/Mutex.cpp.o
 .PHONY : concurrent/base/Mutex.cpp.o
 
 concurrent/base/Mutex.i: concurrent/base/Mutex.cpp.i
@@ -517,6 +723,7 @@ concurrent/base/Mutex.i: concurrent/base/Mutex.cpp.i
 # target to preprocess a source file
 concurrent/base/Mutex.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/Mutex.cpp.i
 .PHONY : concurrent/base/Mutex.cpp.i
 
 concurrent/base/Mutex.s: concurrent/base/Mutex.cpp.s
@@ -526,6 +733,7 @@ concurrent/base/Mutex.s: concurrent/base/Mutex.cpp.s
 # target to generate assembly for a file
 concurrent/base/Mutex.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Mutex.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/Mutex.cpp.s
 .PHONY : concurrent/base/Mutex.cpp.s
 
 concurrent/base/Thread.o: concurrent/base/Thread.cpp.o
@@ -535,6 +743,7 @@ concurrent/base/Thread.o: concurrent/base/Thread.cpp.o
 # target to build an object file
 concurrent/base/Thread.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/Thread.cpp.o
 .PHONY : concurrent/base/Thread.cpp.o
 
 concurrent/base/Thread.i: concurrent/base/Thread.cpp.i
@@ -544,6 +753,7 @@ concurrent/base/Thread.i: concurrent/base/Thread.cpp.i
 # target to preprocess a source file
 concurrent/base/Thread.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/Thread.cpp.i
 .PHONY : concurrent/base/Thread.cpp.i
 
 concurrent/base/Thread.s: concurrent/base/Thread.cpp.s
@@ -553,6 +763,7 @@ concurrent/base/Thread.s: concurrent/base/Thread.cpp.s
 # target to generate assembly for a file
 concurrent/base/Thread.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/concurrent/base/Thread.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/concurrent/base/Thread.cpp.s
 .PHONY : concurrent/base/Thread.cpp.s
 
 container/SString.o: container/SString.cpp.o
@@ -562,6 +773,7 @@ container/SString.o: container/SString.cpp.o
 # target to build an object file
 container/SString.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/container/SString.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/container/SString.cpp.o
 .PHONY : container/SString.cpp.o
 
 container/SString.i: container/SString.cpp.i
@@ -571,6 +783,7 @@ container/SString.i: container/SString.cpp.i
 # target to preprocess a source file
 container/SString.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/container/SString.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/container/SString.cpp.i
 .PHONY : container/SString.cpp.i
 
 container/SString.s: container/SString.cpp.s
@@ -580,6 +793,7 @@ container/SString.s: container/SString.cpp.s
 # target to generate assembly for a file
 container/SString.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/container/SString.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/container/SString.cpp.s
 .PHONY : container/SString.cpp.s
 
 gc/GarbageCollector.o: gc/GarbageCollector.cpp.o
@@ -589,6 +803,7 @@ gc/GarbageCollector.o: gc/GarbageCollector.cpp.o
 # target to build an object file
 gc/GarbageCollector.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/gc/GarbageCollector.cpp.o
 .PHONY : gc/GarbageCollector.cpp.o
 
 gc/GarbageCollector.i: gc/GarbageCollector.cpp.i
@@ -598,6 +813,7 @@ gc/GarbageCollector.i: gc/GarbageCollector.cpp.i
 # target to preprocess a source file
 gc/GarbageCollector.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/gc/GarbageCollector.cpp.i
 .PHONY : gc/GarbageCollector.cpp.i
 
 gc/GarbageCollector.s: gc/GarbageCollector.cpp.s
@@ -607,6 +823,7 @@ gc/GarbageCollector.s: gc/GarbageCollector.cpp.s
 # target to generate assembly for a file
 gc/GarbageCollector.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/gc/GarbageCollector.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/gc/GarbageCollector.cpp.s
 .PHONY : gc/GarbageCollector.cpp.s
 
 io/Buffer/Buffer.o: io/Buffer/Buffer.cpp.o
@@ -616,6 +833,7 @@ io/Buffer/Buffer.o: io/Buffer/Buffer.cpp.o
 # target to build an object file
 io/Buffer/Buffer.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Buffer/Buffer.cpp.o
 .PHONY : io/Buffer/Buffer.cpp.o
 
 io/Buffer/Buffer.i: io/Buffer/Buffer.cpp.i
@@ -625,6 +843,7 @@ io/Buffer/Buffer.i: io/Buffer/Buffer.cpp.i
 # target to preprocess a source file
 io/Buffer/Buffer.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Buffer/Buffer.cpp.i
 .PHONY : io/Buffer/Buffer.cpp.i
 
 io/Buffer/Buffer.s: io/Buffer/Buffer.cpp.s
@@ -634,6 +853,7 @@ io/Buffer/Buffer.s: io/Buffer/Buffer.cpp.s
 # target to generate assembly for a file
 io/Buffer/Buffer.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Buffer/Buffer.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Buffer/Buffer.cpp.s
 .PHONY : io/Buffer/Buffer.cpp.s
 
 io/Channel/Channel.o: io/Channel/Channel.cpp.o
@@ -643,6 +863,7 @@ io/Channel/Channel.o: io/Channel/Channel.cpp.o
 # target to build an object file
 io/Channel/Channel.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Channel.cpp.o
 .PHONY : io/Channel/Channel.cpp.o
 
 io/Channel/Channel.i: io/Channel/Channel.cpp.i
@@ -652,6 +873,7 @@ io/Channel/Channel.i: io/Channel/Channel.cpp.i
 # target to preprocess a source file
 io/Channel/Channel.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Channel.cpp.i
 .PHONY : io/Channel/Channel.cpp.i
 
 io/Channel/Channel.s: io/Channel/Channel.cpp.s
@@ -661,6 +883,7 @@ io/Channel/Channel.s: io/Channel/Channel.cpp.s
 # target to generate assembly for a file
 io/Channel/Channel.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Channel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Channel.cpp.s
 .PHONY : io/Channel/Channel.cpp.s
 
 io/Channel/File/FileChannel.o: io/Channel/File/FileChannel.cpp.o
@@ -670,6 +893,7 @@ io/Channel/File/FileChannel.o: io/Channel/File/FileChannel.cpp.o
 # target to build an object file
 io/Channel/File/FileChannel.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/File/FileChannel.cpp.o
 .PHONY : io/Channel/File/FileChannel.cpp.o
 
 io/Channel/File/FileChannel.i: io/Channel/File/FileChannel.cpp.i
@@ -679,6 +903,7 @@ io/Channel/File/FileChannel.i: io/Channel/File/FileChannel.cpp.i
 # target to preprocess a source file
 io/Channel/File/FileChannel.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/File/FileChannel.cpp.i
 .PHONY : io/Channel/File/FileChannel.cpp.i
 
 io/Channel/File/FileChannel.s: io/Channel/File/FileChannel.cpp.s
@@ -688,6 +913,7 @@ io/Channel/File/FileChannel.s: io/Channel/File/FileChannel.cpp.s
 # target to generate assembly for a file
 io/Channel/File/FileChannel.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileChannel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/File/FileChannel.cpp.s
 .PHONY : io/Channel/File/FileChannel.cpp.s
 
 io/Channel/File/FileStatus.o: io/Channel/File/FileStatus.cpp.o
@@ -697,6 +923,7 @@ io/Channel/File/FileStatus.o: io/Channel/File/FileStatus.cpp.o
 # target to build an object file
 io/Channel/File/FileStatus.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/File/FileStatus.cpp.o
 .PHONY : io/Channel/File/FileStatus.cpp.o
 
 io/Channel/File/FileStatus.i: io/Channel/File/FileStatus.cpp.i
@@ -706,6 +933,7 @@ io/Channel/File/FileStatus.i: io/Channel/File/FileStatus.cpp.i
 # target to preprocess a source file
 io/Channel/File/FileStatus.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/File/FileStatus.cpp.i
 .PHONY : io/Channel/File/FileStatus.cpp.i
 
 io/Channel/File/FileStatus.s: io/Channel/File/FileStatus.cpp.s
@@ -715,6 +943,7 @@ io/Channel/File/FileStatus.s: io/Channel/File/FileStatus.cpp.s
 # target to generate assembly for a file
 io/Channel/File/FileStatus.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/File/FileStatus.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/File/FileStatus.cpp.s
 .PHONY : io/Channel/File/FileStatus.cpp.s
 
 io/Channel/Network/ServerSocketChannel.o: io/Channel/Network/ServerSocketChannel.cpp.o
@@ -724,6 +953,7 @@ io/Channel/Network/ServerSocketChannel.o: io/Channel/Network/ServerSocketChannel
 # target to build an object file
 io/Channel/Network/ServerSocketChannel.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/ServerSocketChannel.cpp.o
 .PHONY : io/Channel/Network/ServerSocketChannel.cpp.o
 
 io/Channel/Network/ServerSocketChannel.i: io/Channel/Network/ServerSocketChannel.cpp.i
@@ -733,6 +963,7 @@ io/Channel/Network/ServerSocketChannel.i: io/Channel/Network/ServerSocketChannel
 # target to preprocess a source file
 io/Channel/Network/ServerSocketChannel.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/ServerSocketChannel.cpp.i
 .PHONY : io/Channel/Network/ServerSocketChannel.cpp.i
 
 io/Channel/Network/ServerSocketChannel.s: io/Channel/Network/ServerSocketChannel.cpp.s
@@ -742,6 +973,7 @@ io/Channel/Network/ServerSocketChannel.s: io/Channel/Network/ServerSocketChannel
 # target to generate assembly for a file
 io/Channel/Network/ServerSocketChannel.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/ServerSocketChannel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/ServerSocketChannel.cpp.s
 .PHONY : io/Channel/Network/ServerSocketChannel.cpp.s
 
 io/Channel/Network/SocketChannel.o: io/Channel/Network/SocketChannel.cpp.o
@@ -751,6 +983,7 @@ io/Channel/Network/SocketChannel.o: io/Channel/Network/SocketChannel.cpp.o
 # target to build an object file
 io/Channel/Network/SocketChannel.cpp.o:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/SocketChannel.cpp.o
 .PHONY : io/Channel/Network/SocketChannel.cpp.o
 
 io/Channel/Network/SocketChannel.i: io/Channel/Network/SocketChannel.cpp.i
@@ -760,6 +993,7 @@ io/Channel/Network/SocketChannel.i: io/Channel/Network/SocketChannel.cpp.i
 # target to preprocess a source file
 io/Channel/Network/SocketChannel.cpp.i:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/SocketChannel.cpp.i
 .PHONY : io/Channel/Network/SocketChannel.cpp.i
 
 io/Channel/Network/SocketChannel.s: io/Channel/Network/SocketChannel.cpp.s
@@ -769,7 +1003,128 @@ io/Channel/Network/SocketChannel.s: io/Channel/Network/SocketChannel.cpp.s
 # target to generate assembly for a file
 io/Channel/Network/SocketChannel.cpp.s:
 	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/SocketChannel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/SocketChannel.cpp.s
 .PHONY : io/Channel/Network/SocketChannel.cpp.s
+
+io/Channel/Network/congestionless/MtcpChannel.o: io/Channel/Network/congestionless/MtcpChannel.cpp.o
+
+.PHONY : io/Channel/Network/congestionless/MtcpChannel.o
+
+# target to build an object file
+io/Channel/Network/congestionless/MtcpChannel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.o
+.PHONY : io/Channel/Network/congestionless/MtcpChannel.cpp.o
+
+io/Channel/Network/congestionless/MtcpChannel.i: io/Channel/Network/congestionless/MtcpChannel.cpp.i
+
+.PHONY : io/Channel/Network/congestionless/MtcpChannel.i
+
+# target to preprocess a source file
+io/Channel/Network/congestionless/MtcpChannel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.i
+.PHONY : io/Channel/Network/congestionless/MtcpChannel.cpp.i
+
+io/Channel/Network/congestionless/MtcpChannel.s: io/Channel/Network/congestionless/MtcpChannel.cpp.s
+
+.PHONY : io/Channel/Network/congestionless/MtcpChannel.s
+
+# target to generate assembly for a file
+io/Channel/Network/congestionless/MtcpChannel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/congestionless/MtcpChannel.cpp.s
+.PHONY : io/Channel/Network/congestionless/MtcpChannel.cpp.s
+
+io/Channel/Network/congestionless/MtcpServerChannel.o: io/Channel/Network/congestionless/MtcpServerChannel.cpp.o
+
+.PHONY : io/Channel/Network/congestionless/MtcpServerChannel.o
+
+# target to build an object file
+io/Channel/Network/congestionless/MtcpServerChannel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.o
+.PHONY : io/Channel/Network/congestionless/MtcpServerChannel.cpp.o
+
+io/Channel/Network/congestionless/MtcpServerChannel.i: io/Channel/Network/congestionless/MtcpServerChannel.cpp.i
+
+.PHONY : io/Channel/Network/congestionless/MtcpServerChannel.i
+
+# target to preprocess a source file
+io/Channel/Network/congestionless/MtcpServerChannel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.i
+.PHONY : io/Channel/Network/congestionless/MtcpServerChannel.cpp.i
+
+io/Channel/Network/congestionless/MtcpServerChannel.s: io/Channel/Network/congestionless/MtcpServerChannel.cpp.s
+
+.PHONY : io/Channel/Network/congestionless/MtcpServerChannel.s
+
+# target to generate assembly for a file
+io/Channel/Network/congestionless/MtcpServerChannel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/congestionless/MtcpServerChannel.cpp.s
+.PHONY : io/Channel/Network/congestionless/MtcpServerChannel.cpp.s
+
+io/Channel/Network/tcp/TcpServerSocketChannel.o: io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o
+
+.PHONY : io/Channel/Network/tcp/TcpServerSocketChannel.o
+
+# target to build an object file
+io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o
+.PHONY : io/Channel/Network/tcp/TcpServerSocketChannel.cpp.o
+
+io/Channel/Network/tcp/TcpServerSocketChannel.i: io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i
+
+.PHONY : io/Channel/Network/tcp/TcpServerSocketChannel.i
+
+# target to preprocess a source file
+io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i
+.PHONY : io/Channel/Network/tcp/TcpServerSocketChannel.cpp.i
+
+io/Channel/Network/tcp/TcpServerSocketChannel.s: io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s
+
+.PHONY : io/Channel/Network/tcp/TcpServerSocketChannel.s
+
+# target to generate assembly for a file
+io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s
+.PHONY : io/Channel/Network/tcp/TcpServerSocketChannel.cpp.s
+
+io/Channel/Network/tcp/TcpSocketChannel.o: io/Channel/Network/tcp/TcpSocketChannel.cpp.o
+
+.PHONY : io/Channel/Network/tcp/TcpSocketChannel.o
+
+# target to build an object file
+io/Channel/Network/tcp/TcpSocketChannel.cpp.o:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.o
+.PHONY : io/Channel/Network/tcp/TcpSocketChannel.cpp.o
+
+io/Channel/Network/tcp/TcpSocketChannel.i: io/Channel/Network/tcp/TcpSocketChannel.cpp.i
+
+.PHONY : io/Channel/Network/tcp/TcpSocketChannel.i
+
+# target to preprocess a source file
+io/Channel/Network/tcp/TcpSocketChannel.cpp.i:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.i
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.i
+.PHONY : io/Channel/Network/tcp/TcpSocketChannel.cpp.i
+
+io/Channel/Network/tcp/TcpSocketChannel.s: io/Channel/Network/tcp/TcpSocketChannel.cpp.s
+
+.PHONY : io/Channel/Network/tcp/TcpSocketChannel.s
+
+# target to generate assembly for a file
+io/Channel/Network/tcp/TcpSocketChannel.cpp.s:
+	$(MAKE) -f CMakeFiles/referencelib.dir/build.make CMakeFiles/referencelib.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.s
+	$(MAKE) -f CMakeFiles/main.cpp.dir/build.make CMakeFiles/main.cpp.dir/io/Channel/Network/tcp/TcpSocketChannel.cpp.s
+.PHONY : io/Channel/Network/tcp/TcpSocketChannel.cpp.s
 
 main.o: main.cpp.o
 
@@ -807,9 +1162,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... referencelib"
+	@echo "... main.cpp"
 	@echo "... Server/HTTP/Controller/Controller.o"
 	@echo "... Server/HTTP/Controller/Controller.i"
 	@echo "... Server/HTTP/Controller/Controller.s"
+	@echo "... Server/HTTP/Controller/HelloController.o"
+	@echo "... Server/HTTP/Controller/HelloController.i"
+	@echo "... Server/HTTP/Controller/HelloController.s"
+	@echo "... Server/HTTP/Controller/IconController.o"
+	@echo "... Server/HTTP/Controller/IconController.i"
+	@echo "... Server/HTTP/Controller/IconController.s"
 	@echo "... Server/HTTP/Cookie/Cookie.o"
 	@echo "... Server/HTTP/Cookie/Cookie.i"
 	@echo "... Server/HTTP/Cookie/Cookie.s"
@@ -834,6 +1196,15 @@ help:
 	@echo "... Server/HTTP/View/View.o"
 	@echo "... Server/HTTP/View/View.i"
 	@echo "... Server/HTTP/View/View.s"
+	@echo "... Server/HTTP/View/model/ViewModel.o"
+	@echo "... Server/HTTP/View/model/ViewModel.i"
+	@echo "... Server/HTTP/View/model/ViewModel.s"
+	@echo "... Server/HTTP/View/resolver/HtmlResolver.o"
+	@echo "... Server/HTTP/View/resolver/HtmlResolver.i"
+	@echo "... Server/HTTP/View/resolver/HtmlResolver.s"
+	@echo "... Server/HTTP/View/resolver/ViewResolver.o"
+	@echo "... Server/HTTP/View/resolver/ViewResolver.i"
+	@echo "... Server/HTTP/View/resolver/ViewResolver.s"
 	@echo "... Server/Selector/EpollSelector.o"
 	@echo "... Server/Selector/EpollSelector.i"
 	@echo "... Server/Selector/EpollSelector.s"
@@ -879,6 +1250,18 @@ help:
 	@echo "... io/Channel/Network/SocketChannel.o"
 	@echo "... io/Channel/Network/SocketChannel.i"
 	@echo "... io/Channel/Network/SocketChannel.s"
+	@echo "... io/Channel/Network/congestionless/MtcpChannel.o"
+	@echo "... io/Channel/Network/congestionless/MtcpChannel.i"
+	@echo "... io/Channel/Network/congestionless/MtcpChannel.s"
+	@echo "... io/Channel/Network/congestionless/MtcpServerChannel.o"
+	@echo "... io/Channel/Network/congestionless/MtcpServerChannel.i"
+	@echo "... io/Channel/Network/congestionless/MtcpServerChannel.s"
+	@echo "... io/Channel/Network/tcp/TcpServerSocketChannel.o"
+	@echo "... io/Channel/Network/tcp/TcpServerSocketChannel.i"
+	@echo "... io/Channel/Network/tcp/TcpServerSocketChannel.s"
+	@echo "... io/Channel/Network/tcp/TcpSocketChannel.o"
+	@echo "... io/Channel/Network/tcp/TcpSocketChannel.i"
+	@echo "... io/Channel/Network/tcp/TcpSocketChannel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

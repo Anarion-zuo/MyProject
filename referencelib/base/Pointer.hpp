@@ -18,10 +18,19 @@ public:
     Pointer() : ptr(nullptr) {}
     Pointer(std::nullptr_t p) : ptr(p) {}
     template <typename V> Pointer(V *ptr) : ptr(reinterpret_cast<T*>(ptr)) {}
+    template <typename V> Pointer(Pointer<V> ptr) : ptr(dynamic_cast<T*>(ptr.operator->())) {}
 
     template <typename V>
     bool operator==(const Pointer<V> &rhs) const {
         return ptr == reinterpret_cast<T*>(rhs.ptr);
+    }
+
+    template <typename V> bool equals(Pointer<V> rhs) const {
+        return ptr == reinterpret_cast<T*>(rhs.operator->());
+    }
+
+    template <typename V> bool equals(V *rhs) const {
+        return ptr == reinterpret_cast<T*>(rhs);
     }
 
     template <typename V>
@@ -40,7 +49,7 @@ public:
     }
 
     bool isNull() const {
-        return ptr;
+        return !ptr;
     }
 
     T *operator->() {

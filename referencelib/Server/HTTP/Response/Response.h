@@ -10,6 +10,7 @@
 #include "../../../container/Map/HashMap.hpp"
 #include "ResponseStatus.h"
 #include "../Cookie/Cookie.h"
+#include "../View/resolver/ViewResolver.h"
 
 class Response : public Object {
 protected:
@@ -17,8 +18,10 @@ protected:
     HashMap<SString, SString> headers;
     ResponseStatus status {200};
     Cookie cookie;
+    Pointer<ViewResolver> viewResolver;
 
-    static void sendEnter(Pointer<SocketChannel> channel);
+    static void sendEnter(Pointer<TcpSocketChannel> channel);
+    static Pointer<SString> contentTypeHtml;
 public:
     // headers
     void addHeader(Pointer<SString> key, Pointer<SString> val);
@@ -30,7 +33,11 @@ public:
     void addContentEncoding(Pointer<SString> encoding);
     void addCookie();
 
-    void send(Pointer<SocketChannel> channel);
+    void setViewResolver(Pointer<ViewResolver> vs);
+
+    void setCode(int code);
+
+    void send(Pointer<TcpSocketChannel> channel);
 };
 
 

@@ -28,7 +28,8 @@ public:
         }
 
         bool equals(Pointer<Object> rhs) override {
-            return key->equals(rhs);
+            Pointer<Entry> p = rhs;
+            return key->equals(p->key);
         }
 
         hash_type hash() override {

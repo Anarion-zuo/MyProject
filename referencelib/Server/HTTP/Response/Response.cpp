@@ -8,6 +8,7 @@
 #include <cstdio>
 
 Pointer<SString> Response::enter = new SString("\r\n");
+Pointer<SString> Response::contentTypeHtml = new SString("text/html; charset=utf-8");
 
 void Response::addHeader(Pointer<SString> key, Pointer<SString> val) {
     headers.put(key, val);
@@ -46,12 +47,19 @@ void Response::addCookie() {
     addHeader(new SString("cookie"), cookie.toString());
 }
 
-void Response::send(Pointer<SocketChannel> channel) {
+void Response::send(Pointer<TcpSocketChannel> channel) {
+    // first line
     channel->read("HTTP/1.1 ", 9);
     auto c = Int(status.getCode()).toString();
     channel->read(c);
     c.release();
     sendEnter(channel);
+
+    // headers
+    addDate();
+    viewResolver->loadView();
+    addContentLength(viewResolver->getContentSize());
+    addContentType(contentTypeHtml);
     auto it = headers.getBeginIterator();
     while (it->hasNext()) {
         auto en = it->next();
@@ -62,9 +70,19 @@ void Response::send(Pointer<SocketChannel> channel) {
     }
     sendEnter(channel);
     it.release();
-    // TODO send view
+
+    // view
+    viewResolver->send(channel);
 }
 
-void Response::sendEnter(Pointer<SocketChannel> channel) {
+void Response::sendEnter(Pointer<TcpSocketChannel> channel) {
     channel->read(const_cast<char*>(enter->cstr()), enter->length());
+}
+
+void Response::setViewResolver(Pointer<ViewResolver> vs) {
+    viewResolver = vs;
+}
+
+void Response::setCode(int code) {
+    status.set(code);
 }

@@ -11,19 +11,28 @@
 #include "../../../base/Pointer.hpp"
 #include "../Request/Request.h"
 #include "../Response/Response.h"
+#include "../../../container/Queue/ListQueue.h"
 
-class Controller {
+class EpollSelector;
+class HtmlResolver;
+class Controller : public Object {
 protected:
-    Pointer<SString> pattern = new SString;
-    Pointer<Request> request;
-    Pointer<Response> response;
 
-    void run();
+
+    static Pointer<Map<SString, Controller>> controls;
+    static void dispatchOne(Pointer<Request> request);
+
+    Pointer<HtmlResolver> run(Pointer<Request> request, Pointer<Response> response);
 public:
-    virtual Pointer<SString> onGet() = 0;
-    virtual Pointer<SString> onPost() = 0;
-    virtual Pointer<SString> onDelete() = 0;
-    virtual Pointer<SString> onPut() = 0;
+    static void init(Pointer<EpollSelector> selector);
+    virtual Pointer<SString>
+    onGet(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
+    virtual Pointer<SString>
+    onPost(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
+    virtual Pointer<SString>
+    onDelete(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
+    virtual Pointer<SString>
+    onPut(Pointer<Request> request, Pointer<Response> response, Pointer<HashMap<SString, SString>> attributes) = 0;
 };
 
 

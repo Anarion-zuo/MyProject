@@ -5,7 +5,7 @@
 #ifndef MYCPPLIB_BUFFER_H
 #define MYCPPLIB_BUFFER_H
 
-#include "../../base/Object.h"
+#include "../../base/Pointer.hpp"
 
 /*
  * Only for sequential readings and writings
@@ -18,18 +18,19 @@
 template <typename Obj> class Vector;
 
 class Buffer : public Object {
+    friend class FileChannel;
 protected:
     char *begin, *cur, *end, *pos, *markPtr = nullptr;
 
     void clearAfterMove();
     char *duplicateRange(char *lower, char *upper);
     char *duplicateRange(size_type lower, size_type upper);
-    void reallocate(size_type nsize);
 
 public:
     Buffer() : begin(nullptr), cur(nullptr), end(nullptr), pos(nullptr) {}
 
-    explicit Buffer(size_type num) : begin(new char[num]), cur(begin), end(begin + num), pos(begin) {
+    explicit Buffer(size_type num) : begin(new char[num]) {
+        end = begin + num;
         clearContent();
     }
     ~Buffer() {
@@ -63,6 +64,9 @@ public:
     void put(char byte);
     void put(Buffer &buffer);
     void put(Buffer &buffer, size_type num);
+    void put(Pointer<Buffer> buffer);
+    void put(Pointer<Buffer> buffer, size_type num);
+    void put(Pointer<SString> str);
     void put(int fd);
 
     void flip();
@@ -79,6 +83,8 @@ public:
     char *getArr();
 
     void print();
+
+    void reallocate(size_type nsize);
 };
 
 

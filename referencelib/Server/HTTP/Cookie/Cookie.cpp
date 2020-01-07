@@ -9,7 +9,7 @@ void Cookie::add(Pointer<SString> key, Pointer<SString> val) {
     map.put(key, val);
 }
 
-void Cookie::send(Pointer<SocketChannel> channel) {
+void Cookie::send(Pointer<TcpSocketChannel> channel) {
     auto it = map.getBeginIterator();
     while (it->hasNext()) {
         auto en = it->next();

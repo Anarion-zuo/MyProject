@@ -2,15 +2,27 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="LinuxAgent (b6abc226-1c56-4b8a-b20e-ef3537c32af1)">
+      <paths name="LinuxAgent (d94052bb-2a76-42f4-aee8-7a7eef0cf3e4)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.GnWlVhoxOY" local="$PROJECT_DIR$" />
+            <mapping deploy="/tmp/tmp.57FtlZVoVl" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-remotedebug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="LocalVM (47ad3135-5510-4cce-8292-cdf3bbffbb0a)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.M0khCNVCZ4" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-localvmdebug" />
           </excludedPaths>
         </serverdata>
       </paths>

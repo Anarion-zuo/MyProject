@@ -9,19 +9,27 @@
 
 #include "View.h"
 #include "../../../io/Channel/File/FileChannel.h"
+#include "../../../io/Channel/Network/tcp/TcpSocketChannel.h"
 
 class HtmlView : public View {
+    friend class HtmlResolver;
 public:
     explicit HtmlView(Pointer<SString> name);
     void send() override;
 
+    void readFile();
+    void send(Pointer<TcpSocketChannel> socket);
+    size_type fileSize();
 protected:
+    HtmlView() = default;
     static Pointer<SString> suffix, prefix;
     Pointer<FileChannel> channel;
+    Pointer<Buffer> buffer = Buffer::allocate(4096);
     Pointer<SString> dir;
 
     Pointer<SString> getSuffix() override;
     Pointer<SString> getPrefix() override;
+
 };
 
 
